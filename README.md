@@ -20,7 +20,7 @@ Toda a documentação detalhada, incluindo o protocolo de pesquisa, as questões
 
 - [x] Fase 1: Planejamento e Definição do Protocolo (ver Wiki)
 - [X] Fase 2: Execução da Busca nas Bases de Dados
-- [ ] Fase 3: Seleção dos Estudos Primários
+- [x] Fase 3: Seleção dos Estudos Primários (Em progresso)
 - [ ] Fase 4: Extração dos Dados
 - [ ] Fase 5: Análise e Síntese dos Resultados
 - [ ] Fase 6: Escrita do Artigo
