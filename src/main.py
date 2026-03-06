@@ -28,7 +28,7 @@ def main():
     with open("data/articles.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    data = data[23:26]
+    data = data[0:8]
     df = reviewer.run_and_export(data, criteria)
     print(df.head())
 

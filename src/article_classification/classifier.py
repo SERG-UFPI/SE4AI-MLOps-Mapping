@@ -66,7 +66,7 @@ class SLRClassifier():
         print(f"Starting... Using model: {self.model_name}")
     
         for i, item in enumerate(data):
-            time.sleep(61)  # Para evitar atingir limites de taxa
+            time.sleep(20)  # Para evitar atingir limites de taxa
             start_time = time.perf_counter()
             result_np[i, 0] = item["Título"]
 
