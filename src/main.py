@@ -1,12 +1,15 @@
 import json
+import os
+from dotenv import load_dotenv
 from article_classification.classifier import SLRClassifier
 
 
 def main():
+    load_dotenv()
     # Defina sua API key e modelo
     reviewer = SLRClassifier(
-        api_key="AIzaSyB82pChUJLujYzNKXZw-iqCgU6erK2__SI", 
-        model_name="gemini-2.5-flash"
+        api_key=os.getenv("API_KEY"),
+        model_name=os.getenv("MODEL_NAME")
     )
 
     criteria = {

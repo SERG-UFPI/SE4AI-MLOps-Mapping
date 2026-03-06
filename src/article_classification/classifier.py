@@ -44,7 +44,7 @@ class SLRClassifier():
             contents=self._build_prompt(criteria),
             config=config
         )
-        time.sleep(30) 
+        time.sleep(10) 
         score = response.text.strip()[0]
         tokens = response.usage_metadata.total_token_count
         return score, tokens
@@ -54,14 +54,14 @@ class SLRClassifier():
         n_criteria = len(criteria_names)
 
         token_cols = [f"Tokens {name}" for name in criteria_names]
-        columns = ["Título"] + criteria_names + ["Execution time (s)"] + token_cols + ["Total Tokens"]
+        columns = ["Title"] + criteria_names + ["Execution time (s)"] + token_cols + ["Total Tokens"]
         result_np = np.empty((len(data), len(columns)), dtype=object)
 
         print(f"Starting... Using model: {self.model_name}")
     
         for i, item in enumerate(data):
             start_time = time.perf_counter()
-            result_np[i, 0] = item["Título"]
+            result_np[i, 0] = item["Title"]
 
             scores = []
             tokens_list = []
