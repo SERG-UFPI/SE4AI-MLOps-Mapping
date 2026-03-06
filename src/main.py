@@ -10,8 +10,8 @@ def main():
     )
 
     criteria = {
-        "IC1": "Estudos que abordem engenharia de software ao desenvolvimento, evolução ou manutenção de sistemas baseados em Inteligência Artificial.",
-        "IC2": "Estudos que apresentem boas práticas, recomendações ou padrões para o desenvolvimento de sistemas de IA.",
+        "IC1": "Studies that address software engineering in the development, evolution, or maintenance of Artificial Intelligence-based systems.",
+        "IC2": "Studies that present best practices, recommendations, or patterns for the development of AI systems."
     }
 
     with open("data/articles.json", "r", encoding="utf-8") as f:

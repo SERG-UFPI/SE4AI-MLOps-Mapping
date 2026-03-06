@@ -1,6 +1,33 @@
+# Environment variables
 .env
-venv
-.venv
-./venv
-out
-__pycache__
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Databases
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# Build/output
+out/
+dist/
+build/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Gemini / AI tooling
+.gemini/
