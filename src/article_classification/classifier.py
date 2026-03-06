@@ -1,15 +1,17 @@
 
+import os
+
 from google import genai
 from google.genai import types
 import pandas as pd
 import numpy as np
 import time
 from datetime import datetime
-
+import re
 
 class SLRClassifier():
 
-    def __init__(self, api_key:str, model_name:str="gemini-1.5-pro"):
+    def __init__(self, api_key:str, model_name:str):
         self.client = genai.Client(api_key=api_key)
         self.model_name = model_name
     
@@ -31,18 +33,25 @@ class SLRClassifier():
     def evaluate(self, item: dict, criteria: str) -> tuple[str, int]:
         config = types.GenerateContentConfig(
             temperature=0,
-            max_output_tokens=1,
+            max_output_tokens=100,
             top_p=0.1,
             system_instruction=self._build_system_instruction(item),
-            thinking_config=types.ThinkingConfig(thinking_budget=0)
         )
         response = self.client.models.generate_content(
             model=self.model_name,
             contents=self._build_prompt(criteria),
             config=config
         )
-        time.sleep(10) 
-        score = response.text.strip()[0]
+
+        print(f"Response: '{response.text}'")
+
+        if response.text and response.text.strip():
+            match = re.search(r'\d', response.text)
+            score = int(match.group()) if match else 0
+        else:
+            print(f"Aviso: Resposta vazia para o artigo: {item['Título'][:30]}")
+            score = 0
+
         tokens = response.usage_metadata.total_token_count
         return score, tokens
     
@@ -57,6 +66,7 @@ class SLRClassifier():
         print(f"Starting... Using model: {self.model_name}")
     
         for i, item in enumerate(data):
+            time.sleep(61)  # Para evitar atingir limites de taxa
             start_time = time.perf_counter()
             result_np[i, 0] = item["Título"]
 
@@ -89,6 +99,7 @@ class SLRClassifier():
     def run_and_export(self, data: list[dict], criteria: dict) -> pd.DataFrame:
         df = self.run(data, criteria)
 
+        os.makedirs("out", exist_ok=True)
         filename = f"out/results-{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}-{self.model_name}.xlsx"
         df.to_excel(filename, index=False, engine="openpyxl")
         print(f"File '{filename}' created!")

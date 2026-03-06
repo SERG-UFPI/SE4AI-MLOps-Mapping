@@ -1,11 +1,19 @@
 import json
 import os
 from dotenv import load_dotenv
+from google import genai
 from article_classification.classifier import SLRClassifier
 
 
 def main():
     load_dotenv()
+
+    client = genai.Client(api_key=os.getenv("API_KEY"))
+
+    for model in client.models.list():
+        print(model.name)
+
+    print("-"*30)
     # Defina sua API key e modelo
     reviewer = SLRClassifier(
         api_key=os.getenv("API_KEY"),
@@ -20,7 +28,7 @@ def main():
     with open("data/articles.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    data = data[24:26]
+    data = data[23:26]
     df = reviewer.run_and_export(data, criteria)
     print(df.head())
 
