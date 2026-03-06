@@ -25,10 +25,7 @@ class SLRClassifier():
 
     def _build_prompt(self, criteria: str) -> str:
         return (
-            "Using a 1-7 Likert scale (1 - Strongly disagree, 2 - Disagree, "
-            "3 - Somewhat disagree, 4 - Neither agree nor disagree, 5 - Somewhat agree, "
-            "6 - Agree, and 7 - Strongly agree) rate your agreement with the question (only number): "
-            f"{criteria}"
+            f"Using a 1-7 Likert scale (1 - Strongly disagree, 2 - Disagree, 3 - Somewhat disagree, 4 - Neither agree nor disagree, 5 - Somewhat agree, 6 - Agree, and 7 - Strongly agree) rate your agreement with the question (only number): {criteria}"
         )
     
     def evaluate(self, item: dict, criteria: str) -> tuple[str, int]:
@@ -61,7 +58,7 @@ class SLRClassifier():
     
         for i, item in enumerate(data):
             start_time = time.perf_counter()
-            result_np[i, 0] = item["Title"]
+            result_np[i, 0] = item["Título"]
 
             scores = []
             tokens_list = []
