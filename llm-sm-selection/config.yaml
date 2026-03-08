@@ -1,0 +1,27 @@
+# API Keys for different LLM providers
+api_keys:
+  openai: "sk-..."
+  anthropic: "..."
+  google: "..."
+
+# Configuration for the LLMs
+llm_configs:
+  - provider: "openai"
+    model: "gpt-3.5-turbo"
+  - provider: "anthropic"
+    model: "claude-2"
+  - provider: "google"
+    model: "gemini-pro"
+
+# Screening criteria
+# These will be loaded by criteria.py
+screening_criteria:
+  inclusion:
+    - "The study must be about software engineering."
+    - "The study must involve machine learning."
+  exclusion:
+    - "The study is a secondary study (e.g., systematic review)."
+    - "The paper is not written in English."
+
+# Threshold for decision making (example, not used in the initial code)
+decision_threshold: 0.5

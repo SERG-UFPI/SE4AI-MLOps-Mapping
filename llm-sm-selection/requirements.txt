@@ -1,0 +1,9 @@
+pyyaml
+openai
+anthropic
+google-generativeai
+ipykernel
+pandas
+scikit-learn
+matplotlib
+seaborn
