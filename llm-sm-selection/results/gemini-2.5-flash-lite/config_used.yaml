@@ -1,0 +1,17 @@
+metadata:
+  experiment_id: "EXP_001"
+  description: "Experimento para avaliar o desempenho do Gemini na classificação de artigos."
+  notes: "100 primeiros artigos do dataset serão utilizados para avaliação."
+
+llm_configs:
+  provider: "google"
+  model: "gemini-2.5-flash-lite"
+  temperature: 0
+  top_p: 0.1
+  max_output_tokens: 2
+  
+eligibility_criteria:
+  inclusion:
+    IC1: "Studies that address software engineering in the development, evolution, or maintenance of Artificial Intelligence-based systems."
+    IC2: "Studies that present best practices, recommendations, or patterns for the development of AI systems."
+    IC3: "Studies that identify challenges, open problems, and limitations in the integration between Software Engineering and AI."
