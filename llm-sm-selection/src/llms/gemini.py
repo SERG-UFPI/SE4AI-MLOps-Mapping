@@ -24,7 +24,7 @@ class GeminiLLM(BaseLLM):
         """Processa uma lista de artigos em lote."""
         results = []
         for article in articles:
-            print(f"Processando: {article.get('title', 'Sem Título')[:50]}...")
+            print(f"Processando: {article['Título'][:50]}...")
             results.append(self.evaluate_article(article, criteria))
         return results
 
@@ -40,7 +40,7 @@ class GeminiLLM(BaseLLM):
         for ic_key, ic_value in criteria_list.items():
             start_ic = time.perf_counter()
 
-            prompt = f"Critério {ic_key}: {ic_value}\nAbstract: {article.get('abstract', '')}"
+            prompt = f"{ic_value}"
 
             response = self.client.models.generate_content(
                 model=self.model_name,
@@ -49,8 +49,7 @@ class GeminiLLM(BaseLLM):
                     system_instruction=self._build_system_instruction(article),
                     temperature=self.config["temperature"],
                     max_output_tokens=self.config["max_output_tokens"],
-                    top_p=self.config["top_p"],
-                    response_mime_type="application/json",
+                    top_p=self.config["top_p"]
                 ),
             )
 
@@ -59,6 +58,7 @@ class GeminiLLM(BaseLLM):
             usage = response.usage_metadata
 
             try:
+                print(f"Resposta bruta para {ic_key}: '{response.text.strip()}'")
                 score = int(response.text.strip())
             except ValueError:
                 score = None
@@ -95,9 +95,6 @@ class GeminiLLM(BaseLLM):
                 d["telemetry"]["tokens_prompt"] + d["telemetry"]["tokens_completion"]
                 for d in details
             ),
-            "total_cost_usd": round(
-                sum(d["telemetry"]["cost_usd"] for d in details), 6
-            ),
             "model": self.model_name,
         }
 
@@ -117,5 +114,5 @@ class GeminiLLM(BaseLLM):
             "EVALUATION RULES:\n"
             f"1. Use a 1-7 Likert scale: ({likert_scale}).\n"
             "2. Rate your agreement with the criteria provided in the prompt.\n"
-            "3. Output ONLY a JSON object with the keys 'score' (the number) and 'justification' (max 2 sentences)."
+            "3. Output ONLY the number corresponding to your rating."
         )

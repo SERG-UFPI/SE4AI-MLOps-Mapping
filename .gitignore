@@ -36,4 +36,5 @@ build/
 */experiments/
 */ruff_chache/
 
-*/config.yaml
+
+config.yaml
