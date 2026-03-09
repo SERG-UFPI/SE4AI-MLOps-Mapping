@@ -31,3 +31,7 @@ build/
 
 # Gemini / AI tooling
 .gemini/
+
+# Dados
+*/experiments/
+*/ruff_chache/
