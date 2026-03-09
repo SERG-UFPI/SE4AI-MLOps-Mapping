@@ -78,10 +78,12 @@ class GeminiLLM(BaseLLM):
 
         return {
             "article_metadata": {
-                "title": article.get("title"),
-                "author": article.get("author"),
-                "year": article.get("year"),
+                "title": article.get("Título"),
+                "author": article.get("Autor"),
+                "year": article.get("Ano"),
+                "link": article.get("Link do pdf"),
                 "DOI": article.get("DOI"),
+                "ISBNs": article.get("ISBN"),
             },
             "inclusion_results": inclusion_details,
             "total_article_telemetry": self._summarize_telemetry(inclusion_details),
