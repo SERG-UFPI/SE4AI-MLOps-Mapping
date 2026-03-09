@@ -1,3 +1,5 @@
+import json
+from pathlib import Path
 import time
 from typing import Dict, Any, List
 from google import genai
@@ -19,14 +21,48 @@ class GeminiLLM(BaseLLM):
         self.config = config
 
     def batch_classify(
-        self, articles: List[Dict[str, Any]], criteria: Dict[str, str]
+        self, articles: List[Dict[str, Any]], criteria: Dict[str, str], checkpoint_interval: int = 10
     ) -> List[Dict[str, Any]]:
-        """Processa uma lista de artigos em lote."""
+        """
+        Processa artigos em lote com salvamento parcial e suporte a retomar progresso.
+        """
+        checkpoint_path = Path("experiments/tmp_checkpoint.json")
         results = []
-        for article in articles:
-            print(f"Processando: {article['Título'][:50]}...")
-            results.append(self.evaluate_article(article, criteria))
-            time.sleep(2)
+        start_index = 0
+
+        # 1. Tenta retomar de um checkpoint anterior
+        if checkpoint_path.exists():
+            with open(checkpoint_path, "r", encoding="utf-8") as f:
+                results = json.load(f)
+                start_index = len(results)
+                print(f"Checkpoint encontrado! Retomando a partir do artigo {start_index + 1}...")
+
+        # 2. Processa apenas os artigos restantes
+        for i in range(start_index, len(articles)):
+            article = articles[i]
+            print(f"[{i+1}/{len(articles)}] Processando: {article['Título'][:50]}...")
+            
+            try:
+                result = self.evaluate_article(article, criteria)
+                results.append(result)
+                
+                time.sleep(2) 
+                
+                if (i + 1) % checkpoint_interval == 0:
+                    with open(checkpoint_path, "w", encoding="utf-8") as f:
+                        json.dump(results, f, indent=4, ensure_ascii=False)
+                    print(f"Progresso guardado (Artigo {i+1})")
+
+            except Exception as e:
+                print(f"Erro crítico no artigo {i+1}: {e}")
+                print("O progresso atual foi mantido no checkpoint. Podes reiniciar o script.")
+                break
+
+        # 4. Limpeza: Se terminou tudo, apaga o checkpoint temporário
+        if len(results) == len(articles) and checkpoint_path.exists():
+            checkpoint_path.unlink()
+            print("✅ Processamento completo. Ficheiro temporário removido.")
+
         return results
 
     def evaluate_article(
