@@ -26,6 +26,7 @@ class GeminiLLM(BaseLLM):
         for article in articles:
             print(f"Processando: {article['Título'][:50]}...")
             results.append(self.evaluate_article(article, criteria))
+            time.sleep(2)
         return results
 
     def evaluate_article(
