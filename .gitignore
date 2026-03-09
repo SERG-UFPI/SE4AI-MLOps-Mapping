@@ -35,3 +35,5 @@ build/
 # Dados
 */experiments/
 */ruff_chache/
+
+*/config.yaml
