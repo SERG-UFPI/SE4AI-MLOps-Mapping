@@ -46,7 +46,7 @@ class GeminiLLM(BaseLLM):
                 result = self.evaluate_article(article, criteria)
                 results.append(result)
                 
-                time.sleep(2) 
+                time.sleep(3) 
                 
                 if (i + 1) % checkpoint_interval == 0:
                     with open(checkpoint_path, "w", encoding="utf-8") as f:
@@ -119,7 +119,7 @@ class GeminiLLM(BaseLLM):
                 "year": article.get("Ano"),
                 "link": article.get("Link do pdf"),
                 "DOI": article.get("DOI"),
-                "ISBNs": article.get("ISBN"),
+                "ISBNs": article.get("ISBNs"),
             },
             "inclusion_results": inclusion_details,
             "total_article_telemetry": self._summarize_telemetry(inclusion_details),
