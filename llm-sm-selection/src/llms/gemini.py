@@ -106,7 +106,7 @@ class GeminiLLM(BaseLLM):
                 "telemetry": {
                     "latency_sec": round(latency, 2),
                     "tokens_prompt": usage.prompt_token_count,
-                    "tokens_completion": usage.candidates_token_count,
+                    "tokens_completion": usage.candidates_token_count or 0,
                 },
             }
 

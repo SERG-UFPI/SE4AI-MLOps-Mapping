@@ -1,0 +1,4402 @@
+[
+    {
+        "article_metadata": {
+            "title": "A Holistic Framework for Evolving AI-Based Systems",
+            "author": "M. Veracx",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11030044",
+            "DOI": "10.1109/CAIN66642.2025.00045",
+            "ISBNs": "979-8-3315-0219-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.8,
+                    "tokens_prompt": 244,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.45,
+                    "tokens_prompt": 248,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.26,
+                    "tokens_prompt": 243,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.51,
+            "total_tokens": 738,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Design Patterns for AI-based Systems: A Multivocal Literature Review and Pattern Repository",
+            "author": "L. Heiland; M. Hauser; J. Bogner",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10164762",
+            "DOI": "10.1109/CAIN58948.2023.00035",
+            "ISBNs": "979-8-3503-0113-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.0,
+                    "tokens_prompt": 496,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.67,
+                    "tokens_prompt": 500,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.05,
+                    "tokens_prompt": 495,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.72,
+            "total_tokens": 1494,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Data acquisition and the implications of machine learning in the development of a Clinical Decision Support system",
+            "author": "M. Unger",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9474383",
+            "DOI": "10.1109/WAIN52551.2021.00022",
+            "ISBNs": "978-1-6654-4470-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.61,
+                    "tokens_prompt": 347,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 351,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.67,
+                    "tokens_prompt": 346,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.74,
+            "total_tokens": 1047,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Crafting an Undergraduate Course at the Intersection of Machine Learning and Software Engineering",
+            "author": "S. Chenoweth; P. K. Linos",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9962523",
+            "DOI": "10.1109/FIE56618.2022.9962523",
+            "ISBNs": "978-1-6654-6244-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 3.0,
+                    "tokens_prompt": 428,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.36,
+                    "tokens_prompt": 432,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.35,
+                    "tokens_prompt": 427,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.71,
+            "total_tokens": 1290,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "UML-based Modeling of Quantum Machine Learning Systems: A Software Engineering Approach",
+            "author": "K. Sharma; V. M; K. K; S. G",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11200580",
+            "DOI": "10.1109/ICIMIA67127.2025.11200580",
+            "ISBNs": "979-8-3315-5386-9"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.41,
+                    "tokens_prompt": 406,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 410,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 3.48,
+                    "tokens_prompt": 405,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 9.35,
+            "total_tokens": 1224,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Characterizing Technical Debt and Antipatterns in AI-Based Systems: A Systematic Mapping Study",
+            "author": "J. Bogner; R. Verdecchia; I. Gerostathopoulos",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9463054",
+            "DOI": "10.1109/TechDebt52882.2021.00016",
+            "ISBNs": "978-1-6654-1405-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.4,
+                    "tokens_prompt": 492,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 496,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.37,
+                    "tokens_prompt": 491,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.43,
+            "total_tokens": 1482,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Continuous Quality Assurance and ML Pipelines under the AI Act",
+            "author": "M. Wagner",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10556341",
+            "DOI": null,
+            "ISBNs": "979-8-4007-0591-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.97,
+                    "tokens_prompt": 415,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.75,
+                    "tokens_prompt": 419,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.29,
+                    "tokens_prompt": 414,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.01,
+            "total_tokens": 1251,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Lessons Learned from Educating AI Engineers",
+            "author": "P. Heck; G. Schouten",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9474408",
+            "DOI": "10.1109/WAIN52551.2021.00013",
+            "ISBNs": "978-1-6654-4470-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.79,
+                    "tokens_prompt": 233,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 237,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 232,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.11,
+            "total_tokens": 705,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Who Needs MLOps: What Data Scientists Seek to Accomplish and How Can MLOps Help?",
+            "author": "S. Mäkinen; H. Skogström; E. Laaksonen; T. Mikkonen",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9474355",
+            "DOI": "10.1109/WAIN52551.2021.00024",
+            "ISBNs": "978-1-6654-4470-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.96,
+                    "tokens_prompt": 507,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": null,
+                "telemetry": {
+                    "latency_sec": 2.7,
+                    "tokens_prompt": 511,
+                    "tokens_completion": 10
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 506,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.12,
+            "total_tokens": 1536,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Does System Based on Artificial Intelligence Need Software Engineering Method? Systematic Review",
+            "author": "I. W. Syahputri; R. Ferdiana; S. S. Kusumawardani",
+            "year": 2020,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9288582",
+            "DOI": "10.1109/ICIC50835.2020.9288582",
+            "ISBNs": "978-1-7281-8047-2"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.6,
+                    "tokens_prompt": 315,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.47,
+                    "tokens_prompt": 319,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.25,
+                    "tokens_prompt": 314,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.32,
+            "total_tokens": 951,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "FAILS: a tool for assessing risk in ML systems",
+            "author": "G. A. Dominguez; K. Kawaai; H. Maruyama",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9719942",
+            "DOI": "10.1109/APSECW53869.2021.00010",
+            "ISBNs": "978-1-6654-3813-1"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 3.0,
+                    "tokens_prompt": 269,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.45,
+                    "tokens_prompt": 273,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.48,
+                    "tokens_prompt": 268,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.93,
+            "total_tokens": 813,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "A Case Study on AI Engineering Practices: Developing an Autonomous Stock Trading System",
+            "author": "M. Grote; J. Bogner",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10164761",
+            "DOI": "10.1109/CAIN58948.2023.00032",
+            "ISBNs": "979-8-3503-0113-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.3,
+                    "tokens_prompt": 461,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.34,
+                    "tokens_prompt": 465,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.25,
+                    "tokens_prompt": 460,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.89,
+            "total_tokens": 1389,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "ChatGPT's Aptitude in Utilizing UML Diagrams for Software Engineering Exercise Generation",
+            "author": "S. Speth; N. Meißner; S. Becker",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10663027",
+            "DOI": "10.1109/CSEET62301.2024.10663027",
+            "ISBNs": "979-8-3503-7897-9"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 3.09,
+                    "tokens_prompt": 382,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.63,
+                    "tokens_prompt": 386,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 3,
+                "telemetry": {
+                    "latency_sec": 2.81,
+                    "tokens_prompt": 381,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.53,
+            "total_tokens": 1152,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Ethical Considerations in AI-Driven HCI Systems in Software Engineering",
+            "author": "H. Aljawawdeh; H. Fawareh; M. Al Refai; F. Alshraideh; R. Salman; S. A. Dabaa’t; H. Alazzeh; H. Al-Shdaifat; M. Khouj",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10876926",
+            "DOI": "10.1109/ACIT62805.2024.10876926",
+            "ISBNs": "979-8-3315-4001-2"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.98,
+                    "tokens_prompt": 364,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.25,
+                    "tokens_prompt": 368,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 363,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.69,
+            "total_tokens": 1098,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "MLOps: A Guide to its Adoption in the Context of Responsible AI",
+            "author": "B. M. A. Matsui; D. H. Goya",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9808770",
+            "DOI": "10.1145/3526073.3527591",
+            "ISBNs": "978-1-4503-9319-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 8.23,
+                    "tokens_prompt": 337,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.48,
+                    "tokens_prompt": 341,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.25,
+                    "tokens_prompt": 336,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 12.96,
+            "total_tokens": 1017,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Towards Understanding Fairness Adequacy Testing in Financial Machine Learning Systems",
+            "author": "K. Akinola; J. G. Adigun; M. Srinivasan",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11154631",
+            "DOI": "10.1109/SERA65747.2025.11154631",
+            "ISBNs": "979-8-3315-6536-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 4,
+                "telemetry": {
+                    "latency_sec": 2.92,
+                    "tokens_prompt": 352,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 3,
+                "telemetry": {
+                    "latency_sec": 2.39,
+                    "tokens_prompt": 356,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.45,
+                    "tokens_prompt": 351,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.76,
+            "total_tokens": 1062,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Evaluation of The Generality of Multi-view Modeling Framework for ML Systems",
+            "author": "J. H. Husen; J. Runpakprakun; S. Chang; H. Washizaki; H. T. Tun; N. Yoshioka; Y. Fukazawa",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10555998",
+            "DOI": null,
+            "ISBNs": "979-8-4007-0591-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.79,
+                    "tokens_prompt": 286,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.39,
+                    "tokens_prompt": 290,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.11,
+                    "tokens_prompt": 285,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.29,
+            "total_tokens": 864,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Best Practices of Machine Learning System Operations (MLOPS) In The South African Manufacturing Industry",
+            "author": "N. Y. Mulongo",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10759008",
+            "DOI": "10.1109/ISNCC62547.2024.10759008",
+            "ISBNs": "979-8-3503-6491-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 3.62,
+                    "tokens_prompt": 381,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.27,
+                    "tokens_prompt": 385,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 3,
+                "telemetry": {
+                    "latency_sec": 2.44,
+                    "tokens_prompt": 380,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.33,
+            "total_tokens": 1149,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Traceable Business-to-Safety Analysis Framework for Safety-critical Machine Learning Systems",
+            "author": "J. H. Husen; H. Washizaki; H. T. Tun; N. Yoshioka; Y. Fukazawa; H. Takeuchi",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9796400",
+            "DOI": "10.1145/3522664.3528619",
+            "ISBNs": "978-1-4503-9275-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 3.19,
+                    "tokens_prompt": 282,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.25,
+                    "tokens_prompt": 286,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 3,
+                "telemetry": {
+                    "latency_sec": 2.38,
+                    "tokens_prompt": 281,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.82,
+            "total_tokens": 852,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Towards Explainability as a Functional Requirement: A Vision to Integrate the Legal, End-User, and ML Engineer Perspectives",
+            "author": "U. -E. -. Habiba; J. Bogner; S. Wagner",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10669867",
+            "DOI": null,
+            "ISBNs": "979-8-4007-0572-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.86,
+                    "tokens_prompt": 382,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 386,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.25,
+                    "tokens_prompt": 381,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.57,
+            "total_tokens": 1152,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Data Smells: Categories, Causes and Consequences, and Detection of Suspicious Data in AI-based Systems",
+            "author": "H. Foidl; M. Felderer; R. Ramler",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9796422",
+            "DOI": "10.1145/3522664.3528590",
+            "ISBNs": "978-1-4503-9275-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 3.09,
+                    "tokens_prompt": 391,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 395,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.45,
+                    "tokens_prompt": 390,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.0,
+            "total_tokens": 1179,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "What Is an AI Engineer? An Empirical Analysis of Job Ads in The Netherlands",
+            "author": "M. Meesters; P. Heck; A. Serebrenik",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9796408",
+            "DOI": "10.1145/3522664.3528594",
+            "ISBNs": "978-1-4503-9275-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 3.39,
+                    "tokens_prompt": 521,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.67,
+                    "tokens_prompt": 525,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 3,
+                "telemetry": {
+                    "latency_sec": 2.67,
+                    "tokens_prompt": 520,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.73,
+            "total_tokens": 1569,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Towards Understanding Machine Learning Testing in Practise",
+            "author": "A. Shome; L. Cruz; A. van Deursen",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10164773",
+            "DOI": "10.1109/CAIN58948.2023.00028",
+            "ISBNs": "979-8-3503-0113-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.55,
+                    "tokens_prompt": 376,
+                    "tokens_completion": 0
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.11,
+                    "tokens_prompt": 380,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 4,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 375,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.32,
+            "total_tokens": 1133,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Modeling Data Requirements for Machine Learning Systems",
+            "author": "W. Shao; X. Wang",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9930317",
+            "DOI": "10.1109/ICSESS54813.2022.9930317",
+            "ISBNs": "978-1-6654-1032-8"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.61,
+                    "tokens_prompt": 367,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": null,
+                "telemetry": {
+                    "latency_sec": 2.52,
+                    "tokens_prompt": 371,
+                    "tokens_completion": 9
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.76,
+                    "tokens_prompt": 366,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.89,
+            "total_tokens": 1115,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Accelerating Educational Assessment in Software Engineering through Human-AI Collaboration",
+            "author": "D. -N. Nastos; T. Diamantopoulos; A. Symeonidis",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11272487",
+            "DOI": "10.1109/ICTAI66417.2025.00171",
+            "ISBNs": "979-8-3315-4919-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 3.62,
+                    "tokens_prompt": 394,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": null,
+                "telemetry": {
+                    "latency_sec": 2.87,
+                    "tokens_prompt": 398,
+                    "tokens_completion": 10
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 393,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 9.15,
+            "total_tokens": 1197,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Exploitation Pattern for Machine Learning Systems",
+            "author": "S. Okuda; G. Nemoto; T. Mori; N. Ishitani; K. Nishimura; N. Uchihira",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9501464",
+            "DOI": "10.1109/ITC-CSCC52171.2021.9501464",
+            "ISBNs": "978-1-6654-3553-6"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.77,
+                    "tokens_prompt": 313,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.27,
+                    "tokens_prompt": 317,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.22,
+                    "tokens_prompt": 312,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.26,
+            "total_tokens": 945,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Teaching Machine Learning as Part of Agile Software Engineering",
+            "author": "S. Chenoweth; P. K. Linos",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10367872",
+            "DOI": "10.1109/TE.2023.3337343",
+            "ISBNs": null
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 3.43,
+                    "tokens_prompt": 335,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.39,
+                    "tokens_prompt": 339,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.5,
+                    "tokens_prompt": 334,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.32,
+            "total_tokens": 1011,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "An Empirical Study of Refactorings and Technical Debt in Machine Learning Systems",
+            "author": "Y. Tang; R. Khatchadourian; M. Bagherzadeh; R. Singh; A. Stewart; A. Raja",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9401990",
+            "DOI": "10.1109/ICSE43902.2021.00033",
+            "ISBNs": "978-1-6654-0296-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.61,
+                    "tokens_prompt": 475,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.87,
+                    "tokens_prompt": 479,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 474,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.14,
+            "total_tokens": 1431,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "AI Governance in the System Development Life Cycle: Insights on Responsible Machine Learning Engineering",
+            "author": "S. Laato; T. Birkstedt; M. Mäntymäki; M. Minkkinen; T. Mikkonen",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9796416",
+            "DOI": "10.1145/3522664.3528598",
+            "ISBNs": "978-1-4503-9275-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.79,
+                    "tokens_prompt": 353,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.07,
+                    "tokens_prompt": 357,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.28,
+                    "tokens_prompt": 352,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.14,
+            "total_tokens": 1065,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "AI Engineering Continuum: Concept and Expected Foundation",
+            "author": "H. Washizaki; N. Yoshioka",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10786645",
+            "DOI": "10.1109/IISA62523.2024.10786645",
+            "ISBNs": "979-8-3503-6883-3"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 3.35,
+                    "tokens_prompt": 291,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 295,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 290,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.27,
+            "total_tokens": 879,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Towards Practicable Machine Learning Development Using AI Engineering Blueprints",
+            "author": "N. Weeger; A. Stiehl; J. von Kistowski; S. Geißelsöder; C. Uhl",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11014970",
+            "DOI": "10.1109/ICSA-C65153.2025.00078",
+            "ISBNs": "979-8-3315-3336-6"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.29,
+                    "tokens_prompt": 399,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.15,
+                    "tokens_prompt": 403,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 398,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.9,
+            "total_tokens": 1203,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Characterizing and Detecting Mismatch in Machine-Learning-Enabled Systems",
+            "author": "G. A. Lewis; S. Bellomo; I. Ozkaya",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9474400",
+            "DOI": "10.1109/WAIN52551.2021.00028",
+            "ISBNs": "978-1-6654-4470-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.99,
+                    "tokens_prompt": 397,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 401,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 396,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.11,
+            "total_tokens": 1197,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Goal-Centralized Metamodel Based Requirements Integration for Machine Learning Systems",
+            "author": "H. T. Tun; J. H. Husen; N. Yoshioka; H. Washizaki; Y. Fukazawa",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9719983",
+            "DOI": "10.1109/APSECW53869.2021.00013",
+            "ISBNs": "978-1-6654-3813-1"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 3.6,
+                    "tokens_prompt": 277,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 281,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 3,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 276,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.52,
+            "total_tokens": 837,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Investigating Issues That Lead to Code Technical Debt in Machine Learning Systems",
+            "author": "R. Ximenes; A. P. S. Alves; T. Escovedo; R. Spinola; M. Kalinowski",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11030012",
+            "DOI": "10.1109/CAIN66642.2025.00028",
+            "ISBNs": "979-8-3315-0219-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.78,
+                    "tokens_prompt": 521,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 525,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 520,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.9,
+            "total_tokens": 1569,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "MLOps Challenges in Multi-Organization Setup: Experiences from Two Real-World Cases",
+            "author": "T. Granlund; A. Kopponen; V. Stirbu; L. Myllyaho; T. Mikkonen",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9474388",
+            "DOI": "10.1109/WAIN52551.2021.00019",
+            "ISBNs": "978-1-6654-4470-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.7,
+                    "tokens_prompt": 356,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 5.2,
+                    "tokens_prompt": 360,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.39,
+                    "tokens_prompt": 355,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 10.29,
+            "total_tokens": 1074,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Teaching MLOps in Higher Education through Project-Based Learning",
+            "author": "F. Lanubile; S. Martínez-Fernández; L. Quaranta",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10172734",
+            "DOI": "10.1109/ICSE-SEET58685.2023.00015",
+            "ISBNs": "979-8-3503-2259-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.64,
+                    "tokens_prompt": 336,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 340,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.25,
+                    "tokens_prompt": 335,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.35,
+            "total_tokens": 1014,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Explainable AI for Software Engineering",
+            "author": "C. K. Tantithamthavorn; J. Jiarpakdee",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9678580",
+            "DOI": "10.1109/ASE51524.2021.9678580",
+            "ISBNs": "978-1-6654-0337-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.83,
+                    "tokens_prompt": 480,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 3,
+                "telemetry": {
+                    "latency_sec": 2.62,
+                    "tokens_prompt": 484,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 479,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.91,
+            "total_tokens": 1446,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Do Developers Adopt Green Architectural Tactics for ML-Enabled Systems? A Mining Software Repository Study",
+            "author": "V. De Martino; S. Martínez-Fernández; F. Palomba",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11023896",
+            "DOI": "10.1109/ICSE-SEIS66351.2025.00019",
+            "ISBNs": "979-8-3315-3707-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.37,
+                    "tokens_prompt": 321,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 325,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 4,
+                "telemetry": {
+                    "latency_sec": 2.3,
+                    "tokens_prompt": 320,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.13,
+            "total_tokens": 969,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Research on Mixed Teaching of Flipped Classroom in Vocational Colleges in the Era of Artificial Intelligence",
+            "author": "W. Na; L. Shuo; C. Rong; W. Xueting",
+            "year": 2020,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9403828",
+            "DOI": "10.1109/ICBASE51474.2020.00039",
+            "ISBNs": "978-1-7281-9619-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.95,
+                    "tokens_prompt": 259,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": null,
+                "telemetry": {
+                    "latency_sec": 2.87,
+                    "tokens_prompt": 263,
+                    "tokens_completion": 11
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.25,
+                    "tokens_prompt": 258,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.07,
+            "total_tokens": 793,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "How Developers Interact with AI: A Taxonomy of Human-AI Collaboration in Software Engineering",
+            "author": "C. Treude; M. A. Gerosa",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11052817",
+            "DOI": "10.1109/Forge66646.2025.00033",
+            "ISBNs": "979-8-3315-0211-9"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.76,
+                    "tokens_prompt": 365,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.49,
+                    "tokens_prompt": 369,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.37,
+                    "tokens_prompt": 364,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.62,
+            "total_tokens": 1101,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "An Empirical Study on Decision-Making Aspects in Responsible Software Engineering for AI",
+            "author": "L. M. Rani; F. Mohammadi; R. Feldt; R. B. Svensson",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11121692",
+            "DOI": "10.1109/ICSE-SEIP66354.2025.00056",
+            "ISBNs": "979-8-3315-3685-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.7,
+                    "tokens_prompt": 491,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.42,
+                    "tokens_prompt": 495,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.26,
+                    "tokens_prompt": 490,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.38,
+            "total_tokens": 1479,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "The Current State of Software Engineering Employing Methods Derived from Artificial Intelligence and Outstanding Challenges",
+            "author": "R. Kumar; V. Naveen; P. Kumar Illa; S. Pachar; P. Patil",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10127112",
+            "DOI": "10.1109/IHCSP56702.2023.10127112",
+            "ISBNs": "979-8-3503-4595-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.77,
+                    "tokens_prompt": 397,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.7,
+                    "tokens_prompt": 401,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.57,
+                    "tokens_prompt": 396,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.04,
+            "total_tokens": 1197,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Systematic Mapping Study on the Machine Learning Lifecycle",
+            "author": "Y. Xie; L. Cruz; P. Heck; J. S. Rellermeyer",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9474380",
+            "DOI": "10.1109/WAIN52551.2021.00017",
+            "ISBNs": "978-1-6654-4470-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.47,
+                    "tokens_prompt": 346,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.06,
+                    "tokens_prompt": 350,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.28,
+                    "tokens_prompt": 345,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.81,
+            "total_tokens": 1044,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "A Data Modeling Method for Machine Learning Systems",
+            "author": "W. Shao; X. Wang",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9972115",
+            "DOI": "10.1109/ICoDSE56892.2022.9972115",
+            "ISBNs": "979-8-3503-9705-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.62,
+                    "tokens_prompt": 308,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 4.29,
+                    "tokens_prompt": 312,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.25,
+                    "tokens_prompt": 307,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 10.16,
+            "total_tokens": 930,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Addressing Quality Challenges in Deep Learning: The Role of MLOps and Domain Knowledge",
+            "author": "S. Del Rey; A. Medina; X. Franch; S. Martínez-Fernández",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11030036",
+            "DOI": "10.1109/CAIN66642.2025.00029",
+            "ISBNs": "979-8-3315-0219-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.15,
+                    "tokens_prompt": 356,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.37,
+                    "tokens_prompt": 360,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.36,
+                    "tokens_prompt": 355,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.88,
+            "total_tokens": 1074,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Tutorial on a Gamification Toolset for Improving Engagement of Students in Software Engineering Courses",
+            "author": "T. E. J. Vos; G. Fraser; I. Martinez-Ortiz; R. Prada; A. R. Silva; I. S. W. B. Prasetya",
+            "year": 2020,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9206212",
+            "DOI": "10.1109/CSEET49119.2020.9206212",
+            "ISBNs": "978-1-7281-6807-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 3.42,
+                    "tokens_prompt": 341,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.21,
+                    "tokens_prompt": 345,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.47,
+                    "tokens_prompt": 340,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.1,
+            "total_tokens": 1029,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Towards an Adoption Framework to Foster Trust in AI-Assisted Software Engineering",
+            "author": "M. M. Barón",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11030052",
+            "DOI": "10.1109/CAIN66642.2025.00038",
+            "ISBNs": "979-8-3315-0219-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.77,
+                    "tokens_prompt": 368,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 4,
+                "telemetry": {
+                    "latency_sec": 2.42,
+                    "tokens_prompt": 372,
+                    "tokens_completion": 2
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.25,
+                    "tokens_prompt": 367,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.44,
+            "total_tokens": 1111,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Teaching Machine Learning as Part of Agile Software Engineering",
+            "author": "S. Chenoweth; P. K. Linos",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11029686",
+            "DOI": "10.1109/TE.2025.3572355",
+            "ISBNs": null
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 4.65,
+                    "tokens_prompt": 368,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.67,
+                    "tokens_prompt": 372,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 367,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 9.98,
+            "total_tokens": 1110,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Research on Artificial Intelligence Algorithm and Its Application in Games",
+            "author": "C. Tang; Z. Wang; X. Sima; L. Zhang",
+            "year": 2020,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9425971",
+            "DOI": "10.1109/AIAM50918.2020.00085",
+            "ISBNs": "978-1-7281-9986-3"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 3,
+                "telemetry": {
+                    "latency_sec": 3.29,
+                    "tokens_prompt": 355,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 4.61,
+                    "tokens_prompt": 359,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 354,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 10.56,
+            "total_tokens": 1071,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "LoCoML: A Framework for Real-World ML Inference Pipelines",
+            "author": "K. Maddireddy; S. K. Methukula; C. Sridhar; K. Vaidhyanathan",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11030051",
+            "DOI": "10.1109/CAIN66642.2025.00017",
+            "ISBNs": "979-8-3315-0219-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.99,
+                    "tokens_prompt": 377,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 3,
+                "telemetry": {
+                    "latency_sec": 4.51,
+                    "tokens_prompt": 381,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 376,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 10.16,
+            "total_tokens": 1137,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Towards Designing User Interfaces for Optimized Human-AI Communication and Supervisory Control in Software Engineering",
+            "author": "S. Nam; C. C. Ki Chan",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11252932",
+            "DOI": "10.1109/SNPD65828.2025.11252932",
+            "ISBNs": "979-8-3315-1258-3"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.87,
+                    "tokens_prompt": 329,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.54,
+                    "tokens_prompt": 333,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 4,
+                "telemetry": {
+                    "latency_sec": 2.63,
+                    "tokens_prompt": 328,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.04,
+            "total_tokens": 993,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "MLOps: A Taxonomy and a Methodology",
+            "author": "M. Testi; M. Ballabio; E. Frontoni; G. Iannello; S. Moccia; P. Soda; G. Vessio",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9792270",
+            "DOI": "10.1109/ACCESS.2022.3181730",
+            "ISBNs": null
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.68,
+                    "tokens_prompt": 378,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": null,
+                "telemetry": {
+                    "latency_sec": 2.4,
+                    "tokens_prompt": 382,
+                    "tokens_completion": 10
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 3,
+                "telemetry": {
+                    "latency_sec": 2.44,
+                    "tokens_prompt": 377,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.52,
+            "total_tokens": 1149,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Competence-Oriented Elaboration of Software Engineering Education",
+            "author": "D. Landes",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10662986",
+            "DOI": "10.1109/CSEET62301.2024.10662986",
+            "ISBNs": "979-8-3503-7897-9"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 3.3,
+                    "tokens_prompt": 373,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.37,
+                    "tokens_prompt": 377,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.36,
+                    "tokens_prompt": 372,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.03,
+            "total_tokens": 1125,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Applications of Artificial Intelligence and Machine Learning in Contemporary Quality Engineering",
+            "author": "A. Pradeep",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10391976",
+            "DOI": "10.1109/ICCUBEA58933.2023.10391976",
+            "ISBNs": "979-8-3503-0426-8"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 3.68,
+                    "tokens_prompt": 389,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.47,
+                    "tokens_prompt": 393,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.57,
+                    "tokens_prompt": 388,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.72,
+            "total_tokens": 1173,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Towards Trustworthy AI Engineering - A Case Study on integrating an AI audit catalog into MLOps processes",
+            "author": "L. Helmer; C. Martens; D. Wegener; D. Becker; M. Akila; S. Abbas",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10669873",
+            "DOI": null,
+            "ISBNs": "979-8-4007-0572-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.49,
+                    "tokens_prompt": 353,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 357,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.22,
+                    "tokens_prompt": 352,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.17,
+            "total_tokens": 1065,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Application of Artificial Intelligence in Human Resource Management Practices",
+            "author": "P. Tiwari; R. Pandey; V. Garg; A. Singhal",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9377160",
+            "DOI": "10.1109/Confluence51648.2021.9377160",
+            "ISBNs": "978-1-6654-1451-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.87,
+                    "tokens_prompt": 439,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.67,
+                    "tokens_prompt": 443,
+                    "tokens_completion": 2
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.39,
+                    "tokens_prompt": 438,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.93,
+            "total_tokens": 1324,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Algorithm Debt: Challenges and Future Paths",
+            "author": "E. I. -O. Simon; M. Vidoni; F. H. Fard",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10164749",
+            "DOI": "10.1109/CAIN58948.2023.00020",
+            "ISBNs": "979-8-3503-0113-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.99,
+                    "tokens_prompt": 292,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 296,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 291,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.31,
+            "total_tokens": 882,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Testing Machine Learning Systems in Industry: An Empirical Study",
+            "author": "S. Li†; J. Guo†; J. -G. Lou; M. Fan; T. Liu‡; D. Zhang",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9793981",
+            "DOI": "10.1145/3510457.3513036",
+            "ISBNs": "978-1-6654-9590-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.78,
+                    "tokens_prompt": 419,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 423,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 418,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.7,
+            "total_tokens": 1263,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Structural Causal Models as Boundary Objects in AI System Development",
+            "author": "H. -M. Heyn; E. Knauss",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9796403",
+            "DOI": "10.1145/3522664.3528615",
+            "ISBNs": "978-1-4503-9275-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.99,
+                    "tokens_prompt": 324,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.31,
+                    "tokens_prompt": 328,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 3,
+                "telemetry": {
+                    "latency_sec": 2.41,
+                    "tokens_prompt": 323,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.71,
+            "total_tokens": 978,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Application of Artificial Intelligence in Power Grid",
+            "author": "L. Shi",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10824290",
+            "DOI": "10.1109/CBASE64041.2024.10824290",
+            "ISBNs": "979-8-3315-0658-2"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 4.21,
+                    "tokens_prompt": 316,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.24,
+                    "tokens_prompt": 320,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 315,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 9.11,
+            "total_tokens": 954,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "A detailed survey of Artificial Intelligence and Software Engineering: Emergent Issues",
+            "author": "Z. Alkashri; N. Siyam; O. Alqaryouti",
+            "year": 2020,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9171118",
+            "DOI": "10.1109/ICISC47916.2020.9171118",
+            "ISBNs": "978-1-7281-2813-9"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 3.22,
+                    "tokens_prompt": 387,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.31,
+                    "tokens_prompt": 391,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.19,
+                    "tokens_prompt": 386,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.72,
+            "total_tokens": 1167,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Application of Artificial Intelligence and Visual Programming Technologies in Digital Interactive Project Development",
+            "author": "Y. Li; X. Wang",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10303142",
+            "DOI": "10.1109/ICBASE59196.2023.10303142",
+            "ISBNs": "979-8-3503-2949-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.84,
+                    "tokens_prompt": 332,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.32,
+                    "tokens_prompt": 336,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.51,
+                    "tokens_prompt": 331,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.67,
+            "total_tokens": 1002,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Handling Non-Fuctional Requirements in IoT-based Machine Learning Systems",
+            "author": "A. Khan; I. F. Siddiqui; M. Shaikh; S. Anwar; M. Shaikh",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9720403",
+            "DOI": "10.1109/ECTIDAMTNCON53731.2022.9720403",
+            "ISBNs": "978-1-6654-9510-3"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 3.23,
+                    "tokens_prompt": 370,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.62,
+                    "tokens_prompt": 374,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 369,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.51,
+            "total_tokens": 1116,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Human-centric Requirements Engineering for Artificial Intelligence Software Systems",
+            "author": "K. Ahmad",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9604547",
+            "DOI": "10.1109/RE51729.2021.00070",
+            "ISBNs": "978-1-6654-2856-9"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.6,
+                    "tokens_prompt": 384,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 388,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 383,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.72,
+            "total_tokens": 1158,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Enterprise Architecture based Representation of Architecture and Design Patterns for Machine Learning Systems",
+            "author": "H. Takeuchi; T. Doi; H. Washizaki; S. Okuda; N. Yoshioka",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9626310",
+            "DOI": "10.1109/EDOCW52865.2021.00055",
+            "ISBNs": "978-1-6654-4488-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.58,
+                    "tokens_prompt": 308,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 19.05,
+                    "tokens_prompt": 312,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.36,
+                    "tokens_prompt": 307,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 23.99,
+            "total_tokens": 930,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "An Application Model of Data Disaster Preparedness Strategy Incorporating Artificial Intelligence in Data Element Governance",
+            "author": "Y. Zhao; F. Ma; Z. Gao",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11181445",
+            "DOI": "10.1109/ICBASE66587.2025.11181445",
+            "ISBNs": "979-8-3315-3946-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 8.0,
+                    "tokens_prompt": 301,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 305,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.41,
+                    "tokens_prompt": 300,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 12.87,
+            "total_tokens": 909,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Information Security Detection and Analysis Based on Big Data and Artificial Intelligence Technologies",
+            "author": "X. Wei; R. Ma; L. Mu; H. Zhao",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11181431",
+            "DOI": "10.1109/ICBASE66587.2025.11181431",
+            "ISBNs": "979-8-3315-3946-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 4.05,
+                    "tokens_prompt": 265,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 269,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.27,
+                    "tokens_prompt": 264,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.78,
+            "total_tokens": 801,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Artificial Intelligence Applications in Education Within the Scope of the National Artificial Intelligence Strategy in Turkey",
+            "author": "S. Karabatak; S. Ay; M. Karabatak",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11011998",
+            "DOI": "10.1109/ISDFS65363.2025.11011998",
+            "ISBNs": "979-8-3315-0993-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.77,
+                    "tokens_prompt": 340,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.49,
+                    "tokens_prompt": 344,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.35,
+                    "tokens_prompt": 339,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.61,
+            "total_tokens": 1026,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "A Formal Model for Integrating Consent Management Into MLOps",
+            "author": "N. Peyrone; D. Wichadakul",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10701457",
+            "DOI": "10.1109/ACCESS.2024.3471773",
+            "ISBNs": null
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.06,
+                    "tokens_prompt": 407,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 411,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": null,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 406,
+                    "tokens_completion": 10
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.18,
+            "total_tokens": 1236,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "On the Understandability of MLOps System Architectures",
+            "author": "S. J. Warnett; U. Zdun",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10440483",
+            "DOI": "10.1109/TSE.2024.3367488",
+            "ISBNs": null
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.99,
+                    "tokens_prompt": 401,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 405,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.67,
+                    "tokens_prompt": 400,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.12,
+            "total_tokens": 1209,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "A Survey of Application of Artificial Intelligence Methods in SDN",
+            "author": "F. Song; D. Qin; C. Xu",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9832340",
+            "DOI": "10.1109/SEAI55746.2022.9832340",
+            "ISBNs": "978-1-6654-8223-3"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.9,
+                    "tokens_prompt": 346,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.32,
+                    "tokens_prompt": 350,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 345,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.88,
+            "total_tokens": 1044,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "From Ops to Experience: AIOps-Enabled MLOps with Identity-Aware and Customer-Informed Pipelines",
+            "author": "S. Singh",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11233325",
+            "DOI": "10.1109/WCONF64849.2025.11233325",
+            "ISBNs": "979-8-3315-3045-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.94,
+                    "tokens_prompt": 407,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.53,
+                    "tokens_prompt": 411,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 406,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.93,
+            "total_tokens": 1227,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "A Multivocal Literature Review of MLOps Tools and Features",
+            "author": "G. Recupito; F. Pecorelli; G. Catolino; S. Moreschini; D. D. Nucci; F. Palomba; D. A. Tamburri",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10011505",
+            "DOI": "10.1109/SEAA56994.2022.00021",
+            "ISBNs": "978-1-6654-6152-8"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.78,
+                    "tokens_prompt": 338,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 342,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 337,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.9,
+            "total_tokens": 1020,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Dependency Tracking for Risk Mitigation in Machine Learning (ML) Systems",
+            "author": "X. Xu; C. Wang; Z. Wang; Q. Lu; L. Zhu",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9794111",
+            "DOI": "10.1145/3510457.3513058",
+            "ISBNs": "978-1-6654-9590-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.2,
+                    "tokens_prompt": 353,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.47,
+                    "tokens_prompt": 357,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.4,
+                    "tokens_prompt": 352,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.07,
+            "total_tokens": 1065,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "A Review of Artificial Intelligence in Education",
+            "author": "A. E. Ubah; E. P. Onakpojeruo; J. Ajamu; T. R. Mangai; A. M. Isa; N. B. Ayansina; F. Al-Turjman",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10102207",
+            "DOI": "10.1109/AIoTCs58181.2022.00104",
+            "ISBNs": "979-8-3503-3410-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.67,
+                    "tokens_prompt": 396,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.67,
+                    "tokens_prompt": 400,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.6,
+                    "tokens_prompt": 395,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.94,
+            "total_tokens": 1194,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Teaching Software Engineering for Al-Enabled Systems",
+            "author": "C. Kästner; E. Kang",
+            "year": 2020,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9291899",
+            "DOI": null,
+            "ISBNs": "978-1-4503-7124-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.1,
+                    "tokens_prompt": 312,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 3.37,
+                    "tokens_prompt": 316,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.36,
+                    "tokens_prompt": 311,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.83,
+            "total_tokens": 942,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "An MLOps Approach for Deploying Machine Learning Models in Healthcare Systems",
+            "author": "G. Mallardi; F. Calefato; L. Quaranta; F. Lanubile",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10822603",
+            "DOI": "10.1109/BIBM62325.2024.10822603",
+            "ISBNs": "979-8-3503-8622-6"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.83,
+                    "tokens_prompt": 409,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.51,
+                    "tokens_prompt": 413,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.44,
+                    "tokens_prompt": 408,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.78,
+            "total_tokens": 1233,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Practices for Engineering Trustworthy Machine Learning Applications",
+            "author": "A. Serban; K. van der Blom; H. Hoos; J. Visser",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9474373",
+            "DOI": "10.1109/WAIN52551.2021.00021",
+            "ISBNs": "978-1-6654-4470-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.8,
+                    "tokens_prompt": 442,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 446,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 441,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.12,
+            "total_tokens": 1332,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Automating ML Models Using MLOPS",
+            "author": "N. Sirisha; A. Kiran; M. Arshad; M. M",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10507923",
+            "DOI": "10.1109/ASSIC60049.2024.10507923",
+            "ISBNs": "979-8-3503-7018-8"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.76,
+                    "tokens_prompt": 337,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.48,
+                    "tokens_prompt": 341,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.46,
+                    "tokens_prompt": 336,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.7,
+            "total_tokens": 1017,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "The Optimization and Application of Blended Teaching Based on Artificial Intelligence",
+            "author": "G. Zheng",
+            "year": 2020,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9131318",
+            "DOI": "10.1109/AEMCSE50948.2020.00023",
+            "ISBNs": "978-1-7281-8143-1"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.77,
+                    "tokens_prompt": 280,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 284,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 279,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.09,
+            "total_tokens": 846,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Application of Artificial Intelligence in Water Conservancy Project Management",
+            "author": "T. Shi; J. Wu",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9696105",
+            "DOI": "10.1109/ICBASE53849.2021.00109",
+            "ISBNs": "978-1-6654-2709-8"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 3.58,
+                    "tokens_prompt": 318,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.56,
+                    "tokens_prompt": 322,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.72,
+                    "tokens_prompt": 317,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.86,
+            "total_tokens": 960,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Designing ML-Enabled Software Systems with ML Model Composition: A Green AI Perspective",
+            "author": "R. Chitakunye",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11030011",
+            "DOI": "10.1109/CAIN66642.2025.00040",
+            "ISBNs": "979-8-3315-0219-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 3.15,
+                    "tokens_prompt": 253,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.32,
+                    "tokens_prompt": 257,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.27,
+                    "tokens_prompt": 252,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.74,
+            "total_tokens": 765,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "METTLE: A METamorphic Testing Approach to Assessing and Validating Unsupervised Machine Learning Systems",
+            "author": "X. Xie; Z. Zhang; T. Y. Chen; Y. Liu; P. -L. Poon; B. Xu",
+            "year": 2020,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9036058",
+            "DOI": "10.1109/TR.2020.2972266",
+            "ISBNs": null
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.01,
+                    "tokens_prompt": 495,
+                    "tokens_completion": 2
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.52,
+                    "tokens_prompt": 499,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.51,
+                    "tokens_prompt": 494,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.04,
+            "total_tokens": 1492,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Analysing MLOps and its Applicability in the Maritime Domain through a Systematic Mapping Study",
+            "author": "A. -R. Morariu; T. Ahmad; B. Iancu; J. Poikonen; J. Björkqvist",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10639945",
+            "DOI": "10.1109/ICPS59941.2024.10639945",
+            "ISBNs": "979-8-3503-6301-2"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.5,
+                    "tokens_prompt": 395,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 4.12,
+                    "tokens_prompt": 399,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.35,
+                    "tokens_prompt": 394,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 9.97,
+            "total_tokens": 1191,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Responsible Generative AI for Software Development Life Cycle",
+            "author": "J. A. Shah; G. Bajpai",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11105309",
+            "DOI": "10.1109/AIIoT65859.2025.11105309",
+            "ISBNs": "979-8-3315-2508-8"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 3.59,
+                    "tokens_prompt": 387,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.47,
+                    "tokens_prompt": 391,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.93,
+                    "tokens_prompt": 386,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.99,
+            "total_tokens": 1167,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Towards a Roadmap on Software Engineering for Responsible AI",
+            "author": "Q. Lu; L. Zhu; X. Xu; J. Whittle; Z. Xing",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9796410",
+            "DOI": "10.1145/3522664.3528607",
+            "ISBNs": "978-1-4503-9275-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.71,
+                    "tokens_prompt": 342,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.35,
+                    "tokens_prompt": 346,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.11,
+                    "tokens_prompt": 341,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.17,
+            "total_tokens": 1032,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Application of Artificial Intelligence in Large-scale International Wushu (Taolu) Events",
+            "author": "Y. Ke",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9696037",
+            "DOI": "10.1109/ICBASE53849.2021.00113",
+            "ISBNs": "978-1-6654-2709-8"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.56,
+                    "tokens_prompt": 474,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.44,
+                    "tokens_prompt": 478,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.87,
+                    "tokens_prompt": 473,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.87,
+            "total_tokens": 1428,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Requirements Engineering in Machine Learning Projects",
+            "author": "A. Gjorgjevikj; K. Mishev; L. Antovski; D. Trajanov",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10179899",
+            "DOI": "10.1109/ACCESS.2023.3294840",
+            "ISBNs": null
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.35,
+                    "tokens_prompt": 449,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.44,
+                    "tokens_prompt": 453,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.35,
+                    "tokens_prompt": 448,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.14,
+            "total_tokens": 1353,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Advancing MLOps from Ad hoc to Kaizen",
+            "author": "M. M. John; D. Gillblad; H. H. Olsson; J. Bosch",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10371662",
+            "DOI": "10.1109/SEAA60479.2023.00023",
+            "ISBNs": "979-8-3503-4235-2"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.76,
+                    "tokens_prompt": 330,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.3,
+                    "tokens_prompt": 334,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.15,
+                    "tokens_prompt": 329,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.21,
+            "total_tokens": 996,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Teaching Reform of Software Engineering Course Based on Computational Thinking",
+            "author": "X. Dong; J. Jia",
+            "year": 2020,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9361128",
+            "DOI": "10.1109/ICAICE51518.2020.00084",
+            "ISBNs": "978-1-7281-9146-1"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.56,
+                    "tokens_prompt": 314,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.21,
+                    "tokens_prompt": 318,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.44,
+                    "tokens_prompt": 313,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.21,
+            "total_tokens": 948,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "How Do Computer Science Students Perceive Self-Study with Open-Source Repositories for Building AI/ML Systems?",
+            "author": "A. Azamnouri; N. N. Koch; J. Bogner; S. Wagner",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11024338",
+            "DOI": "10.1109/CSEET66350.2025.00046",
+            "ISBNs": "979-8-3315-3709-8"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 3.73,
+                    "tokens_prompt": 442,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.36,
+                    "tokens_prompt": 446,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.37,
+                    "tokens_prompt": 441,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.46,
+            "total_tokens": 1332,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Research on Defect Detection and Process Control of 3D Printing Mechanical System based on Artificial Intelligence",
+            "author": "J. Xu",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10968411",
+            "DOI": "10.1109/ITOEC63606.2025.10968411",
+            "ISBNs": "979-8-3315-2948-2"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 3.14,
+                    "tokens_prompt": 302,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.2,
+                    "tokens_prompt": 306,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.22,
+                    "tokens_prompt": 301,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.56,
+            "total_tokens": 912,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Potential of Applying Artificial Intelligence in the Professional Education of Software Engineers",
+            "author": "O. Vetoshkin; O. Budnyk",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11185851",
+            "DOI": "10.1109/ACIT65614.2025.11185851",
+            "ISBNs": "979-8-3315-9544-9"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.49,
+                    "tokens_prompt": 310,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.21,
+                    "tokens_prompt": 314,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.3,
+                    "tokens_prompt": 309,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.0,
+            "total_tokens": 936,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Conceptualising Software Development Lifecycle for Engineering AI Planning Systems",
+            "author": "I. Georgievski",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10164777",
+            "DOI": "10.1109/CAIN58948.2023.00019",
+            "ISBNs": "979-8-3503-0113-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 3.2,
+                    "tokens_prompt": 256,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.24,
+                    "tokens_prompt": 260,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.75,
+                    "tokens_prompt": 255,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.19,
+            "total_tokens": 774,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Exploring the Integration of Artificial Intelligence and Programming Education: A Practice-Oriented Study on the Development of Computational Thinking Based on Human-AI Co-Creation",
+            "author": "Y. Zhuang; Y. Ji; Z. Huang; Y. Shang; X. Li; X. Su",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11108869",
+            "DOI": "10.1109/SEAI65851.2025.11108869",
+            "ISBNs": "979-8-3315-1361-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 3.46,
+                    "tokens_prompt": 349,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 3,
+                "telemetry": {
+                    "latency_sec": 2.36,
+                    "tokens_prompt": 353,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.42,
+                    "tokens_prompt": 348,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.24,
+            "total_tokens": 1053,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "A First Look at AI Trends in Value-Aligned Software Engineering Publications: Human-LLM Insights",
+            "author": "D. Mougouei; A. Azarnik; M. Fahmideh; E. Mougouei; H. K. Dam; A. A. Khan; S. Rafi; J. A. Khan; A. Ahmad",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11023907",
+            "DOI": "10.1109/ICSE-SEIS66351.2025.00014",
+            "ISBNs": "979-8-3315-3707-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.45,
+                    "tokens_prompt": 386,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 2.45,
+                    "tokens_prompt": 390,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.21,
+                    "tokens_prompt": 385,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.11,
+            "total_tokens": 1164,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Towards MLOps: A Framework and Maturity Model",
+            "author": "M. M. John; H. H. Olsson; J. Bosch",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9582569",
+            "DOI": "10.1109/SEAA53835.2021.00050",
+            "ISBNs": "978-1-6654-2705-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.77,
+                    "tokens_prompt": 441,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": null,
+                "telemetry": {
+                    "latency_sec": 2.61,
+                    "tokens_prompt": 445,
+                    "tokens_completion": 8
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "telemetry": {
+                    "latency_sec": 2.43,
+                    "tokens_prompt": 440,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.81,
+            "total_tokens": 1336,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Innovating Translation: Lessons Learned from BWX Generative Language Engine",
+            "author": "V. Burégio; I. Pereira; H. Cabral",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10556084",
+            "DOI": null,
+            "ISBNs": "979-8-4007-0591-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.73,
+                    "tokens_prompt": 307,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.44,
+                    "tokens_prompt": 311,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 3,
+                "telemetry": {
+                    "latency_sec": 2.17,
+                    "tokens_prompt": 306,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.34,
+            "total_tokens": 927,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "DevOps Practices Into Machine Learning",
+            "author": "S. Jain; P. Kumar",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10884413",
+            "DOI": "10.1109/ICISSGT58904.2024.00029",
+            "ISBNs": "979-8-3503-0432-9"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "telemetry": {
+                    "latency_sec": 2.75,
+                    "tokens_prompt": 377,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.28,
+                    "tokens_prompt": 381,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "telemetry": {
+                    "latency_sec": 2.24,
+                    "tokens_prompt": 376,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 7.27,
+            "total_tokens": 1137,
+            "model": "gemini-3-flash-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Research on Ethical Issues of Artificial Intelligence Technology",
+            "author": "Z. Wang; C. Tang; X. Sima; L. Zhang",
+            "year": 2020,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9425899",
+            "DOI": "10.1109/AIAM50918.2020.00086",
+            "ISBNs": "978-1-7281-9986-3"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "telemetry": {
+                    "latency_sec": 3.17,
+                    "tokens_prompt": 370,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 4,
+                "telemetry": {
+                    "latency_sec": 2.68,
+                    "tokens_prompt": 374,
+                    "tokens_completion": 1
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "telemetry": {
+                    "latency_sec": 2.62,
+                    "tokens_prompt": 369,
+                    "tokens_completion": 1
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 8.47,
+            "total_tokens": 1116,
+            "model": "gemini-3-flash-preview"
+        }
+    }
+]
