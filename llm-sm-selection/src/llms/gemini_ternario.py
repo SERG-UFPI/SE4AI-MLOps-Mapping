@@ -17,9 +17,9 @@ class SingleCriterionEvaluation(BaseModel):
     )
 
     
-class GeminiLLM(BaseLLM):
+class GeminiLLMV2(BaseLLM):
     """
-    Classe para automação de triagem em SLR utilizando Gemini
+    Classe para automação de triagem em SLR utilizando Gemini, com foco em avaliações ternárias (YES/NO/UNCLEAR).
     """
 
     def __init__(self, api_key: str, model_name: str, config: Dict[str, Any]):

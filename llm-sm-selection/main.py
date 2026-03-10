@@ -6,7 +6,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from src.config import ConfigManager
-from src.llms.gemini import GeminiLLM
+from src.llms.gemini_ternario import GeminiLLMV2
 
 
 def main():
@@ -24,7 +24,7 @@ def main():
 
     # 3. Inicialização do Classificador
     model_name = llm_params["model"]
-    classifier = GeminiLLM(api_key=api_key, model_name=model_name, config=llm_params)
+    classifier = GeminiLLMV2(api_key=api_key, model_name=model_name, config=llm_params)
 
     # 4. Execução do Experimento
     articles = articles[:100]
