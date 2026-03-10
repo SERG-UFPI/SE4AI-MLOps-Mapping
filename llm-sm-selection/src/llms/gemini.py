@@ -46,7 +46,7 @@ class GeminiLLM(BaseLLM):
                 result = self.evaluate_article(article, criteria)
                 results.append(result)
                 
-                time.sleep(3) 
+                time.sleep(5) 
                 
                 if (i + 1) % checkpoint_interval == 0:
                     with open(checkpoint_path, "w", encoding="utf-8") as f:
