@@ -27,7 +27,7 @@ def main():
     classifier = GeminiLLMV2(api_key=api_key, model_name=model_name, config=llm_params)
 
     # 4. Execução do Experimento
-    articles = articles[:1]
+    articles = articles[:100]
     print(f"Iniciando experimento: {metadata['experiment_id']}")
     results = classifier.batch_classify(articles, manager.get_inlusion_criteria())
 
