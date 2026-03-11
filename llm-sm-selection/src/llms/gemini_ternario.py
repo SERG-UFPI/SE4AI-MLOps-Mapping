@@ -10,7 +10,7 @@ from .base import BaseLLM
 
 class SingleCriterionEvaluation(BaseModel):
     reasoning: str = Field(
-        description="A brief quote from the abstract and your logical reasoning for the decision."
+        description="Provide EXACTLY ONE short sentence. MAXIMUM 20 WORDS. Include a brief quote and justification."
     )
     decision: Literal["YES", "NO", "UNCLEAR"] = Field(
         description="YES: Explicit evidence meets the criterion. NO: Fails or violates the criterion. UNCLEAR: Vague or lacks details."
@@ -93,7 +93,7 @@ class GeminiLLMV2(BaseLLM):
                 model=self.model_name,
                 contents=prompt,
                 config=types.GenerateContentConfig(
-                    system_instruction=self._build_system_instruction(article),
+                    system_instruction=self._build_system_instruction(),
                     temperature=self.config["temperature"],
                     max_output_tokens=self.config["max_output_tokens"],
                     top_p=self.config["top_p"],
@@ -105,6 +105,7 @@ class GeminiLLMV2(BaseLLM):
             end_ic = time.perf_counter()
             latency = end_ic - start_ic
             usage = response.usage_metadata
+            print(response.text, "\n")
             evaluation_result = json.loads(response.text)
 
             ic_entry = {
@@ -165,5 +166,6 @@ class GeminiLLMV2(BaseLLM):
             "EVALUATION RULES:\n"
             "1. Evaluate if the study meets the criterion provided in the prompt.\n"
             "2. Anchor your reasoning explicitly in the text of the abstract.\n"
-            "3. Be extremely strict. Do not assume information that is not explicitly written."
+            "3. Be extremely strict. Do not assume information that is not explicitly written.\n"
+            "4. STRICT LENGTH LIMIT: Your 'reasoning' MUST be absolutely under 20 words. Be telegraphic and direct."
         )
