@@ -1,0 +1,3668 @@
+[
+    {
+        "article_metadata": {
+            "title": "A Holistic Framework for Evolving AI-Based Systems",
+            "author": "M. Veracx",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11030044",
+            "DOI": "10.1109/CAIN66642.2025.00045",
+            "ISBNs": "979-8-3315-0219-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "It addresses evolution by proposing a \"framework for modifiable AI-based systems\" to manage \"change scenarios\" and impacts.",
+                "telemetry": {
+                    "latency_sec": 10.54,
+                    "tokens_prompt": 248,
+                    "tokens_completion": 43
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "Proposes a 'framework for modifiable AI-based systems' with 'architectural views,' explicitly providing design guidelines for AI systems.",
+                "telemetry": {
+                    "latency_sec": 10.75,
+                    "tokens_prompt": 252,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "The abstract explicitly identifies the \"challenge\" of building modifiable systems when integrating frequently changing \"AI models and data.\"",
+                "telemetry": {
+                    "latency_sec": 8.5,
+                    "tokens_prompt": 247,
+                    "tokens_completion": 42
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 29.79,
+            "total_tokens": 868,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Design Patterns for AI-based Systems: A Multivocal Literature Review and Pattern Repository",
+            "author": "L. Heiland; M. Hauser; J. Bogner",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10164762",
+            "DOI": "10.1109/CAIN58948.2023.00035",
+            "ISBNs": "979-8-3503-0113-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "It addresses development by reviewing \"design patterns for AI-based systems\" covering \"architecture\" and \"implementation\" practices.",
+                "telemetry": {
+                    "latency_sec": 8.72,
+                    "tokens_prompt": 500,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "The study provides an 'overview of design patterns for AI-based systems,' directly meeting the criterion.",
+                "telemetry": {
+                    "latency_sec": 7.89,
+                    "tokens_prompt": 504,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "The abstract focuses on collecting \"design patterns\" as solutions, not explicitly discussing SE-AI integration challenges or limitations.",
+                "telemetry": {
+                    "latency_sec": 8.01,
+                    "tokens_prompt": 499,
+                    "tokens_completion": 41
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 24.62,
+            "total_tokens": 1610,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Data acquisition and the implications of machine learning in the development of a Clinical Decision Support system",
+            "author": "M. Unger",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9474383",
+            "DOI": "10.1109/WAIN52551.2021.00022",
+            "ISBNs": "978-1-6654-4470-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "It details the \"product development process\" of an AI system, explicitly addressing software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 8.39,
+                    "tokens_prompt": 351,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It only \"describes experience\" with an AI system, lacking explicit best practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 7.07,
+                    "tokens_prompt": 355,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It notes AI/ML \"makes the daily life of software engineers more challenging\" during product development.",
+                "telemetry": {
+                    "latency_sec": 6.25,
+                    "tokens_prompt": 350,
+                    "tokens_completion": 38
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 21.71,
+            "total_tokens": 1164,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Crafting an Undergraduate Course at the Intersection of Machine Learning and Software Engineering",
+            "author": "S. Chenoweth; P. K. Linos",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9962523",
+            "DOI": "10.1109/FIE56618.2022.9962523",
+            "ISBNs": "978-1-6654-6244-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "It focuses on \"crafting a new undergraduate course\", addressing pedagogy rather than actual SE lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 14.05,
+                    "tokens_prompt": 432,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "The paper describes \"crafting a new undergraduate course,\" not proposing best practices for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 7.88,
+                    "tokens_prompt": 436,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "The abstract explicitly discusses 'challenges to adopt and deploy ML as part of software development projects.'",
+                "telemetry": {
+                    "latency_sec": 6.51,
+                    "tokens_prompt": 431,
+                    "tokens_completion": 30
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 28.44,
+            "total_tokens": 1396,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "UML-based Modeling of Quantum Machine Learning Systems: A Software Engineering Approach",
+            "author": "K. Sharma; V. M; K. K; S. G",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11200580",
+            "DOI": "10.1109/ICIMIA67127.2025.11200580",
+            "ISBNs": "979-8-3315-5386-9"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "It explicitly applies a \"requirement engineering lifecycle\" and \"development planning\" to \"quantum machine learning systems.\"",
+                "telemetry": {
+                    "latency_sec": 7.23,
+                    "tokens_prompt": 410,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "Proposes a \"structured approach\" using UML diagrams to design and model \"quantum machine learning systems.\"",
+                "telemetry": {
+                    "latency_sec": 7.89,
+                    "tokens_prompt": 414,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "It cites \"unique challenges\" in designing QML due to quantum constraints, not challenges integrating SE with AI.",
+                "telemetry": {
+                    "latency_sec": 8.36,
+                    "tokens_prompt": 409,
+                    "tokens_completion": 40
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 23.48,
+            "total_tokens": 1344,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Characterizing Technical Debt and Antipatterns in AI-Based Systems: A Systematic Mapping Study",
+            "author": "J. Bogner; R. Verdecchia; I. Gerostathopoulos",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9463054",
+            "DOI": "10.1109/TechDebt52882.2021.00016",
+            "ISBNs": "978-1-6654-1405-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Addresses maintenance and evolution, noting \"Technical Debt (TD) will emerge naturally over time\" in AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 10.6,
+                    "tokens_prompt": 496,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "The abstract explicitly presents \"46 solutions\" addressing technical debt and antipatterns in AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 9.01,
+                    "tokens_prompt": 500,
+                    "tokens_completion": 34
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Abstract discusses \"Technical Debt\" and \"antipatterns\" in AI systems, lacking explicit discussion on integrating SE methodologies.",
+                "telemetry": {
+                    "latency_sec": 11.06,
+                    "tokens_prompt": 495,
+                    "tokens_completion": 36
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 30.67,
+            "total_tokens": 1603,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Continuous Quality Assurance and ML Pipelines under the AI Act",
+            "author": "M. Wagner",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10556341",
+            "DOI": null,
+            "ISBNs": "979-8-4007-0591-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "The study explicitly addresses \"quality assurance\" and \"software engineering processes\" for ML systems via \"automated pipelines.\"",
+                "telemetry": {
+                    "latency_sec": 8.21,
+                    "tokens_prompt": 419,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "The abstract states the study is \"ongoing,\" meaning no actual guidelines or best practices are presented yet.",
+                "telemetry": {
+                    "latency_sec": 8.5,
+                    "tokens_prompt": 423,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It explicitly states \"integrating ML models into software comes with challenges\" specifically concerning quality assurance.",
+                "telemetry": {
+                    "latency_sec": 8.28,
+                    "tokens_prompt": 418,
+                    "tokens_completion": 28
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 24.99,
+            "total_tokens": 1357,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Lessons Learned from Educating AI Engineers",
+            "author": "P. Heck; G. Schouten",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9474408",
+            "DOI": "10.1109/WAIN52551.2021.00013",
+            "ISBNs": "978-1-6654-4470-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "Discusses an \"educational programme\" for AI engineers, lacking explicit details on SE lifecycle practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 9.96,
+                    "tokens_prompt": 237,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "Discusses an \"educational programme\" and the \"profession of AI engineer\", lacking explicit guidelines for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 10.14,
+                    "tokens_prompt": 241,
+                    "tokens_completion": 41
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "It discusses \"lessons learned\" from education, lacking explicit mention of challenges or limitations integrating SE and AI.",
+                "telemetry": {
+                    "latency_sec": 8.91,
+                    "tokens_prompt": 236,
+                    "tokens_completion": 32
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 29.01,
+            "total_tokens": 820,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Who Needs MLOps: What Data Scientists Seek to Accomplish and How Can MLOps Help?",
+            "author": "S. Mäkinen; H. Skogström; E. Laaksonen; T. Mikkonen",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9474355",
+            "DOI": "10.1109/WAIN52551.2021.00024",
+            "ISBNs": "978-1-6654-4470-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "It explicitly addresses \"continuous software engineering practices\" and \"MLOps\" for deploying, versioning, and retraining ML models.",
+                "telemetry": {
+                    "latency_sec": 7.39,
+                    "tokens_prompt": 511,
+                    "tokens_completion": 43
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It surveys \"data scientists' daily activities\" regarding MLOps, but does not explicitly propose specific AI development guidelines or patterns.",
+                "telemetry": {
+                    "latency_sec": 8.09,
+                    "tokens_prompt": 515,
+                    "tokens_completion": 44
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "The study identifies \"problems related to deploying models to production\" within MLOps, confirming SE-AI integration challenges.",
+                "telemetry": {
+                    "latency_sec": 8.09,
+                    "tokens_prompt": 510,
+                    "tokens_completion": 42
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 23.57,
+            "total_tokens": 1665,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Does System Based on Artificial Intelligence Need Software Engineering Method? Systematic Review",
+            "author": "I. W. Syahputri; R. Ferdiana; S. S. Kusumawardani",
+            "year": 2020,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9288582",
+            "DOI": "10.1109/ICIC50835.2020.9288582",
+            "ISBNs": "978-1-7281-8047-2"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Reviews \"developing Artificial Intelligence-based systems from design to the implementation phase,\" explicitly addressing SE lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 8.31,
+                    "tokens_prompt": 319,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It gathers research to \"discover what methods are they common use\", not proposing specific AI best practices.",
+                "telemetry": {
+                    "latency_sec": 12.9,
+                    "tokens_prompt": 323,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "It aims to \"discover what methods\" are used, not explicitly discussing challenges or limitations of SE-AI integration.",
+                "telemetry": {
+                    "latency_sec": 8.09,
+                    "tokens_prompt": 318,
+                    "tokens_completion": 41
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 29.3,
+            "total_tokens": 1060,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "FAILS: a tool for assessing risk in ML systems",
+            "author": "G. A. Dominguez; K. Kawaai; H. Maruyama",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9719942",
+            "DOI": "10.1109/APSECW53869.2021.00010",
+            "ISBNs": "978-1-6654-3813-1"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Explicitly addresses SE practices, quoting 'Quality assurance' and 'design and development of AI products'.",
+                "telemetry": {
+                    "latency_sec": 8.1,
+                    "tokens_prompt": 273,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "The abstract explicitly presents a \"risk assessment tool,\" not guidelines, best practices, or design patterns for AI.",
+                "telemetry": {
+                    "latency_sec": 8.4,
+                    "tokens_prompt": 277,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "Mentions QA of AI \"presents a unique set of challenges to software engineers,\" explicitly identifying SE/AI integration challenges.",
+                "telemetry": {
+                    "latency_sec": 7.88,
+                    "tokens_prompt": 272,
+                    "tokens_completion": 43
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 24.38,
+            "total_tokens": 937,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "A Case Study on AI Engineering Practices: Developing an Autonomous Stock Trading System",
+            "author": "M. Grote; J. Bogner",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10164761",
+            "DOI": "10.1109/CAIN58948.2023.00032",
+            "ISBNs": "979-8-3503-0113-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "The abstract explicitly details applying \"10 AI engineering practices\" during the \"development\" of an AI-based system.",
+                "telemetry": {
+                    "latency_sec": 7.39,
+                    "tokens_prompt": 465,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "Evaluates \"10 AI engineering practices\" to assess \"how each practice improved the development\" of an AI system.",
+                "telemetry": {
+                    "latency_sec": 7.27,
+                    "tokens_prompt": 469,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "The abstract explicitly mentions documenting \"challenges that occurred during the development\" of an AI-based system.",
+                "telemetry": {
+                    "latency_sec": 3.89,
+                    "tokens_prompt": 464,
+                    "tokens_completion": 38
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 18.55,
+            "total_tokens": 1504,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "ChatGPT's Aptitude in Utilizing UML Diagrams for Software Engineering Exercise Generation",
+            "author": "S. Speth; N. Meißner; S. Becker",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10663027",
+            "DOI": "10.1109/CSEET62301.2024.10663027",
+            "ISBNs": "979-8-3503-7897-9"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "It uses AI for \"SE education\" exercise generation, not developing or maintaining AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 7.49,
+                    "tokens_prompt": 386,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "The study evaluates ChatGPT for \"SE modeling exercises,\" not best practices for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 5.63,
+                    "tokens_prompt": 390,
+                    "tokens_completion": 27
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Abstract highlights ChatGPT's 'potential to improve SE education' but explicitly lacks discussion of challenges or limitations.",
+                "telemetry": {
+                    "latency_sec": 8.7,
+                    "tokens_prompt": 385,
+                    "tokens_completion": 32
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 21.82,
+            "total_tokens": 1249,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Ethical Considerations in AI-Driven HCI Systems in Software Engineering",
+            "author": "H. Aljawawdeh; H. Fawareh; M. Al Refai; F. Alshraideh; R. Salman; S. A. Dabaa’t; H. Alazzeh; H. Al-Shdaifat; M. Khouj",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10876926",
+            "DOI": "10.1109/ACIT62805.2024.10876926",
+            "ISBNs": "979-8-3315-4001-2"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "The abstract explicitly addresses the criterion by proposing a framework 'throughout the software development lifecycle' for AI systems.",
+                "telemetry": {
+                    "latency_sec": 10.46,
+                    "tokens_prompt": 368,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "Proposes a \"comprehensive framework\" for addressing ethical challenges throughout the \"software development lifecycle\" of AI-driven systems.",
+                "telemetry": {
+                    "latency_sec": 7.68,
+                    "tokens_prompt": 372,
+                    "tokens_completion": 43
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It explores \"ethical challenges\" of AI systems \"throughout the software development lifecycle,\" explicitly meeting the criterion.",
+                "telemetry": {
+                    "latency_sec": 11.78,
+                    "tokens_prompt": 367,
+                    "tokens_completion": 40
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 29.92,
+            "total_tokens": 1223,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "MLOps: A Guide to its Adoption in the Context of Responsible AI",
+            "author": "B. M. A. Matsui; D. H. Goya",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9808770",
+            "DOI": "10.1145/3526073.3527591",
+            "ISBNs": "978-1-4503-9319-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "The study explicitly addresses applying \"DevOps practices\" to the \"machine learning lifecycle\" to \"develop their systems.\"",
+                "telemetry": {
+                    "latency_sec": 7.99,
+                    "tokens_prompt": 341,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "It explicitly presents \"five steps to guide\" MLOps adoption, serving as a reference guide for AI development.",
+                "telemetry": {
+                    "latency_sec": 6.78,
+                    "tokens_prompt": 345,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It identifies an open problem, stating \"few results can be found\" on effective MLOps implementation.",
+                "telemetry": {
+                    "latency_sec": 7.99,
+                    "tokens_prompt": 340,
+                    "tokens_completion": 30
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 22.76,
+            "total_tokens": 1120,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Towards Understanding Fairness Adequacy Testing in Financial Machine Learning Systems",
+            "author": "K. Akinola; J. G. Adigun; M. Srinivasan",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11154631",
+            "DOI": "10.1109/SERA65747.2025.11154631",
+            "ISBNs": "979-8-3315-6536-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Explores 'fairness adequacy testing,' explicitly addressing a core software engineering testing practice applied to ML systems.",
+                "telemetry": {
+                    "latency_sec": 8.62,
+                    "tokens_prompt": 356,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "The study explicitly meets the criterion by \"proposing bias mitigation strategies\" for financial ML models.",
+                "telemetry": {
+                    "latency_sec": 8.81,
+                    "tokens_prompt": 360,
+                    "tokens_completion": 37
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "It focuses on \"fairness adequacy testing\" and regulations, lacking explicit discussion of integrating SE methodologies with AI.",
+                "telemetry": {
+                    "latency_sec": 9.11,
+                    "tokens_prompt": 355,
+                    "tokens_completion": 40
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 26.54,
+            "total_tokens": 1180,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Evaluation of The Generality of Multi-view Modeling Framework for ML Systems",
+            "author": "J. H. Husen; J. Runpakprakun; S. Chang; H. Washizaki; H. T. Tun; N. Yoshioka; Y. Fukazawa",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10555998",
+            "DOI": null,
+            "ISBNs": "979-8-4007-0591-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Evaluates a framework bridging ML and \"traditional software engineering\" for \"ML system analysis,\" addressing SE development practices.",
+                "telemetry": {
+                    "latency_sec": 9.13,
+                    "tokens_prompt": 290,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It evaluates a \"Multi-View Modeling Framework,\" lacking explicit mention of best practices, guidelines, recommendations, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 9.11,
+                    "tokens_prompt": 294,
+                    "tokens_completion": 43
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It explicitly identifies limitations in an SE-ML framework, noting handling non-classification tasks 'still requires further investigation.'",
+                "telemetry": {
+                    "latency_sec": 6.97,
+                    "tokens_prompt": 289,
+                    "tokens_completion": 35
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 25.21,
+            "total_tokens": 983,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Best Practices of Machine Learning System Operations (MLOPS) In The South African Manufacturing Industry",
+            "author": "N. Y. Mulongo",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10759008",
+            "DOI": "10.1109/ISNCC62547.2024.10759008",
+            "ISBNs": "979-8-3503-6491-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Abstract explicitly covers AI lifecycles, aiming at \"optimising the machine learning (ML) development process\" and \"maintaining\" models.",
+                "telemetry": {
+                    "latency_sec": 10.97,
+                    "tokens_prompt": 385,
+                    "tokens_completion": 48
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "Aims at \"uncovering the factors that drive and hinder\" MLOps adoption, not proposing AI development best practices.",
+                "telemetry": {
+                    "latency_sec": 9.01,
+                    "tokens_prompt": 389,
+                    "tokens_completion": 43
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Mentions factors that \"hinder\" MLOps but fails to explicitly identify specific SE-AI integration challenges.",
+                "telemetry": {
+                    "latency_sec": 9.93,
+                    "tokens_prompt": 384,
+                    "tokens_completion": 41
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 29.91,
+            "total_tokens": 1290,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Traceable Business-to-Safety Analysis Framework for Safety-critical Machine Learning Systems",
+            "author": "J. H. Husen; H. Washizaki; H. T. Tun; N. Yoshioka; Y. Fukazawa; H. Takeuchi",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9796400",
+            "DOI": "10.1145/3522664.3528619",
+            "ISBNs": "978-1-4503-9275-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "The study addresses requirements engineering by \"analyzing machine learning safety requirements,\" a core SE development lifecycle practice.",
+                "telemetry": {
+                    "latency_sec": 8.0,
+                    "tokens_prompt": 286,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It proposes an \"approach for analyzing machine learning safety requirements,\" lacking explicit best practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 10.75,
+                    "tokens_prompt": 290,
+                    "tokens_completion": 34
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "It proposes an \"approach for analyzing machine learning safety requirements\" without explicitly discussing challenges or open problems.",
+                "telemetry": {
+                    "latency_sec": 6.14,
+                    "tokens_prompt": 285,
+                    "tokens_completion": 29
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 24.89,
+            "total_tokens": 956,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Towards Explainability as a Functional Requirement: A Vision to Integrate the Legal, End-User, and ML Engineer Perspectives",
+            "author": "U. -E. -. Habiba; J. Bogner; S. Wagner",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10669867",
+            "DOI": null,
+            "ISBNs": "979-8-4007-0572-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "It addresses requirements engineering by establishing explainability as a \"functional requirement\" for \"AI system development.\"",
+                "telemetry": {
+                    "latency_sec": 7.29,
+                    "tokens_prompt": 386,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It proposes a \"comprehensive taxonomy\" and a \"vision,\" lacking explicit best practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 8.81,
+                    "tokens_prompt": 390,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Proposes a taxonomy for explainability but does not explicitly discuss challenges or limitations of SE-AI integration.",
+                "telemetry": {
+                    "latency_sec": 9.01,
+                    "tokens_prompt": 385,
+                    "tokens_completion": 30
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 25.11,
+            "total_tokens": 1272,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Data Smells: Categories, Causes and Consequences, and Detection of Suspicious Data in AI-based Systems",
+            "author": "H. Foidl; M. Felderer; R. Ramler",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9796422",
+            "DOI": "10.1145/3522664.3528590",
+            "ISBNs": "978-1-4503-9275-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Addresses maintenance by conceptualizing \"Data Smells\" causing \"technical debt\" in \"AI-based systems\".",
+                "telemetry": {
+                    "latency_sec": 10.36,
+                    "tokens_prompt": 395,
+                    "tokens_completion": 41
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It proposes a \"catalogue of 36 data smells\" and detection tools, lacking explicit guidelines or design patterns.",
+                "telemetry": {
+                    "latency_sec": 8.19,
+                    "tokens_prompt": 399,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Focuses on \"Data Smells\" in AI, lacking explicit discussion on challenges of integrating SE methodologies with AI.",
+                "telemetry": {
+                    "latency_sec": 11.26,
+                    "tokens_prompt": 394,
+                    "tokens_completion": 41
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 29.81,
+            "total_tokens": 1312,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "What Is an AI Engineer? An Empirical Analysis of Job Ads in The Netherlands",
+            "author": "M. Meesters; P. Heck; A. Serebrenik",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9796408",
+            "DOI": "10.1145/3522664.3528594",
+            "ISBNs": "978-1-4503-9275-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Proposes an \"extended AI engineering life-cycle\" and identifies tasks like \"software development\" for \"AI-enabled systems.\"",
+                "telemetry": {
+                    "latency_sec": 7.19,
+                    "tokens_prompt": 525,
+                    "tokens_completion": 45
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "Analyzes \"job ads\" to define the AI engineer role; it does not propose AI development best practices or patterns.",
+                "telemetry": {
+                    "latency_sec": 7.27,
+                    "tokens_prompt": 529,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "The study analyzes \"job ads\" to define AI engineer requirements, not SE-AI integration challenges or limitations.",
+                "telemetry": {
+                    "latency_sec": 7.58,
+                    "tokens_prompt": 524,
+                    "tokens_completion": 33
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 22.04,
+            "total_tokens": 1698,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Towards Understanding Machine Learning Testing in Practise",
+            "author": "A. Shome; L. Cruz; A. van Deursen",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10164773",
+            "DOI": "10.1109/CAIN58948.2023.00028",
+            "ISBNs": "979-8-3503-0113-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "The study explicitly addresses \"testing ML systems\" and the \"Machine Learning (ML) Development Cycle,\" meeting the criterion.",
+                "telemetry": {
+                    "latency_sec": 6.71,
+                    "tokens_prompt": 380,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It proposes to \"study visualisations... by mining Jupyter notebooks,\" lacking explicit best practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 6.89,
+                    "tokens_prompt": 384,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Mentions visualisations are an \"untapped resource\" but does not explicitly discuss challenges integrating SE methodologies with AI.",
+                "telemetry": {
+                    "latency_sec": 11.7,
+                    "tokens_prompt": 379,
+                    "tokens_completion": 32
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 25.3,
+            "total_tokens": 1245,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Modeling Data Requirements for Machine Learning Systems",
+            "author": "W. Shao; X. Wang",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9930317",
+            "DOI": "10.1109/ICSESS54813.2022.9930317",
+            "ISBNs": "978-1-6654-1032-8"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "It addresses the SE requirements phase by proposing a \"data requirements modeling method for machine learning systems.\"",
+                "telemetry": {
+                    "latency_sec": 7.7,
+                    "tokens_prompt": 371,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It proposes a \"data requirements modeling method,\" lacking explicit best practices, guidelines, recommendations, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 7.78,
+                    "tokens_prompt": 375,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It states \"requirements modeling methods for machine learning systems are still in their infancy,\" explicitly identifying an SE-AI limitation.",
+                "telemetry": {
+                    "latency_sec": 9.42,
+                    "tokens_prompt": 370,
+                    "tokens_completion": 42
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 24.9,
+            "total_tokens": 1219,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Accelerating Educational Assessment in Software Engineering through Human-AI Collaboration",
+            "author": "D. -N. Nastos; T. Diamantopoulos; A. Symeonidis",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11272487",
+            "DOI": "10.1109/ICTAI66417.2025.00171",
+            "ISBNs": "979-8-3315-4919-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "It focuses on AI for \"educational assessment in Software Engineering,\" not SE practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 6.47,
+                    "tokens_prompt": 398,
+                    "tokens_completion": 28
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "Proposes a \"methodology for human-AI collaboration\" in assessment, lacking guidelines specifically for the development of AI systems.",
+                "telemetry": {
+                    "latency_sec": 8.4,
+                    "tokens_prompt": 402,
+                    "tokens_completion": 43
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "The abstract identifies AI limitations in \"educational assessment,\" not challenges integrating SE methodologies with AI.",
+                "telemetry": {
+                    "latency_sec": 11.26,
+                    "tokens_prompt": 397,
+                    "tokens_completion": 36
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 26.13,
+            "total_tokens": 1304,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Exploitation Pattern for Machine Learning Systems",
+            "author": "S. Okuda; G. Nemoto; T. Mori; N. Ishitani; K. Nishimura; N. Uchihira",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9501464",
+            "DOI": "10.1109/ITC-CSCC52171.2021.9501464",
+            "ISBNs": "978-1-6654-3553-6"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "The abstract proposes a \"development process\" for \"machine learning systems,\" explicitly addressing the SE lifecycle for AI.",
+                "telemetry": {
+                    "latency_sec": 7.7,
+                    "tokens_prompt": 317,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "It proposes an \"exploitation pattern\" and a \"development process\" to minimize problems in machine learning systems.",
+                "telemetry": {
+                    "latency_sec": 6.25,
+                    "tokens_prompt": 321,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It explicitly discusses \"new challenges\" in ML development compared to \"traditional IT systems\" and unestablished planning methodologies.",
+                "telemetry": {
+                    "latency_sec": 7.58,
+                    "tokens_prompt": 316,
+                    "tokens_completion": 41
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 21.53,
+            "total_tokens": 1056,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Teaching Machine Learning as Part of Agile Software Engineering",
+            "author": "S. Chenoweth; P. K. Linos",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10367872",
+            "DOI": "10.1109/TE.2023.3337343",
+            "ISBNs": null
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "Focuses on \"undergraduate course design\" for teaching, rather than directly researching SE lifecycle practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 13.32,
+                    "tokens_prompt": 339,
+                    "tokens_completion": 41
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "Focuses on \"undergraduate course design\" for teaching ML, not best practices or guidelines for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 6.86,
+                    "tokens_prompt": 343,
+                    "tokens_completion": 34
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "The study addresses \"industry-reported challenges\" because \"building ML systems is different enough\" to require new SE knowledge.",
+                "telemetry": {
+                    "latency_sec": 7.89,
+                    "tokens_prompt": 338,
+                    "tokens_completion": 35
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 28.07,
+            "total_tokens": 1130,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "An Empirical Study of Refactorings and Technical Debt in Machine Learning Systems",
+            "author": "Y. Tang; R. Khatchadourian; M. Bagherzadeh; R. Singh; A. Stewart; A. Raja",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9401990",
+            "DOI": "10.1109/ICSE43902.2021.00033",
+            "ISBNs": "978-1-6654-0296-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Quotes \"how ML systems actually evolve and are maintained,\" explicitly confirming AI software evolution and maintenance practices.",
+                "telemetry": {
+                    "latency_sec": 8.62,
+                    "tokens_prompt": 479,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "It explicitly states they \"put forth several recommendations, best practices, and anti-patterns\" for ML systems.",
+                "telemetry": {
+                    "latency_sec": 6.55,
+                    "tokens_prompt": 483,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It explicitly notes a \"gap of knowledge\" in ML evolution, highlighting open problems in applying SE maintenance methodologies.",
+                "telemetry": {
+                    "latency_sec": 21.36,
+                    "tokens_prompt": 478,
+                    "tokens_completion": 40
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 36.53,
+            "total_tokens": 1549,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "AI Governance in the System Development Life Cycle: Insights on Responsible Machine Learning Engineering",
+            "author": "S. Laato; T. Birkstedt; M. Mäntymäki; M. Minkkinen; T. Mikkonen",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9796416",
+            "DOI": "10.1145/3522664.3528598",
+            "ISBNs": "978-1-4503-9275-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "It maps governance to the \"machine learning (ML) system development process,\" explicitly addressing AI software lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 10.09,
+                    "tokens_prompt": 357,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "It maps \"20 governance concepts\" to ML development stages, explicitly proposing guidelines for responsible AI system development.",
+                "telemetry": {
+                    "latency_sec": 7.27,
+                    "tokens_prompt": 361,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "It explores incorporating AI governance into SDLC but does not explicitly identify integration challenges, open problems, or limitations.",
+                "telemetry": {
+                    "latency_sec": 7.04,
+                    "tokens_prompt": 356,
+                    "tokens_completion": 33
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 24.4,
+            "total_tokens": 1180,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "AI Engineering Continuum: Concept and Expected Foundation",
+            "author": "H. Washizaki; N. Yoshioka",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10786645",
+            "DOI": "10.1109/IISA62523.2024.10786645",
+            "ISBNs": "979-8-3503-6883-3"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Mentions \"AI process continuum\" and evaluating \"AI engineering projects,\" explicitly addressing the engineering lifecycle of AI systems.",
+                "telemetry": {
+                    "latency_sec": 7.92,
+                    "tokens_prompt": 295,
+                    "tokens_completion": 34
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "Proposes a \"comprehensive framework\" to \"evaluate the adequacy of AI engineering projects,\" acting as development guidelines.",
+                "telemetry": {
+                    "latency_sec": 8.09,
+                    "tokens_prompt": 299,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Addresses \"AI quality risks\" with a framework, but does not explicitly discuss SE/AI integration challenges or open problems.",
+                "telemetry": {
+                    "latency_sec": 10.14,
+                    "tokens_prompt": 294,
+                    "tokens_completion": 33
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 26.15,
+            "total_tokens": 987,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Towards Practicable Machine Learning Development Using AI Engineering Blueprints",
+            "author": "N. Weeger; A. Stiehl; J. von Kistowski; S. Geißelsöder; C. Uhl",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11014970",
+            "DOI": "10.1109/ICSA-C65153.2025.00078",
+            "ISBNs": "979-8-3315-3336-6"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "It explicitly addresses AI lifecycle practices, proposing blueprints to \"develop, deploy, and operate AI systems\" using MLOps.",
+                "telemetry": {
+                    "latency_sec": 7.38,
+                    "tokens_prompt": 403,
+                    "tokens_completion": 43
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "The paper proposes \"blueprints\" and \"reference architectures\" for ML development, explicitly meeting the design patterns criterion.",
+                "telemetry": {
+                    "latency_sec": 5.94,
+                    "tokens_prompt": 407,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "Mentions SME challenges and a \"lack of studies on the application of AI engineering practices\" as open problems.",
+                "telemetry": {
+                    "latency_sec": 8.4,
+                    "tokens_prompt": 402,
+                    "tokens_completion": 40
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 21.72,
+            "total_tokens": 1327,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Characterizing and Detecting Mismatch in Machine-Learning-Enabled Systems",
+            "author": "G. A. Lewis; S. Bellomo; I. Ozkaya",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9474400",
+            "DOI": "10.1109/WAIN52551.2021.00028",
+            "ISBNs": "978-1-6654-4470-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "The study explicitly addresses \"end-to-end development of ML-enabled systems\" and the \"software engineering\" workflow.",
+                "telemetry": {
+                    "latency_sec": 7.9,
+                    "tokens_prompt": 401,
+                    "tokens_completion": 34
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It identifies \"mismatch categories\" and \"implications\" but does not explicitly propose best practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 13.52,
+                    "tokens_prompt": 405,
+                    "tokens_completion": 44
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It explicitly discusses \"ML mismatches\" and states \"development of ML-enabled systems... remain a challenge\" involving \"software engineering\".",
+                "telemetry": {
+                    "latency_sec": 7.78,
+                    "tokens_prompt": 400,
+                    "tokens_completion": 36
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 29.2,
+            "total_tokens": 1320,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Goal-Centralized Metamodel Based Requirements Integration for Machine Learning Systems",
+            "author": "H. T. Tun; J. H. Husen; N. Yoshioka; H. Washizaki; Y. Fukazawa",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9719983",
+            "DOI": "10.1109/APSECW53869.2021.00013",
+            "ISBNs": "978-1-6654-3813-1"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "It explicitly addresses requirements analysis (\"goal-oriented analysis\") for \"machine learning systems,\" fulfilling the SE lifecycle criterion.",
+                "telemetry": {
+                    "latency_sec": 6.27,
+                    "tokens_prompt": 281,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "Proposes a \"goal-centralized metamodel\", lacking explicit mention of best practices, guidelines, recommendations, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 7.99,
+                    "tokens_prompt": 285,
+                    "tokens_completion": 44
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "It proposes a \"goal-centralized metamodel\" solution rather than discussing open problems or challenges of SE-AI integration.",
+                "telemetry": {
+                    "latency_sec": 8.91,
+                    "tokens_prompt": 280,
+                    "tokens_completion": 43
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 23.17,
+            "total_tokens": 965,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Investigating Issues That Lead to Code Technical Debt in Machine Learning Systems",
+            "author": "R. Ximenes; A. P. S. Alves; T. Escovedo; R. Spinola; M. Kalinowski",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11030012",
+            "DOI": "10.1109/CAIN66642.2025.00028",
+            "ISBNs": "979-8-3315-0219-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Addresses maintenance in AI systems, explicitly discussing \"maintainability of ML code\" and \"increasing maintenance costs\".",
+                "telemetry": {
+                    "latency_sec": 7.29,
+                    "tokens_prompt": 525,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "The abstract identifies a \"list of issues contributing to TD,\" not explicit best practices or design patterns.",
+                "telemetry": {
+                    "latency_sec": 8.29,
+                    "tokens_prompt": 529,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "It identifies \"issues contributing to TD in ML code,\" lacking explicit discussion on integrating SE methodologies with AI.",
+                "telemetry": {
+                    "latency_sec": 7.34,
+                    "tokens_prompt": 524,
+                    "tokens_completion": 30
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 22.92,
+            "total_tokens": 1686,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "MLOps Challenges in Multi-Organization Setup: Experiences from Two Real-World Cases",
+            "author": "T. Granlund; A. Kopponen; V. Stirbu; L. Myllyaho; T. Mikkonen",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9474388",
+            "DOI": "10.1109/WAIN52551.2021.00019",
+            "ISBNs": "978-1-6654-4470-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Mentions \"continuous deployment\" and \"MLOps\" for \"AI/ML systems,\" explicitly addressing software engineering lifecycle practices for AI.",
+                "telemetry": {
+                    "latency_sec": 8.11,
+                    "tokens_prompt": 360,
+                    "tokens_completion": 45
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "The abstract shares \"experiences\" and \"observations\" but does not explicitly propose guidelines, recommendations, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 11.0,
+                    "tokens_prompt": 364,
+                    "tokens_completion": 41
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "Title explicitly notes \"MLOps Challenges,\" directly addressing difficulties in applying DevOps (SE methodology) to ML systems.",
+                "telemetry": {
+                    "latency_sec": 8.22,
+                    "tokens_prompt": 359,
+                    "tokens_completion": 33
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 27.33,
+            "total_tokens": 1202,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Teaching MLOps in Higher Education through Project-Based Learning",
+            "author": "F. Lanubile; S. Martínez-Fernández; L. Quaranta",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10172734",
+            "DOI": "10.1109/ICSE-SEET58685.2023.00015",
+            "ISBNs": "979-8-3503-2259-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "It covers the \"end-to-end ML component life cycle,\" explicitly addressing development and deployment practices for ML systems.",
+                "telemetry": {
+                    "latency_sec": 10.42,
+                    "tokens_prompt": 340,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It focuses on \"teaching MLOps\" via project-based learning, rather than proposing best practices for AI system development.",
+                "telemetry": {
+                    "latency_sec": 6.76,
+                    "tokens_prompt": 344,
+                    "tokens_completion": 34
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "The study focuses on teaching MLOps (\"project-based learning approach\"), not discussing SE/AI integration challenges or open problems.",
+                "telemetry": {
+                    "latency_sec": 8.5,
+                    "tokens_prompt": 339,
+                    "tokens_completion": 45
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 25.68,
+            "total_tokens": 1135,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Explainable AI for Software Engineering",
+            "author": "C. K. Tantithamthavorn; J. Jiarpakdee",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9678580",
+            "DOI": "10.1109/ASE51524.2021.9678580",
+            "ISBNs": "978-1-6654-0337-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "The abstract explicitly discusses \"AI for Software Engineering\" (defect prediction), not SE practices applied to AI systems.",
+                "telemetry": {
+                    "latency_sec": 7.29,
+                    "tokens_prompt": 484,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It discusses \"AI for Software Engineering\" (defect prediction), not best practices for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 6.86,
+                    "tokens_prompt": 488,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "The abstract explicitly notes AI models in SE are 'not practical... not explainable, and not actionable,' hindering adoption.",
+                "telemetry": {
+                    "latency_sec": 9.73,
+                    "tokens_prompt": 483,
+                    "tokens_completion": 35
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 23.88,
+            "total_tokens": 1550,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Do Developers Adopt Green Architectural Tactics for ML-Enabled Systems? A Mining Software Repository Study",
+            "author": "V. De Martino; S. Martínez-Fernández; F. Palomba",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11023896",
+            "DOI": "10.1109/ICSE-SEIS66351.2025.00019",
+            "ISBNs": "979-8-3315-3707-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Analyzes development practices via \"green architectural tactics\" adopted in \"168 open-source ML projects,\" meeting the criterion.",
+                "telemetry": {
+                    "latency_sec": 9.57,
+                    "tokens_prompt": 325,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "It evaluates \"green architectural tactics\" and \"strategies for creating sustainable ML systems\" in open-source projects.",
+                "telemetry": {
+                    "latency_sec": 6.62,
+                    "tokens_prompt": 329,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Focuses on mining 'green strategies' for ML, not explicit challenges of integrating SE methodologies with AI.",
+                "telemetry": {
+                    "latency_sec": 7.99,
+                    "tokens_prompt": 324,
+                    "tokens_completion": 30
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 24.18,
+            "total_tokens": 1083,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Research on Mixed Teaching of Flipped Classroom in Vocational Colleges in the Era of Artificial Intelligence",
+            "author": "W. Na; L. Shuo; C. Rong; W. Xueting",
+            "year": 2020,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9403828",
+            "DOI": "10.1109/ICBASE51474.2020.00039",
+            "ISBNs": "978-1-7281-9619-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "Focuses on 'traditional teaching mode' in education; it does not address software engineering practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 8.41,
+                    "tokens_prompt": 263,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "Focuses on \"teaching mode\" using AI in education, not guidelines for the development of AI systems.",
+                "telemetry": {
+                    "latency_sec": 6.15,
+                    "tokens_prompt": 267,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Focuses on AI in \"traditional teaching mode\" for vocational colleges, lacking any mention of software engineering challenges.",
+                "telemetry": {
+                    "latency_sec": 6.76,
+                    "tokens_prompt": 262,
+                    "tokens_completion": 33
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 21.32,
+            "total_tokens": 897,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "How Developers Interact with AI: A Taxonomy of Human-AI Collaboration in Software Engineering",
+            "author": "C. Treude; M. A. Gerosa",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11052817",
+            "DOI": "10.1109/Forge66646.2025.00033",
+            "ISBNs": "979-8-3315-0211-9"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "The study focuses on \"AI tools in software development\" (AI4SE), not engineering AI-based systems (SE4AI).",
+                "telemetry": {
+                    "latency_sec": 7.39,
+                    "tokens_prompt": 369,
+                    "tokens_completion": 46
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It proposes a \"taxonomy of interaction types\" for AI tools, not best practices for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 6.76,
+                    "tokens_prompt": 373,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "Mentions \"addressing trust and usability challenges in AI-assisted development,\" explicitly identifying open problems in SE-AI integration.",
+                "telemetry": {
+                    "latency_sec": 8.6,
+                    "tokens_prompt": 368,
+                    "tokens_completion": 36
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 22.75,
+            "total_tokens": 1231,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "An Empirical Study on Decision-Making Aspects in Responsible Software Engineering for AI",
+            "author": "L. M. Rani; F. Mohammadi; R. Feldt; R. B. Svensson",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11121692",
+            "DOI": "10.1109/ICSE-SEIP66354.2025.00056",
+            "ISBNs": "979-8-3315-3685-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Explicitly addresses the 'Software Engineering Life Cycle (SELC) for AI' and embedding ethics throughout this lifecycle.",
+                "telemetry": {
+                    "latency_sec": 6.97,
+                    "tokens_prompt": 495,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "It recommends \"interdisciplinary collaboration\" and \"H-shaped competencies\" to foster responsible software engineering practices for AI.",
+                "telemetry": {
+                    "latency_sec": 9.62,
+                    "tokens_prompt": 499,
+                    "tokens_completion": 41
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "Quotes \"lack of operational frameworks\", confirming challenges in integrating responsible practices into the AI SE lifecycle.",
+                "telemetry": {
+                    "latency_sec": 10.24,
+                    "tokens_prompt": 494,
+                    "tokens_completion": 37
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 26.83,
+            "total_tokens": 1598,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "The Current State of Software Engineering Employing Methods Derived from Artificial Intelligence and Outstanding Challenges",
+            "author": "R. Kumar; V. Naveen; P. Kumar Illa; S. Pachar; P. Patil",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10127112",
+            "DOI": "10.1109/IHCSP56702.2023.10127112",
+            "ISBNs": "979-8-3503-4595-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "The abstract explicitly discusses \"AI application to software engineering,\" focusing on AI tools, not SE for AI systems.",
+                "telemetry": {
+                    "latency_sec": 6.98,
+                    "tokens_prompt": 401,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "The study focuses on \"AI application to software engineering,\" not guidelines for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 6.35,
+                    "tokens_prompt": 405,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "The study evaluates \"risks of AI application\" and notes AI is \"dependent on human-made structures,\" indicating limitations.",
+                "telemetry": {
+                    "latency_sec": 7.58,
+                    "tokens_prompt": 400,
+                    "tokens_completion": 34
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 20.91,
+            "total_tokens": 1316,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Systematic Mapping Study on the Machine Learning Lifecycle",
+            "author": "Y. Xie; L. Cruz; P. Heck; J. S. Rellermeyer",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9474380",
+            "DOI": "10.1109/WAIN52551.2021.00017",
+            "ISBNs": "978-1-6654-4470-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "The study explicitly addresses the criterion by investigating \"practical problems related to AI model lifecycle management.\"",
+                "telemetry": {
+                    "latency_sec": 9.34,
+                    "tokens_prompt": 350,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It conducts a \"systematic mapping study\" to \"provide an overview\", not proposing specific best practices or design patterns.",
+                "telemetry": {
+                    "latency_sec": 7.31,
+                    "tokens_prompt": 354,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Fails criterion; discusses \"AI model lifecycle management\" but lacks explicit mention of Software Engineering methodologies integration.",
+                "telemetry": {
+                    "latency_sec": 6.45,
+                    "tokens_prompt": 349,
+                    "tokens_completion": 30
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 23.1,
+            "total_tokens": 1155,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "A Data Modeling Method for Machine Learning Systems",
+            "author": "W. Shao; X. Wang",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9972115",
+            "DOI": "10.1109/ICoDSE56892.2022.9972115",
+            "ISBNs": "979-8-3503-9705-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Proposes a \"data requirements modeling method\" for the \"development process\" of \"machine learning systems\", meeting the criterion.",
+                "telemetry": {
+                    "latency_sec": 6.63,
+                    "tokens_prompt": 312,
+                    "tokens_completion": 34
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "Proposes a \"modeling method\" and \"supporting tool\", lacking explicit best practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 12.18,
+                    "tokens_prompt": 316,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It explicitly identifies challenges, noting the \"existing development process lacks standardized process\" for machine learning systems.",
+                "telemetry": {
+                    "latency_sec": 8.09,
+                    "tokens_prompt": 311,
+                    "tokens_completion": 29
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 26.9,
+            "total_tokens": 1034,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Addressing Quality Challenges in Deep Learning: The Role of MLOps and Domain Knowledge",
+            "author": "S. Del Rey; A. Medina; X. Franch; S. Martínez-Fernández",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11030036",
+            "DOI": "10.1109/CAIN66642.2025.00029",
+            "ISBNs": "979-8-3315-0219-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Explicitly addresses SE practices for AI, citing \"MLOps practices\" and \"design decisions\" in \"engineering DL systems.\"",
+                "telemetry": {
+                    "latency_sec": 7.9,
+                    "tokens_prompt": 360,
+                    "tokens_completion": 44
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "The study offers \"actionable insights\" and explores \"MLOps practices\" for DL projects, explicitly presenting AI development recommendations.",
+                "telemetry": {
+                    "latency_sec": 8.13,
+                    "tokens_prompt": 364,
+                    "tokens_completion": 43
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It explicitly discusses \"unique challenges in software engineering\" for DL systems regarding quality attributes.",
+                "telemetry": {
+                    "latency_sec": 8.15,
+                    "tokens_prompt": 359,
+                    "tokens_completion": 26
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 24.18,
+            "total_tokens": 1196,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Tutorial on a Gamification Toolset for Improving Engagement of Students in Software Engineering Courses",
+            "author": "T. E. J. Vos; G. Fraser; I. Martinez-Ortiz; R. Prada; A. R. Silva; I. S. W. B. Prasetya",
+            "year": 2020,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9206212",
+            "DOI": "10.1109/CSEET49119.2020.9206212",
+            "ISBNs": "978-1-7281-6807-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "It discusses \"educating software engineering\" via gamification, completely lacking any mention of Artificial Intelligence-based systems.",
+                "telemetry": {
+                    "latency_sec": 7.49,
+                    "tokens_prompt": 345,
+                    "tokens_completion": 34
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "The study focuses on a \"gamification toolset\" for software engineering education, not AI system development.",
+                "telemetry": {
+                    "latency_sec": 6.76,
+                    "tokens_prompt": 349,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "The study focuses on \"gamification in educating software engineering,\" completely lacking any mention of Artificial Intelligence integration.",
+                "telemetry": {
+                    "latency_sec": 6.55,
+                    "tokens_prompt": 344,
+                    "tokens_completion": 39
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 20.8,
+            "total_tokens": 1143,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Towards an Adoption Framework to Foster Trust in AI-Assisted Software Engineering",
+            "author": "M. M. Barón",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11030052",
+            "DOI": "10.1109/CAIN66642.2025.00038",
+            "ISBNs": "979-8-3315-0219-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "It focuses on \"AI-assisted software engineering (AI4SE)\" rather than engineering practices applied to AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 6.67,
+                    "tokens_prompt": 372,
+                    "tokens_completion": 37
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "The abstract proposes an \"adoption framework\" for integrating AI tools, not practices for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 7.07,
+                    "tokens_prompt": 376,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "Identifies the \"trust gap\" as a challenge when AI tools are \"thrust into the development process.\"",
+                "telemetry": {
+                    "latency_sec": 9.62,
+                    "tokens_prompt": 371,
+                    "tokens_completion": 40
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 23.36,
+            "total_tokens": 1225,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Teaching Machine Learning as Part of Agile Software Engineering",
+            "author": "S. Chenoweth; P. K. Linos",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11029686",
+            "DOI": "10.1109/TE.2025.3572355",
+            "ISBNs": null
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Addresses \"agile SE\" for \"ML systems\", explicitly covering software development practices applied to AI.",
+                "telemetry": {
+                    "latency_sec": 12.92,
+                    "tokens_prompt": 372,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It focuses on a \"novel undergraduate course design\" for teaching ML, not guidelines for AI system development.",
+                "telemetry": {
+                    "latency_sec": 6.55,
+                    "tokens_prompt": 376,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "Mentions \"industry-reported challenges\" and needing \"new knowledge about how to infuse ML into software production.\"",
+                "telemetry": {
+                    "latency_sec": 9.22,
+                    "tokens_prompt": 371,
+                    "tokens_completion": 41
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 28.69,
+            "total_tokens": 1237,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Research on Artificial Intelligence Algorithm and Its Application in Games",
+            "author": "C. Tang; Z. Wang; X. Sima; L. Zhang",
+            "year": 2020,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9425971",
+            "DOI": "10.1109/AIAM50918.2020.00085",
+            "ISBNs": "978-1-7281-9986-3"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "Focuses on AI applications in games (\"improving game playability\"), lacking explicit software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 7.65,
+                    "tokens_prompt": 359,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "The study analyzes \"history and present situation\" and future \"impacts,\" lacking explicit guidelines or patterns for AI development.",
+                "telemetry": {
+                    "latency_sec": 8.23,
+                    "tokens_prompt": 363,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Fails criterion; discusses AI in \"game development\" without mentioning software engineering methodologies or integration challenges.",
+                "telemetry": {
+                    "latency_sec": 7.48,
+                    "tokens_prompt": 358,
+                    "tokens_completion": 38
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 23.36,
+            "total_tokens": 1193,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "LoCoML: A Framework for Real-World ML Inference Pipelines",
+            "author": "K. Maddireddy; S. K. Methukula; C. Sridhar; K. Vaidhyanathan",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11030051",
+            "DOI": "10.1109/CAIN66642.2025.00017",
+            "ISBNs": "979-8-3315-0219-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Addresses development by proposing a framework to \"simplify the integration of diverse ML models\" into real-world applications.",
+                "telemetry": {
+                    "latency_sec": 8.72,
+                    "tokens_prompt": 381,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It proposes a \"low-code framework\" for ML integration, lacking explicit best practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 6.96,
+                    "tokens_prompt": 385,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "The abstract discusses \"connecting heterogeneous models\" but does not explicitly mention Software Engineering methodologies.",
+                "telemetry": {
+                    "latency_sec": 6.96,
+                    "tokens_prompt": 380,
+                    "tokens_completion": 26
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 22.64,
+            "total_tokens": 1238,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Towards Designing User Interfaces for Optimized Human-AI Communication and Supervisory Control in Software Engineering",
+            "author": "S. Nam; C. C. Ki Chan",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11252932",
+            "DOI": "10.1109/SNPD65828.2025.11252932",
+            "ISBNs": "979-8-3315-1258-3"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "Focuses on \"user interface design\" and HCI principles, lacking explicit SE lifecycle practices like development or maintenance.",
+                "telemetry": {
+                    "latency_sec": 12.09,
+                    "tokens_prompt": 333,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "The abstract identifies \"key strategies\" and considerations for designing user interfaces for human-AI communication and oversight.",
+                "telemetry": {
+                    "latency_sec": 9.21,
+                    "tokens_prompt": 337,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "The abstract proposes a \"proposed framework\" and strategies, lacking explicit discussion of challenges or limitations in SE-AI integration.",
+                "telemetry": {
+                    "latency_sec": 7.07,
+                    "tokens_prompt": 332,
+                    "tokens_completion": 33
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 28.37,
+            "total_tokens": 1114,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "MLOps: A Taxonomy and a Methodology",
+            "author": "M. Testi; M. Ballabio; E. Frontoni; G. Iannello; S. Moccia; P. Soda; G. Vessio",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9792270",
+            "DOI": "10.1109/ACCESS.2022.3181730",
+            "ISBNs": null
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Proposes an \"ML pipeline\" including SE lifecycle practices like \"continuous integration, continuous delivery\" for ML applications.",
+                "telemetry": {
+                    "latency_sec": 7.49,
+                    "tokens_prompt": 382,
+                    "tokens_completion": 41
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "Proposes a \"standardized methodology\" and ten-step \"ML pipeline\" to guide the development and release of ML applications.",
+                "telemetry": {
+                    "latency_sec": 7.68,
+                    "tokens_prompt": 386,
+                    "tokens_completion": 44
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Mentions literature is \"disconnected and sporadic\" but does not explicitly discuss challenges or limitations of SE-AI integration.",
+                "telemetry": {
+                    "latency_sec": 8.6,
+                    "tokens_prompt": 381,
+                    "tokens_completion": 41
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 23.77,
+            "total_tokens": 1275,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Competence-Oriented Elaboration of Software Engineering Education",
+            "author": "D. Landes",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10662986",
+            "DOI": "10.1109/CSEET62301.2024.10662986",
+            "ISBNs": "979-8-3503-7897-9"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "Uses AI to \"recommend learning elements\" in education, not SE lifecycle practices applied to AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 6.57,
+                    "tokens_prompt": 377,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "Discusses software engineering education using \"AI technology\" for recommendations, not best practices for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 7.17,
+                    "tokens_prompt": 381,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "It mentions \"AI technology which recommends learning elements\" but discusses no challenges integrating AI with SE methodologies.",
+                "telemetry": {
+                    "latency_sec": 6.65,
+                    "tokens_prompt": 376,
+                    "tokens_completion": 38
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 20.39,
+            "total_tokens": 1237,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Applications of Artificial Intelligence and Machine Learning in Contemporary Quality Engineering",
+            "author": "A. Pradeep",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10391976",
+            "DOI": "10.1109/ICCUBEA58933.2023.10391976",
+            "ISBNs": "979-8-3503-0426-8"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "Focuses on AI for quality engineering processes, not software engineering lifecycle practices for AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 10.56,
+                    "tokens_prompt": 393,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "\"Explores the applications of [AI]... in contemporary quality engineering,\" not best practices for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 5.84,
+                    "tokens_prompt": 397,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "It mentions limitations in \"quality engineering\" for \"goods and services,\" lacking explicit focus on software engineering methodologies.",
+                "telemetry": {
+                    "latency_sec": 6.76,
+                    "tokens_prompt": 392,
+                    "tokens_completion": 40
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 23.16,
+            "total_tokens": 1285,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Towards Trustworthy AI Engineering - A Case Study on integrating an AI audit catalog into MLOps processes",
+            "author": "L. Helmer; C. Martens; D. Wegener; D. Becker; M. Akila; S. Abbas",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10669873",
+            "DOI": null,
+            "ISBNs": "979-8-4007-0572-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "\"integrating... into the MLOps cycle\" shows explicit application of lifecycle practices to AI systems.",
+                "telemetry": {
+                    "latency_sec": 11.08,
+                    "tokens_prompt": 357,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "The abstract explicitly states the study \"provides clear recommendations\" for \"Trustworthy AI engineering and operations.\"",
+                "telemetry": {
+                    "latency_sec": 6.04,
+                    "tokens_prompt": 361,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It explicitly addresses the \"open problem\" of integrating trustworthy AI into the \"pipeline engineering process.\"",
+                "telemetry": {
+                    "latency_sec": 9.01,
+                    "tokens_prompt": 356,
+                    "tokens_completion": 38
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 26.13,
+            "total_tokens": 1189,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Application of Artificial Intelligence in Human Resource Management Practices",
+            "author": "P. Tiwari; R. Pandey; V. Garg; A. Singhal",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9377160",
+            "DOI": "10.1109/Confluence51648.2021.9377160",
+            "ISBNs": "978-1-6654-1451-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "The study focuses on AI in \"HR practices,\" not software engineering lifecycle practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 6.06,
+                    "tokens_prompt": 443,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It studies the \"relation of artificial intelligence and HR functions,\" lacking guidelines for AI system development.",
+                "telemetry": {
+                    "latency_sec": 6.04,
+                    "tokens_prompt": 447,
+                    "tokens_completion": 37
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "The abstract focuses on AI in \"HR functions,\" not Software Engineering methodologies or their integration challenges.",
+                "telemetry": {
+                    "latency_sec": 5.94,
+                    "tokens_prompt": 442,
+                    "tokens_completion": 28
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 18.04,
+            "total_tokens": 1427,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Algorithm Debt: Challenges and Future Paths",
+            "author": "E. I. -O. Simon; M. Vidoni; F. H. Fard",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10164749",
+            "DOI": "10.1109/CAIN58948.2023.00020",
+            "ISBNs": "979-8-3503-0113-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Addresses AI software maintenance by exploring 'Algorithm Debt' and its impact on 'maintainability and evolvability' in AI.",
+                "telemetry": {
+                    "latency_sec": 8.82,
+                    "tokens_prompt": 296,
+                    "tokens_completion": 43
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It only aims to \"motivate reflective discussion\" on Algorithm Debt, lacking explicit best practices or guidelines for AI.",
+                "telemetry": {
+                    "latency_sec": 6.55,
+                    "tokens_prompt": 300,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It identifies \"Algorithm Debt\" in AI software, noting its impact \"remains a research gap\" needing future work.",
+                "telemetry": {
+                    "latency_sec": 8.29,
+                    "tokens_prompt": 295,
+                    "tokens_completion": 42
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 23.66,
+            "total_tokens": 1008,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Testing Machine Learning Systems in Industry: An Empirical Study",
+            "author": "S. Li†; J. Guo†; J. -G. Lou; M. Fan; T. Liu‡; D. Zhang",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9793981",
+            "DOI": "10.1145/3510457.3513036",
+            "ISBNs": "978-1-6654-9590-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "It addresses \"testing technologies for ML systems,\" which is a core software engineering lifecycle practice.",
+                "telemetry": {
+                    "latency_sec": 10.16,
+                    "tokens_prompt": 423,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "It explicitly uncovers \"good practices\" and provides \"implications for practitioners\" regarding the testing of ML systems.",
+                "telemetry": {
+                    "latency_sec": 10.89,
+                    "tokens_prompt": 427,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "The abstract explicitly discusses \"new challenges on testing the ML systems,\" directly addressing SE and AI integration.",
+                "telemetry": {
+                    "latency_sec": 8.46,
+                    "tokens_prompt": 422,
+                    "tokens_completion": 38
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 29.51,
+            "total_tokens": 1378,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Structural Causal Models as Boundary Objects in AI System Development",
+            "author": "H. -M. Heyn; E. Knauss",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9796403",
+            "DOI": "10.1145/3522664.3528615",
+            "ISBNs": "978-1-4503-9275-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Explicitly addresses 'AI system development' and using models to 'design' and coordinate experts during the lifecycle.",
+                "telemetry": {
+                    "latency_sec": 9.34,
+                    "tokens_prompt": 328,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "Proposes using \"structural causal models\" as boundary objects to coordinate experts during \"AI system development.\"",
+                "telemetry": {
+                    "latency_sec": 6.55,
+                    "tokens_prompt": 332,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Focuses on \"causal relations\" and coordination, not explicitly identifying challenges or limitations of integrating SE with AI.",
+                "telemetry": {
+                    "latency_sec": 9.2,
+                    "tokens_prompt": 327,
+                    "tokens_completion": 41
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 25.09,
+            "total_tokens": 1090,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Application of Artificial Intelligence in Power Grid",
+            "author": "L. Shi",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10824290",
+            "DOI": "10.1109/CBASE64041.2024.10824290",
+            "ISBNs": "979-8-3315-0658-2"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "It overviews \"application of artificial intelligence in the power grid,\" lacking software engineering lifecycle practices for AI.",
+                "telemetry": {
+                    "latency_sec": 7.4,
+                    "tokens_prompt": 320,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It provides an \"overview and analysis\" of AI applications, lacking explicit guidelines or patterns for AI development.",
+                "telemetry": {
+                    "latency_sec": 7.59,
+                    "tokens_prompt": 324,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Fails criterion; discusses AI challenges in power grids (\"data security\"), not software engineering methodologies.",
+                "telemetry": {
+                    "latency_sec": 6.95,
+                    "tokens_prompt": 319,
+                    "tokens_completion": 31
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 21.94,
+            "total_tokens": 1065,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "A detailed survey of Artificial Intelligence and Software Engineering: Emergent Issues",
+            "author": "Z. Alkashri; N. Siyam; O. Alqaryouti",
+            "year": 2020,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9171118",
+            "DOI": "10.1109/ICISC47916.2020.9171118",
+            "ISBNs": "978-1-7281-2813-9"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "Discusses how 'Software engineers' roles will be completely changed' by AI, not SE lifecycle practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 8.51,
+                    "tokens_prompt": 391,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "Fails criterion; discusses \"ethical and policy concerns\" and societal impacts rather than AI system development best practices.",
+                "telemetry": {
+                    "latency_sec": 7.78,
+                    "tokens_prompt": 395,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Mentions \"Software engineers' roles\" changing, but lacks explicit discussion on integrating SE methodologies with AI.",
+                "telemetry": {
+                    "latency_sec": 7.06,
+                    "tokens_prompt": 390,
+                    "tokens_completion": 32
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 23.35,
+            "total_tokens": 1274,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Application of Artificial Intelligence and Visual Programming Technologies in Digital Interactive Project Development",
+            "author": "Y. Li; X. Wang",
+            "year": 2023,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10303142",
+            "DOI": "10.1109/ICBASE59196.2023.10303142",
+            "ISBNs": "979-8-3503-2949-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "It explicitly addresses development by showing how to \"implement the basic functional framework of complex AI behavior trees.\"",
+                "telemetry": {
+                    "latency_sec": 12.82,
+                    "tokens_prompt": 336,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "The abstract describes an \"implementation method\" using Unity, lacking explicit best practices, guidelines, or design patterns for AI.",
+                "telemetry": {
+                    "latency_sec": 12.39,
+                    "tokens_prompt": 340,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Focuses on benefits like \"improve development efficiency,\" lacking explicit discussion of challenges or limitations integrating SE and AI.",
+                "telemetry": {
+                    "latency_sec": 7.06,
+                    "tokens_prompt": 335,
+                    "tokens_completion": 33
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 32.27,
+            "total_tokens": 1115,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Handling Non-Fuctional Requirements in IoT-based Machine Learning Systems",
+            "author": "A. Khan; I. F. Siddiqui; M. Shaikh; S. Anwar; M. Shaikh",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9720403",
+            "DOI": "10.1109/ECTIDAMTNCON53731.2022.9720403",
+            "ISBNs": "978-1-6654-9510-3"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Addresses SE lifecycle by reviewing \"requirements engineering and software architecture w.r.t machine learning\" systems.",
+                "telemetry": {
+                    "latency_sec": 7.8,
+                    "tokens_prompt": 374,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "It presents \"methodologies for documenting and handling NFRs\" specifically for machine learning systems, satisfying the criterion.",
+                "telemetry": {
+                    "latency_sec": 7.68,
+                    "tokens_prompt": 378,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It explicitly identifies challenges, stating \"knowledge of existing NFRs no longer applies\" in the machine learning context.",
+                "telemetry": {
+                    "latency_sec": 7.98,
+                    "tokens_prompt": 373,
+                    "tokens_completion": 32
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 23.46,
+            "total_tokens": 1221,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Human-centric Requirements Engineering for Artificial Intelligence Software Systems",
+            "author": "K. Ahmad",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9604547",
+            "DOI": "10.1109/RE51729.2021.00070",
+            "ISBNs": "978-1-6654-2856-9"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Addresses the development lifecycle by adjusting \"RE methodologies to fit into AI systems.\"",
+                "telemetry": {
+                    "latency_sec": 12.1,
+                    "tokens_prompt": 388,
+                    "tokens_completion": 24
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It only 'will aim to establish' specifications, lacking actual presentation of proposed guidelines or best practices.",
+                "telemetry": {
+                    "latency_sec": 13.07,
+                    "tokens_prompt": 392,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It explicitly notes AI poses \"significant new challenges to Requirements Engineering,\" confirming SE-AI integration limitations.",
+                "telemetry": {
+                    "latency_sec": 6.49,
+                    "tokens_prompt": 387,
+                    "tokens_completion": 31
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 31.66,
+            "total_tokens": 1253,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Enterprise Architecture based Representation of Architecture and Design Patterns for Machine Learning Systems",
+            "author": "H. Takeuchi; T. Doi; H. Washizaki; S. Okuda; N. Yoshioka",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9626310",
+            "DOI": "10.1109/EDOCW52865.2021.00055",
+            "ISBNs": "978-1-6654-4488-0"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Mentions \"development of machine learning... systems\" and proposes \"architecture and design patterns,\" fulfilling the SE lifecycle criterion.",
+                "telemetry": {
+                    "latency_sec": 9.85,
+                    "tokens_prompt": 312,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "It explicitly proposes a method to represent \"architecture and design patterns for ML service systems.\"",
+                "telemetry": {
+                    "latency_sec": 6.96,
+                    "tokens_prompt": 316,
+                    "tokens_completion": 26
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "It proposes a \"method of representing the architecture\" but lacks explicit discussion of SE/AI integration challenges.",
+                "telemetry": {
+                    "latency_sec": 8.5,
+                    "tokens_prompt": 311,
+                    "tokens_completion": 39
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 25.31,
+            "total_tokens": 1046,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "An Application Model of Data Disaster Preparedness Strategy Incorporating Artificial Intelligence in Data Element Governance",
+            "author": "Y. Zhao; F. Ma; Z. Gao",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11181445",
+            "DOI": "10.1109/ICBASE66587.2025.11181445",
+            "ISBNs": "979-8-3315-3946-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "It proposes an AI \"disaster recovery application model\" but lacks explicit software engineering lifecycle practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 7.94,
+                    "tokens_prompt": 305,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It proposes a \"data disaster recovery application model integrating artificial intelligence,\" not design patterns for AI system development.",
+                "telemetry": {
+                    "latency_sec": 7.14,
+                    "tokens_prompt": 309,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "It proposes an AI \"data disaster recovery application model\" and does not discuss SE methodology integration challenges.",
+                "telemetry": {
+                    "latency_sec": 7.07,
+                    "tokens_prompt": 304,
+                    "tokens_completion": 31
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 22.15,
+            "total_tokens": 1010,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Information Security Detection and Analysis Based on Big Data and Artificial Intelligence Technologies",
+            "author": "X. Wei; R. Ma; L. Mu; H. Zhao",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11181431",
+            "DOI": "10.1109/ICBASE66587.2025.11181431",
+            "ISBNs": "979-8-3315-3946-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "Uses AI for 'abnormal behavior analysis' in security; does not address SE lifecycle practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 9.54,
+                    "tokens_prompt": 269,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "Applies AI for 'intelligent security detection' but lacks explicit guidelines, best practices, or patterns for AI development.",
+                "telemetry": {
+                    "latency_sec": 6.04,
+                    "tokens_prompt": 273,
+                    "tokens_completion": 41
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "No mention of SE methodologies; focuses on \"network security threats\" and integrating big data with AI.",
+                "telemetry": {
+                    "latency_sec": 7.99,
+                    "tokens_prompt": 268,
+                    "tokens_completion": 38
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 23.57,
+            "total_tokens": 920,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Artificial Intelligence Applications in Education Within the Scope of the National Artificial Intelligence Strategy in Turkey",
+            "author": "S. Karabatak; S. Ay; M. Karabatak",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11011998",
+            "DOI": "10.1109/ISDFS65363.2025.11011998",
+            "ISBNs": "979-8-3315-0993-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "It explores \"AI integration\" in education and policy, lacking any mention of software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 9.23,
+                    "tokens_prompt": 344,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "The study focuses on \"AI-based education projects\" and policy strategies, not guidelines for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 6.56,
+                    "tokens_prompt": 348,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "It discusses AI in education (\"AI-based education projects\"), lacking any mention of software engineering methodologies or their integration.",
+                "telemetry": {
+                    "latency_sec": 6.96,
+                    "tokens_prompt": 343,
+                    "tokens_completion": 42
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 22.75,
+            "total_tokens": 1137,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "A Formal Model for Integrating Consent Management Into MLOps",
+            "author": "N. Peyrone; D. Wichadakul",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10701457",
+            "DOI": "10.1109/ACCESS.2024.3471773",
+            "ISBNs": null
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "\"Integrating CM into MLOps\" explicitly addresses software engineering lifecycle practices for delivering machine learning artifacts.",
+                "telemetry": {
+                    "latency_sec": 10.25,
+                    "tokens_prompt": 411,
+                    "tokens_completion": 37
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "The abstract explicitly provides 'guidelines to integrate CM into MLOps,' fulfilling the criterion for AI development guidelines.",
+                "telemetry": {
+                    "latency_sec": 7.72,
+                    "tokens_prompt": 415,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It identifies a limitation: \"current MLOps frameworks neglect the integration of CM,\" addressing SE-AI integration challenges.",
+                "telemetry": {
+                    "latency_sec": 9.49,
+                    "tokens_prompt": 410,
+                    "tokens_completion": 42
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 27.46,
+            "total_tokens": 1347,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "On the Understandability of MLOps System Architectures",
+            "author": "S. J. Warnett; U. Zdun",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10440483",
+            "DOI": "10.1109/TSE.2024.3367488",
+            "ISBNs": null
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Mentions MLOps streamlines ML workflows 'from development to deployment,' explicitly addressing SE lifecycle practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 10.15,
+                    "tokens_prompt": 405,
+                    "tokens_completion": 34
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It evaluates \"understandability of MLOps system architecture descriptions\" via diagrams, lacking explicit best practices, guidelines, or patterns.",
+                "telemetry": {
+                    "latency_sec": 8.81,
+                    "tokens_prompt": 409,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "Identifies the challenge that MLOps (SE+AI) architectural descriptions \"vary considerably\" and \"may be hard to understand.\"",
+                "telemetry": {
+                    "latency_sec": 9.72,
+                    "tokens_prompt": 404,
+                    "tokens_completion": 46
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 28.68,
+            "total_tokens": 1333,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "A Survey of Application of Artificial Intelligence Methods in SDN",
+            "author": "F. Song; D. Qin; C. Xu",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9832340",
+            "DOI": "10.1109/SEAI55746.2022.9832340",
+            "ISBNs": "978-1-6654-8223-3"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "Focuses on AI applied to SDN (\"traffic classification\"), not software engineering lifecycle practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 6.97,
+                    "tokens_prompt": 350,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It \"summarizes the research\" of AI applications in SDN, lacking explicit guidelines or best practices for AI development.",
+                "telemetry": {
+                    "latency_sec": 7.78,
+                    "tokens_prompt": 354,
+                    "tokens_completion": 41
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "It focuses on AI in \"software-defined networking\" (SDN), lacking any mention of software engineering methodologies.",
+                "telemetry": {
+                    "latency_sec": 6.86,
+                    "tokens_prompt": 349,
+                    "tokens_completion": 41
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 21.61,
+            "total_tokens": 1165,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "From Ops to Experience: AIOps-Enabled MLOps with Identity-Aware and Customer-Informed Pipelines",
+            "author": "S. Singh",
+            "year": 2025,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11233325",
+            "DOI": "10.1109/WCONF64849.2025.11233325",
+            "ISBNs": "979-8-3315-3045-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "The abstract explicitly addresses \"ML lifecycle management\" and \"continuous model adaptation\" for machine learning systems.",
+                "telemetry": {
+                    "latency_sec": 7.39,
+                    "tokens_prompt": 411,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "Proposes a \"novel MLOps framework\" and architecture, lacking explicit best practices, guidelines, recommendations, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 10.34,
+                    "tokens_prompt": 415,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It explicitly identifies MLOps limitations, stating current implementations \"lack intelligent automation\" and cause \"operational inefficiencies.\"",
+                "telemetry": {
+                    "latency_sec": 8.3,
+                    "tokens_prompt": 410,
+                    "tokens_completion": 31
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 26.03,
+            "total_tokens": 1333,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "A Multivocal Literature Review of MLOps Tools and Features",
+            "author": "G. Recupito; F. Pecorelli; G. Catolino; S. Moreschini; D. D. Nucci; F. Palomba; D. A. Tamburri",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10011505",
+            "DOI": "10.1109/SEAA56994.2022.00021",
+            "ISBNs": "978-1-6654-6152-8"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "\"MLOps automates Machine Learning pipelines by applying DevOps practices,\" explicitly addressing SE lifecycle practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 8.92,
+                    "tokens_prompt": 342,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It reviews \"MLOps tools and their functionalities\" rather than proposing best practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 6.16,
+                    "tokens_prompt": 346,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "It focuses on analyzing MLOps \"tools and features,\" lacking explicit discussion of SE-AI integration challenges or open problems.",
+                "telemetry": {
+                    "latency_sec": 7.86,
+                    "tokens_prompt": 341,
+                    "tokens_completion": 43
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 22.94,
+            "total_tokens": 1144,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Dependency Tracking for Risk Mitigation in Machine Learning (ML) Systems",
+            "author": "X. Xu; C. Wang; Z. Wang; Q. Lu; L. Zhu",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9794111",
+            "DOI": "10.1145/3510457.3513058",
+            "ISBNs": "978-1-6654-9590-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "The abstract explicitly addresses SE practices by tracking \"co-evolution of the models\" during the \"development phase\" of ML systems.",
+                "telemetry": {
+                    "latency_sec": 9.64,
+                    "tokens_prompt": 357,
+                    "tokens_completion": 37
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "Proposes a specific \"integrated dependency tracking system\" using blockchain, not general best practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 6.76,
+                    "tokens_prompt": 361,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "It explicitly notes ML components \"create new challenges for software system design and development activities.\"",
+                "telemetry": {
+                    "latency_sec": 7.16,
+                    "tokens_prompt": 356,
+                    "tokens_completion": 26
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 23.56,
+            "total_tokens": 1170,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "A Review of Artificial Intelligence in Education",
+            "author": "A. E. Ubah; E. P. Onakpojeruo; J. Ajamu; T. R. Mangai; A. M. Isa; N. B. Ayansina; F. Al-Turjman",
+            "year": 2022,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10102207",
+            "DOI": "10.1109/AIoTCs58181.2022.00104",
+            "ISBNs": "979-8-3503-3410-4"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "NO",
+                "reasoning": "The abstract discusses the \"application of AI in teaching,\" lacking any mention of software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 8.93,
+                    "tokens_prompt": 400,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It discusses the 'application of AI in teaching' rather than best practices for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 6.66,
+                    "tokens_prompt": 404,
+                    "tokens_completion": 28
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Focuses on AI in education (\"uses, benefits, impact\") without mentioning software engineering methodologies or integration challenges.",
+                "telemetry": {
+                    "latency_sec": 7.89,
+                    "tokens_prompt": 399,
+                    "tokens_completion": 31
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 23.48,
+            "total_tokens": 1300,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Teaching Software Engineering for Al-Enabled Systems",
+            "author": "C. Kästner; E. Kang",
+            "year": 2020,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9291899",
+            "DOI": null,
+            "ISBNs": "978-1-4503-7124-7"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Addresses SE practices for AI by teaching \"robust and evolvable infrastructure, and purposeful requirements engineering.\"",
+                "telemetry": {
+                    "latency_sec": 13.12,
+                    "tokens_prompt": 316,
+                    "tokens_completion": 28
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "It focuses on a \"new course to teach software-engineering skills,\" lacking explicit guidelines or patterns for AI development.",
+                "telemetry": {
+                    "latency_sec": 7.78,
+                    "tokens_prompt": 320,
+                    "tokens_completion": 41
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "YES",
+                "reasoning": "Mentions AI systems \"raise new challenges\" and addresses integration issues like \"robust and evolvable infrastructure.\"",
+                "telemetry": {
+                    "latency_sec": 13.93,
+                    "tokens_prompt": 315,
+                    "tokens_completion": 33
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 34.83,
+            "total_tokens": 1053,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "An MLOps Approach for Deploying Machine Learning Models in Healthcare Systems",
+            "author": "G. Mallardi; F. Calefato; L. Quaranta; F. Lanubile",
+            "year": 2024,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10822603",
+            "DOI": "10.1109/BIBM62325.2024.10822603",
+            "ISBNs": "979-8-3503-8622-6"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "\"Building upon software engineering foundations,\" it proposes an MLOps framework for \"managing the complete model lifecycle\" of ML.",
+                "telemetry": {
+                    "latency_sec": 10.26,
+                    "tokens_prompt": 413,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "NO",
+                "reasoning": "The study proposes an \"MLOps-based framework\" for deployment, lacking explicit best practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 10.96,
+                    "tokens_prompt": 417,
+                    "tokens_completion": 43
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Fails criterion; discusses \"gap between research and production\" in healthcare, using SE as a solution, not integration challenges.",
+                "telemetry": {
+                    "latency_sec": 8.5,
+                    "tokens_prompt": 412,
+                    "tokens_completion": 43
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 29.72,
+            "total_tokens": 1370,
+            "model": "gemini-3.1-pro-preview"
+        }
+    },
+    {
+        "article_metadata": {
+            "title": "Practices for Engineering Trustworthy Machine Learning Applications",
+            "author": "A. Serban; K. van der Blom; H. Hoos; J. Visser",
+            "year": 2021,
+            "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9474373",
+            "DOI": "10.1109/WAIN52551.2021.00021",
+            "ISBNs": "978-1-6654-4470-5"
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "decision": "YES",
+                "reasoning": "Abstract explicitly targets the \"ML development life cycle\" and \"ML engineering practices,\" fulfilling the SE lifecycle criterion.",
+                "telemetry": {
+                    "latency_sec": 9.03,
+                    "tokens_prompt": 446,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI2",
+                "decision": "YES",
+                "reasoning": "It identifies \"14 new practices\" extending a \"catalogue of ML engineering practices,\" directly proposing AI development practices.",
+                "telemetry": {
+                    "latency_sec": 8.09,
+                    "tokens_prompt": 450,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI3",
+                "decision": "NO",
+                "reasoning": "Proposes \"14 new practices\" for trustworthy ML, but does not explicitly discuss challenges of integrating SE with AI.",
+                "telemetry": {
+                    "latency_sec": 12.19,
+                    "tokens_prompt": 445,
+                    "tokens_completion": 33
+                }
+            }
+        ],
+        "total_article_telemetry": {
+            "total_latency": 29.31,
+            "total_tokens": 1440,
+            "model": "gemini-3.1-pro-preview"
+        }
+    }
+]
