@@ -18,7 +18,7 @@ class SingleCriterionEvaluation(BaseModel):
 
 class ConsensusLLM(BaseLLM):
     """
-    Classe que utiliza o consenso entre ChatGPT e Gemini para triagem.
+    Classe que utiliza o consenso entre ChatGPT e Gemini para triagem em SLR.
     """
 
     def __init__(self, openai_key: str, gemini_key: str, gpt_model: str, gemini_model: str, config: Dict[str, Any]):
@@ -39,7 +39,7 @@ class ConsensusLLM(BaseLLM):
             with open(checkpoint_path, "r", encoding="utf-8") as f:
                 results = json.load(f)
                 start_index = len(results)
-                print(f"Retomando a partir do artigo {start_index + 1}...")
+                print(f"Checkpoint encontrado! Retomando a partir do artigo {start_index + 1}...")
 
         for i in range(start_index, len(articles)):
             article = articles[i]
@@ -48,17 +48,14 @@ class ConsensusLLM(BaseLLM):
             try:
                 result = self.evaluate_article(article, criteria)
                 results.append(result)
-
-                # Delay para respeitar limites de taxa (ajustável)
                 time.sleep(2)
 
                 if (i + 1) % checkpoint_interval == 0:
                     with open(checkpoint_path, "w", encoding="utf-8") as f:
                         json.dump(results, f, indent=4, ensure_ascii=False)
-                    print(f"Progresso guardado (Artigo {i+1})")
 
             except Exception as e:
-                print(f"Erro crítico no artigo {i+1}: {e}")
+                print(f"Erro no artigo {i+1}: {e}")
                 break
 
         if len(results) == len(articles) and checkpoint_path.exists():
@@ -72,30 +69,62 @@ class ConsensusLLM(BaseLLM):
         inclusion_details = []
 
         for ic_key, ic_value in criteria_list.items():
+            prompt = self._build_prompt(article, ic_value)
+            system_instr = self._build_system_instruction()
+
             # 1. Query ChatGPT
-            gpt_eval = self._query_gpt(article, ic_value)
-            
+            start_gpt = time.perf_counter()
+            gpt_response = self.gpt_client.beta.chat.completions.parse(
+                model=self.gpt_model,
+                messages=[
+                    {"role": "system", "content": system_instr},
+                    {"role": "user", "content": prompt},
+                ],
+                temperature=0.0,
+                response_format=SingleCriterionEvaluation,
+            )
+            gpt_eval = gpt_response.choices[0].message.parsed
+            latency_gpt = time.perf_counter() - start_gpt
+
             # 2. Query Gemini
-            gemini_eval = self._query_gemini(article, ic_value)
+            start_gemini = time.perf_counter()
+            gemini_response = self.gemini_client.models.generate_content(
+                model=self.gemini_model,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    system_instruction=system_instr,
+                    temperature=0.0,
+                    response_mime_type="application/json",
+                    response_schema=SingleCriterionEvaluation
+                ),
+            )
+            gemini_eval_dict = json.loads(gemini_response.text)
+            latency_gemini = time.perf_counter() - start_gemini
 
             # 3. Consensus Logic
-            # Se ambos concordarem, mantemos a decisão.
-            # Se divergirem, marcamos como UNCLEAR para indicar conflito de IA.
-            if gpt_eval['decision'] == gemini_eval['decision']:
-                final_decision = gpt_eval['decision']
-            else:
-                final_decision = "UNCLEAR"
-
-            print(f"   {ic_key} -> GPT: {gpt_eval['decision']} | Gemini: {gemini_eval['decision']} | Final: {final_decision}")
+            gpt_decision = gpt_eval.decision
+            gemini_decision = gemini_eval_dict["decision"]
+            
+            final_decision = gpt_decision if gpt_decision == gemini_decision else "UNCLEAR"
+            
+            print(f"   {ic_key} -> GPT: {gpt_decision} | Gemini: {gemini_decision} | Final: {final_decision}")
 
             ic_entry = {
                 "criterion": ic_key,
                 "decision": final_decision,
-                "gpt_reasoning": gpt_eval['reasoning'],
-                "gemini_reasoning": gemini_eval['reasoning'],
-                "telemetry": {
-                    "gpt_latency": gpt_eval['latency'],
-                    "gemini_latency": gemini_eval['latency']
+                "individual_evaluations": {
+                    "chatgpt": {
+                        "decision": gpt_decision,
+                        "reasoning": gpt_eval.reasoning,
+                        "latency": round(latency_gpt, 2),
+                        "tokens": gpt_response.usage.total_tokens
+                    },
+                    "gemini": {
+                        "decision": gemini_decision,
+                        "reasoning": gemini_eval_dict["reasoning"],
+                        "latency": round(latency_gemini, 2),
+                        "tokens": (gemini_response.usage_metadata.prompt_token_count + (gemini_response.usage_metadata.candidates_token_count or 0))
+                    }
                 }
             }
             inclusion_details.append(ic_entry)
@@ -106,58 +135,26 @@ class ConsensusLLM(BaseLLM):
                 "author": article.get("Autor"),
                 "year": article.get("Ano")
             },
-            "inclusion_results": inclusion_details,
-            "total_article_telemetry": {
-                "model_gpt": self.gpt_model,
-                "model_gemini": self.gemini_model
-            }
-        }
-
-    def _query_gpt(self, article: Dict[str, Any], criterion: str) -> Dict:
-        start = time.perf_counter()
-        response = self.gpt_client.beta.chat.completions.parse(
-            model=self.gpt_model,
-            messages=[
-                {"role": "system", "content": self._build_system_instruction()},
-                {"role": "user", "content": self._build_prompt(article, criterion)},
-            ],
-            temperature=0.0,
-            response_format=SingleCriterionEvaluation,
-        )
-        latency = time.perf_counter() - start
-        parsed = response.choices[0].message.parsed
-        return {
-            "decision": parsed.decision,
-            "reasoning": parsed.reasoning,
-            "latency": round(latency, 2)
-        }
-
-    def _query_gemini(self, article: Dict[str, Any], criterion: str) -> Dict:
-        start = time.perf_counter()
-        response = self.gemini_client.models.generate_content(
-            model=self.gemini_model,
-            contents=self._build_prompt(article, criterion),
-            config=types.GenerateContentConfig(
-                system_instruction=self._build_system_instruction(),
-                temperature=0.0,
-                response_mime_type="application/json",
-                response_schema=SingleCriterionEvaluation
-            ),
-        )
-        latency = time.perf_counter() - start
-        parsed = json.loads(response.text)
-        return {
-            "decision": parsed["decision"],
-            "reasoning": parsed["reasoning"],
-            "latency": round(latency, 2)
+            "inclusion_results": inclusion_details
         }
 
     def _build_prompt(self, article: Dict[str, Any], criterion: str) -> str:
-        return f"STUDY DATA:\nTitle: {article.get('Título')}\nAbstract: {article.get('Abstract')}\n\nCRITERION:\n{criterion}"
+        return (
+            "STUDY DATA:\n"
+            f"Title: {article.get('Título')}\n"
+            f"Abstract: {article.get('Abstract')}\n\n"
+            "CRITERION TO EVALUATE:\n"
+            f"{criterion}"
+        )
 
     def _build_system_instruction(self) -> str:
         return (
-            "Assume you are a strict software engineering researcher. Evaluate if the study meets the criterion.\n"
-            "REASONING: Exactly 1 sentence, max 20 words.\n"
-            "DECISIONS: YES, NO, or UNCLEAR."
+            "Assume you are a strict software engineering researcher conducting a "
+            "systematic literature review (SLR). Your goal is to evaluate a primary "
+            "study based on its title and abstract against a specific criterion.\n\n"
+            "EVALUATION RULES:\n"
+            "1. Evaluate if the study meets the criterion provided in the prompt.\n"
+            "2. Anchor your reasoning explicitly in the text of the abstract.\n"
+            "3. Be extremely strict. Do not assume information that is not explicitly written.\n"
+            "4. STRICT LENGTH LIMIT: Your 'reasoning' MUST be absolutely under 20 words. Be telegraphic and direct."
         )

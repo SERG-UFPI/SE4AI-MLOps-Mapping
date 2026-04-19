@@ -38,8 +38,8 @@ def main():
         classifier = ConsensusLLM(
             openai_key=os.getenv("OPENAI_API_KEY"),
             gemini_key=os.getenv("GOOGLE_API_KEY"),
-            gpt_model=llm_params.get("gpt_model", "gpt-4o"),
-            gemini_model=llm_params.get("gemini_model", "gemini-1.5-flash"),
+            gpt_model=llm_params.get("gpt_model"),
+            gemini_model=llm_params.get("gemini_model"),
             config=llm_params
         )
     else:
@@ -53,7 +53,7 @@ def main():
     model_name = llm_params.get("model", "consensus")
 
     # 4. Execução do Experimento
-    articles = articles[:100]
+    articles = articles[:1]
     print(f"Iniciando experimento: {metadata['experiment_id']}")
     results = classifier.batch_classify(articles, manager.get_inlusion_criteria())
 
