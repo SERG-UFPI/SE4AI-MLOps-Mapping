@@ -7,17 +7,26 @@ from dotenv import load_dotenv
 
 from src.config import ConfigManager
 from src.llms.gemini_ternario import GeminiLLMV2
+from src.llms.chatgpt_ternario import ChatGPTLLM
 
 
 def main():
     # 1. Carregamento de ambiente e configurações
     load_dotenv()
-    api_key = os.getenv("GOOGLE_API_KEY")
-
+    
     manager = ConfigManager()
     llm_params = manager.get_llm_configs()
     metadata = manager.get_experiment_metadata()
     dataset = llm_params.get("dataset")
+    provider = llm_params.get("provider", "google")
+
+    # 2. Configuração de Chave de API e Classe por provedor
+    if provider == "openai":
+        api_key = os.getenv("OPENAI_API_KEY")
+        ClassifierClass = ChatGPTLLM
+    else:
+        api_key = os.getenv("GOOGLE_API_KEY")
+        ClassifierClass = GeminiLLMV2
 
     data_path = Path(f"data/{dataset}")
     with open(data_path, "r", encoding="utf-8") as f:
@@ -25,7 +34,7 @@ def main():
 
     # 3. Inicialização do Classificador
     model_name = llm_params["model"]
-    classifier = GeminiLLMV2(api_key=api_key, model_name=model_name, config=llm_params)
+    classifier = ClassifierClass(api_key=api_key, model_name=model_name, config=llm_params)
 
     # 4. Execução do Experimento
     articles = articles[:100]
