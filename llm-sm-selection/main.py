@@ -17,8 +17,9 @@ def main():
     manager = ConfigManager()
     llm_params = manager.get_llm_configs()
     metadata = manager.get_experiment_metadata()
+    dataset = llm_params.get("dataset")
 
-    data_path = Path("data/articles.json")
+    data_path = Path(f"data/{dataset}")
     with open(data_path, "r", encoding="utf-8") as f:
         articles = json.load(f)
 
