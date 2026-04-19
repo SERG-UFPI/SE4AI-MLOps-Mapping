@@ -112,19 +112,22 @@ class ConsensusLLM(BaseLLM):
             ic_entry = {
                 "criterion": ic_key,
                 "decision": final_decision,
+                # Metadados detalhados para análise de divergência posterior
                 "individual_evaluations": {
-                    "chatgpt": {
+                    "gpt_5_4": {
                         "decision": gpt_decision,
-                        "reasoning": gpt_eval.reasoning,
-                        "latency": round(latency_gpt, 2),
-                        "tokens": gpt_response.usage.total_tokens
+                        "reasoning": gpt_eval.reasoning
                     },
-                    "gemini": {
+                    "gemini_3_1_flash": {
                         "decision": gemini_decision,
-                        "reasoning": gemini_eval_dict["reasoning"],
-                        "latency": round(latency_gemini, 2),
-                        "tokens": (gemini_response.usage_metadata.prompt_token_count + (gemini_response.usage_metadata.candidates_token_count or 0))
+                        "reasoning": gemini_eval_dict["reasoning"]
                     }
+                },
+                "telemetry": {
+                    "gpt_latency": round(latency_gpt, 2),
+                    "gemini_latency": round(latency_gemini, 2),
+                    "gpt_tokens": gpt_response.usage.total_tokens,
+                    "gemini_tokens": (gemini_response.usage_metadata.prompt_token_count + (gemini_response.usage_metadata.candidates_token_count or 0))
                 }
             }
             inclusion_details.append(ic_entry)

@@ -53,7 +53,7 @@ def main():
     model_name = llm_params.get("model", "consensus")
 
     # 4. Execução do Experimento
-    articles = articles[:1]
+    articles = articles[:100]
     print(f"Iniciando experimento: {metadata['experiment_id']}")
     results = classifier.batch_classify(articles, manager.get_inlusion_criteria())
 
