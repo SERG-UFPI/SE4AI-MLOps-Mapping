@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 from src.config import ConfigManager
 from src.llms.gemini_ternario import GeminiLLMV2
 from src.llms.chatgpt_ternario import ChatGPTLLM
+from src.llms.consensus_ternario import ConsensusLLM
 
 
 def main():
@@ -22,19 +23,34 @@ def main():
 
     # 2. Configuração de Chave de API e Classe por provedor
     if provider == "openai":
-        api_key = os.getenv("OPENAI_API_KEY")
-        ClassifierClass = ChatGPTLLM
+        classifier = ChatGPTLLM(
+            api_key=os.getenv("OPENAI_API_KEY"),
+            model_name=llm_params["model"],
+            config=llm_params
+        )
+    elif provider == "google":
+        classifier = GeminiLLMV2(
+            api_key=os.getenv("GOOGLE_API_KEY"),
+            model_name=llm_params["model"],
+            config=llm_params
+        )
+    elif provider == "consensus":
+        classifier = ConsensusLLM(
+            openai_key=os.getenv("OPENAI_API_KEY"),
+            gemini_key=os.getenv("GOOGLE_API_KEY"),
+            gpt_model=llm_params.get("gpt_model", "gpt-4o"),
+            gemini_model=llm_params.get("gemini_model", "gemini-1.5-flash"),
+            config=llm_params
+        )
     else:
-        api_key = os.getenv("GOOGLE_API_KEY")
-        ClassifierClass = GeminiLLMV2
+        raise ValueError(f"Provider {provider} not supported.")
 
     data_path = Path(f"data/{dataset}")
     with open(data_path, "r", encoding="utf-8") as f:
         articles = json.load(f)
 
-    # 3. Inicialização do Classificador
-    model_name = llm_params["model"]
-    classifier = ClassifierClass(api_key=api_key, model_name=model_name, config=llm_params)
+    # 3. Inicialização do Nome do Modelo para Salvar
+    model_name = llm_params.get("model", "consensus")
 
     # 4. Execução do Experimento
     articles = articles[:100]
