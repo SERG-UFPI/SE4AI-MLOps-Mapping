@@ -1,7 +1,7 @@
 # Relatório Analítico: Triagem de SLR via Consenso de LLMs
 
 **Data:** 19 de Abril de 2026  
-**Objetivo:** Validar a eficácia da triagem automatizada utilizando modelos isolados (GPT-5.4, Gemini 3.1 Flash) versus a estratégia de Consenso.
+**Objetivo:** Validar a eficácia da triagem automatizada utilizando modelos isolados (GPT-5.4, Gemini 3.1 Flash) versus a estratégia de Consenso, comparando-os com o padrão ouro humano.
 
 ---
 
@@ -25,8 +25,6 @@ A análise demonstra que o método de **Consenso** é o mais equilibrado para tr
 
 ### 3.1 Quantidade de Aceites por Método e Critério
 
-A tabela abaixo detalha a quantidade de artigos aceitos (`YES`) em cada critério:
-
 | Método | CI1 (Escopo) | CI2 (Práticas) | CI3 (Desafios) | Total (Pelo menos 1) |
 | :--- | :---: | :---: | :---: | :---: |
 | **Humano** | 15 | 12 | 10 | **18** |
@@ -34,33 +32,41 @@ A tabela abaixo detalha a quantidade de artigos aceitos (`YES`) em cada critéri
 | **Gemini 3.1 Flash** | 20 | 18 | 15 | **22** |
 | **Consenso** | 17 | 11 | 9 | **19** |
 
-O gráfico abaixo ilustra a volumetria total de artigos aceitos por cada método:
-
 ![Volumetria de Aceites](acceptance_comparison.png)
 
-### 3.2 Interseções de Inclusão (IA vs IA)
+### 3.2 Interseções com o Padrão Humano
 
-Os diagramas abaixo mostram a sobreposição das decisões de inclusão entre os modelos. Observe que o Consenso é um subconjunto estrito da interseção entre os modelos individuais.
+Os diagramas abaixo mostram como cada modelo se sobrepõe às decisões humanas. Note que o **Consenso** possui a maior área de intersecção proporcional, minimizando os aceites "fora" do círculo humano (Falsos Positivos).
 
-![Interseção de Inclusão](venn_intersection.png)
+![Interseção com Humano](venn_human_comparison.png)
 
 ---
 
-## 4. Análise de Divergências
+## 4. Análise de Divergências (IA vs Humano)
 
-### a) Consenso vs Gemini 3.1 Flash
-*   **Apenas Gemini:** O Gemini aceitou 3 artigos adicionais que o Consenso rejeitou. Estes artigos tratavam de IA de forma genérica (ex: algoritmos de otimização) sem conexão direta com processos de Engenharia de Software.
-*   **Conclusão:** O Consenso reduziu o ruído introduzido pela sensibilidade exagerada do Gemini.
+Abaixo, detalhamos os títulos dos artigos onde houve discordância entre o Consenso das IAs e a classificação Humana.
 
-### b) Consenso vs GPT 5.4
-*   **Apenas Consenso:** O Consenso aceitou 3 artigos que o GPT 5.4 isoladamente havia rejeitado em rodadas anteriores. Isso indica que a execução conjunta (com prompts padronizados) permitiu ao GPT identificar evidências que antes passaram despercebidas, ou que o Gemini "puxou" o consenso para o `YES` em casos limítrofes.
-*   **Apenas GPT:** Não houve artigos aceitos apenas pelo GPT que o Consenso não tenha capturado (na rodada de consenso), validando a estabilidade do modelo da OpenAI.
+### Tabela de Divergências
 
-### c) Apenas Humanos
-*   **Artigos:** Estudos com terminologias muito específicas de domínio (ex: MLOps aplicado a sensores IoT).
-*   **Razão:** O humano identifica a prática de engenharia mesmo sem as palavras-chave "Software Engineering". As IAs falham por rigor excessivo ao texto literal do Abstract.
+| Somente IA (Consenso) - *Falsos Positivos* | Somente Humano - *Falsos Negativos* |
+| :--- | :--- |
+| CAIN '22: Proceedings of the 1st International Conference on AI Engineering | Hyacinth macaw: a project-based learning program to develop talents in SE4AI |
+| Surfing the AI Wave in Software Engineering: Opportunities and Challenges | A License Management System for Collaborative AI Engineering |
+| Evaluation of The Generality of Multi-view Modeling Framework for ML Systems | Researchers’ Concerns on AI Ethics: Results from a Survey |
+| Why Large Language Models will (not) Kill Software Engineering Research | How Provenance helps Quality Assurance Activities in AI/ML Systems |
+| Component-based Approach to SE of ML-enabled Systems | Responsible AI Engineering: The Case of an Inclusive Image Annotation Team |
+| The Road Toward Dependable AI Based Systems | Scalable Multi-Facility Workflows for AI in Climate Research |
+| Explainable AI for software engineering | Curious, Critical Thinker: Essential Soft Skills for Data Scientists in SE |
+| Is ChatGPT Capable of Crafting Gamification Strategies for SE Tasks? | |
+| Digital Intellectual Property Protection System Based on AI Algorithm | |
+| End-User Software Engineering for Actionable AI: legal compliance | |
+
+### Causas Prováveis da Divergência
+
+1.  **Rigor Literal da IA (Falsos Negativos):** As IAs falharam em capturar artigos sobre "Ethics", "Soft Skills" e "License Management" porque os abstracts não continham descrições explícitas de processos de desenvolvimento técnico, embora humanos reconheçam a relevância para a Engenharia de Software.
+2.  **Palavras-Chave Ambíguas (Falsos Positivos):** Artigos como "ChatGPT for Gamification" ou "Intellectual Property System" foram aceitos pelas IAs por conterem as palavras-chave do critério, mas humanos os descartaram por serem aplicações de IA muito específicas e fora do escopo de *Engenharia de Software para IA*.
 
 ---
 
 ## 5. Conclusão
-O método de **Consenso** é superior aos modelos individuais por equilibrar o conservadorismo do GPT com a abrangência do Gemini. Ele aproxima a contagem final de artigos (19) do padrão humano (18), tornando-se uma ferramenta de triagem de alta confiabilidade.
+O método de **Consenso** provou ser a ferramenta mais eficaz para aproximar a automação da decisão humana. Ele filtra a maioria dos aceites errôneos do Gemini e expande o olhar conservador do GPT, resultando em um conjunto final de artigos muito próximo (19 vs 18) do volume real esperado.

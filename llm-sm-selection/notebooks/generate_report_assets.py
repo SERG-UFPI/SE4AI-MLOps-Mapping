@@ -2,13 +2,11 @@ import pandas as pd
 import json
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
-from matplotlib_venn import venn2, venn3
+from matplotlib_venn import venn2
 import os
 
 # Configurações de plotagem
 sns.set_theme(style="whitegrid")
-plt.rcParams['figure.figsize'] = [10, 7]
 
 # Caminhos dos arquivos
 HUMAN_PATH = "../data/articles_2.json"
@@ -65,24 +63,30 @@ df['Included_GPT'] = df[['CI1_GPT', 'CI2_GPT', 'CI3_GPT']].any(axis=1)
 df['Included_Gemini'] = df[['CI1_Gemini', 'CI2_Gemini', 'CI3_Gemini']].any(axis=1)
 df['Included_Consensus'] = df[['CI1_Consensus', 'CI2_Consensus', 'CI3_Consensus']].any(axis=1)
 
-# Imagem 1: Acceptance Comparison
-plt.figure(figsize=(10, 6))
-counts = [df['Included_Human'].sum(), df['Included_GPT'].sum(), df['Included_Gemini'].sum(), df['Included_Consensus'].sum()]
-labels = ['Humano', 'GPT 5.4', 'Gemini 3.1 Flash', 'Consenso']
-sns.barplot(x=labels, y=counts, palette='magma')
-plt.title("Total de Artigos Incluídos por Método")
-plt.ylabel("Quantidade")
-plt.savefig("acceptance_comparison.png")
+# Imagem: Venn Diagrams (IA vs Humano)
+fig, axes = plt.subplots(1, 3, figsize=(20, 6))
+set_h = set(df[df['Included_Human']].index)
+
+venn2([set_h, set(df[df['Included_GPT']].index)], ('Humano', 'GPT 5.4'), ax=axes[0])
+axes[0].set_title("Humano vs GPT 5.4")
+
+venn2([set_h, set(df[df['Included_Gemini']].index)], ('Humano', 'Gemini 3.1 Flash'), ax=axes[1])
+axes[1].set_title("Humano vs Gemini 3.1 Flash")
+
+venn2([set_h, set(df[df['Included_Consensus']].index)], ('Humano', 'Consenso'), ax=axes[2])
+axes[2].set_title("Humano vs Consenso")
+
+plt.savefig("venn_human_comparison.png")
 plt.close()
 
-# Imagem 2: Venn Diagram IA Intersection
-plt.figure(figsize=(10, 8))
-venn3([set(df[df['Included_GPT']].index), 
-       set(df[df['Included_Gemini']].index), 
-       set(df[df['Included_Consensus']].index)], 
-      ('GPT 5.4', 'Gemini 3.1 Flash', 'Consenso'))
-plt.title("Interseção de Inclusão entre as IAs")
-plt.savefig("venn_intersection.png")
-plt.close()
+# Extração de Títulos para a Tabela de Divergências (Consenso vs Humano)
+ia_only = df[(df['Included_Consensus'] == True) & (df['Included_Human'] == False)]['Título'].tolist()
+human_only = df[(df['Included_Consensus'] == False) & (df['Included_Human'] == True)]['Título'].tolist()
 
-print("Imagens geradas com sucesso!")
+print("\n--- ARTIGOS ACEITOS APENAS PELA IA (CONSENSO) ---")
+for t in ia_only: print(f"- {t}")
+
+print("\n--- ARTIGOS ACEITOS APENAS PELO HUMANO ---")
+for t in human_only: print(f"- {t}")
+
+print("\nImagens geradas: venn_human_comparison.png")
