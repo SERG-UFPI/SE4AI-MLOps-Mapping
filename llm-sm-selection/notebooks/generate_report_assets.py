@@ -73,8 +73,8 @@ axes[0].set_title("Humano vs GPT 5.4")
 venn2([set_h, set(df[df['Included_Gemini']].index)], ('Humano', 'Gemini 3.1 Flash'), ax=axes[1])
 axes[1].set_title("Humano vs Gemini 3.1 Flash")
 
-venn2([set_h, set(df[df['Included_Consensus']].index)], ('Humano', 'Consenso'), ax=axes[2])
-axes[2].set_title("Humano vs Consenso")
+venn2([set_h, set(df[df['Included_Consensus']].index)], ('Humano', 'GPT 5.4 + Gemini 3.1 Flash'), ax=axes[2])
+axes[2].set_title("Humano vs GPT 5.4 + Gemini 3.1 Flash")
 
 plt.savefig("venn_human_comparison.png")
 plt.close()
