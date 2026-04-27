@@ -9,6 +9,7 @@ from src.config import ConfigManager
 from src.llms.gemini_ternario import GeminiLLMV2
 from src.llms.chatgpt_ternario import ChatGPTLLM
 from src.llms.consensus_ternario import ConsensusLLM
+from src.llms.techne_bridge import TechneBridgeLLM
 
 
 def main():
@@ -31,6 +32,11 @@ def main():
     elif provider == "google":
         classifier = GeminiLLMV2(
             api_key=os.getenv("GOOGLE_API_KEY"),
+            model_name=llm_params["model"],
+            config=llm_params
+        )
+    elif provider == "techne":
+        classifier = TechneBridgeLLM(
             model_name=llm_params["model"],
             config=llm_params
         )
