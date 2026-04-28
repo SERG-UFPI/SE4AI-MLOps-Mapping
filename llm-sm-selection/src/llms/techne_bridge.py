@@ -14,7 +14,7 @@ class TechneBridgeLLM(BaseLLM):
         self.api_key = "techne2026"
         self.model_name = model_name
         self.config = config
-        self.base_url = config.get("base_url", "http://10.94.80.13:8080").rstrip("/")
+        self.base_url = "http://localhost:8080"
 
     def batch_classify(
         self, articles: List[Dict[str, Any]], criteria: Dict[str, str], checkpoint_interval: int = 10
