@@ -47,7 +47,7 @@ class GeminiNumericLLM(BaseLLM):
             try:
                 result = self.evaluate_article(article, criteria)
                 results.append(result)
-                time.sleep(2) 
+                #time.sleep(2) 
                 
                 if (i + 1) % checkpoint_interval == 0:
                     with open(checkpoint_path, "w", encoding="utf-8") as f:
@@ -122,13 +122,9 @@ class GeminiNumericLLM(BaseLLM):
             "systematic literature review (SLR). Your goal is to evaluate a primary "
             "study based on its title and abstract against a specific criterion using a scale of 1 to 7.\n\n"
             "SCORING SCALE:\n"
-            "1: COMPLETELY IRRELEVANT - The study has no connection to the criterion.\n"
-            "2: VERY LOW RELEVANCE - Barely mentions related terms, clearly not a fit.\n"
-            "3: LOW RELEVANCE - Related to the general field, but does not address the specific criterion.\n"
-            "4: NEUTRAL/UNCLEAR - The abstract is too vague to decide, or information is missing.\n"
-            "5: MODERATE RELEVANCE - Partially addresses the criterion, but lacks depth or focus.\n"
-            "6: HIGH RELEVANCE - Clearly and explicitly addresses the criterion as a main component.\n"
-            "7: ESSENTIAL/TOTAL MATCH - Central to the study; explicitly and deeply addresses the criterion.\n\n"
+            "1 - Strongly disagree, 2 - Disagree, 3 - Somewhat disagree, "
+            "4 - Neither agree nor disagree, 5 - Somewhat agree, 6 - Agree, "
+            "and 7 - Strongly agree.\n\n"
             "EVALUATION RULES:\n"
             "1. Assign a numeric score (1-7) based on how well the study meets the criterion.\n"
             "2. Anchor your reasoning explicitly in the text of the abstract.\n"

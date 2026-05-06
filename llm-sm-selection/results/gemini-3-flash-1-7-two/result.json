@@ -1,0 +1,3902 @@
+[
+    {
+        "article_metadata": {
+            "title": "QAI4ASE: Quantum artificial intelligence for automotive software engineering",
+            "author": "De Vincentiis, Mirko; Cassano, Fabio; Pagano, Alessandro; Piccinno, Antonio",
+            "year": 2022
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract describes AI supporting automotive SE (\"AI4SE\"), not SE practices applied to AI-based systems (\"SE4AI\").",
+                "telemetry": {
+                    "latency_sec": 4.19,
+                    "tokens_prompt": 420,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "The 'vision model' supports automotive development, not the development of AI systems themselves.",
+                "telemetry": {
+                    "latency_sec": 7.27,
+                    "tokens_prompt": 424,
+                    "tokens_completion": 28
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Mentions 'lack of required skills' for standards, but lacks explicit focus on AI engineering challenges or integration limitations.",
+                "telemetry": {
+                    "latency_sec": 5.14,
+                    "tokens_prompt": 418,
+                    "tokens_completion": 40
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Software Engineering Methods for Responsible Artificial Intelligence",
+            "author": "Islam, Zahoor Ul",
+            "year": 2021
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "reasoning": "Abstract explicitly mentions developing an \"engineering process model\" for the AI \"software development life-cycle.\"",
+                "telemetry": {
+                    "latency_sec": 3.15,
+                    "tokens_prompt": 385,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "reasoning": "Proposes an \"engineering process model\" and \"design methodological framework\" for ethical AI development throughout the software life-cycle.",
+                "telemetry": {
+                    "latency_sec": 4.03,
+                    "tokens_prompt": 389,
+                    "tokens_completion": 34
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Focuses on proposing a framework; does not explicitly identify or list challenges, open problems, or limitations.",
+                "telemetry": {
+                    "latency_sec": 3.85,
+                    "tokens_prompt": 383,
+                    "tokens_completion": 38
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Digital Twins for Software Engineering Processes",
+            "author": "Kimmel, Robin; Michael, Judith; Wortmann, Andreas; Zhang, Jingxi",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract discusses general software engineering processes but never mentions AI-based systems or their specific lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 2.56,
+                    "tokens_prompt": 373,
+                    "tokens_completion": 28
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract discusses digital twins for general software engineering, not AI systems or specific development guidelines.",
+                "telemetry": {
+                    "latency_sec": 3.17,
+                    "tokens_prompt": 377,
+                    "tokens_completion": 34
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract discusses software engineering digital twins but never mentions AI systems or AI engineering challenges.",
+                "telemetry": {
+                    "latency_sec": 3.69,
+                    "tokens_prompt": 371,
+                    "tokens_completion": 27
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Hyacinth macaw: a project-based learning program to develop talents in Software Engineering for Artificial Intelligence",
+            "author": "Fontão, Awdren; Matsubara, Edson; Mongelli, Henrique; Medeiros, Marcio; Lourenço, Carlos; Martins, Henrique; Cortez, Igor; Borges, Maria",
+            "year": 2023
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "reasoning": "Participants delivered an 'MVP in machine learning' and applied 'software architecture for AI' during the project-based program.",
+                "telemetry": {
+                    "latency_sec": 5.32,
+                    "tokens_prompt": 442,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Evaluates a learning program; does not explicitly propose or evaluate specific AI development best practices or guidelines.",
+                "telemetry": {
+                    "latency_sec": 5.73,
+                    "tokens_prompt": 446,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "The study describes a training program and student perceptions, lacking identification of technical challenges or open problems.",
+                "telemetry": {
+                    "latency_sec": 4.41,
+                    "tokens_prompt": 440,
+                    "tokens_completion": 36
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "CAIN '22: Proceedings of the 1st International Conference on AI Engineering: Software Engineering for AI",
+            "author": null,
+            "year": 2022
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "reasoning": "Abstract explicitly targets 'entire lifecycle' including 'code development' and 'maintenance and evolution' for AI-enabled systems.",
+                "telemetry": {
+                    "latency_sec": 3.99,
+                    "tokens_prompt": 369,
+                    "tokens_completion": 41
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract identifies challenges and needs but does not propose or evaluate specific practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 5.43,
+                    "tokens_prompt": 373,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "reasoning": "Abstract targets 'challenges emerging in Software Engineering for AI-enabled systems' across the entire lifecycle.",
+                "telemetry": {
+                    "latency_sec": 5.71,
+                    "tokens_prompt": 367,
+                    "tokens_completion": 30
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "A Novel Artificial Intelligence Voice Electronic Medical Record Based on Blockchain",
+            "author": "Xie, Weiming; Yao, Zhaomin; Bai, Xiaozhou; Mai, Lang; Zhan, Ying; Wu, Xiaodan; Dai, Yingxin; Pei, Yusong; Zhang, Guoxu; Wang, Zhiguo",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "reasoning": "Mentions \"architecture\" and \"continuously improved,\" but focuses on system functionality rather than software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 5.76,
+                    "tokens_prompt": 495,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Proposes a \"voice electronic medical record system\" but lacks explicit best practices, guidelines, or design patterns for AI development.",
+                "telemetry": {
+                    "latency_sec": 10.45,
+                    "tokens_prompt": 499,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Identifies EMR interoperability challenges but lacks focus on AI engineering or integration limitations.",
+                "telemetry": {
+                    "latency_sec": 3.58,
+                    "tokens_prompt": 493,
+                    "tokens_completion": 34
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "COL-SAI: COllaboration and Learning through Symbiotic Artificial Intelligence",
+            "author": "Calvano, Miriana; Curci, Antonio; Cantone, Andrea Antonio; Perillo, Francesca",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract focuses on human-AI interaction and daily life, lacking any mention of software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 2.35,
+                    "tokens_prompt": 341,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Workshop only \"aims to investigate\" interaction; no explicit best practices or design patterns are proposed or evaluated.",
+                "telemetry": {
+                    "latency_sec": 3.48,
+                    "tokens_prompt": 345,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Workshop aims to 'investigate' interactions but fails to explicitly identify specific challenges or limitations in AI engineering.",
+                "telemetry": {
+                    "latency_sec": 3.6,
+                    "tokens_prompt": 339,
+                    "tokens_completion": 38
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Software Engineering and Gender: A Tutorial",
+            "author": "Jaccheri, Letizia; Duc, Anh Nguyen",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "reasoning": "Mentions 'AI engineering' but focuses on 'team diversity' rather than specific lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 9.51,
+                    "tokens_prompt": 369,
+                    "tokens_completion": 28
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 3,
+                "reasoning": "Tutorial presents studies on 'investigating solutions' but lacks explicit AI development guidelines or design patterns.",
+                "telemetry": {
+                    "latency_sec": 7.16,
+                    "tokens_prompt": 373,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "reasoning": "Abstract identifies \"gender bias issues\" and \"team diversity\" as challenges within AI engineering.",
+                "telemetry": {
+                    "latency_sec": 3.72,
+                    "tokens_prompt": 367,
+                    "tokens_completion": 35
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "A License Management System for Collaborative AI Engineering",
+            "author": "Daliparthi, Venkata Satya Sai Ajay; Tutschku, Kurt; Momen, Nurul; Prado, Miguel De; Divernis, Margaux; Escudero, Nuria Pazos; Bonnefous, Jean-Marc",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 5,
+                "reasoning": "Mentions 'AI engineering pipeline' and 'integrating the artifact', addressing management aspects of the AI development lifecycle.",
+                "telemetry": {
+                    "latency_sec": 6.94,
+                    "tokens_prompt": 477,
+                    "tokens_completion": 34
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Focuses on license management system implementation without explicitly stating best practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 5.73,
+                    "tokens_prompt": 481,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "reasoning": "Identifies 'dilemma' between sharing and IP protection as a challenge in collaborative AI engineering.",
+                "telemetry": {
+                    "latency_sec": 3.38,
+                    "tokens_prompt": 475,
+                    "tokens_completion": 29
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Surfing the AI Wave in Software Engineering: Opportunities and Challenges",
+            "author": "Novielli, Nicole",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Focuses on 'AI in Software Engineering' research; no mention of SE practices for AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 10.04,
+                    "tokens_prompt": 382,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract discusses general opportunities and challenges without proposing specific best practices, guidelines, or design patterns for AI development.",
+                "telemetry": {
+                    "latency_sec": 3.59,
+                    "tokens_prompt": 386,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "reasoning": "Abstract explicitly mentions assessing 'opportunities and challenges' and 'risks' of generative AI in software engineering.",
+                "telemetry": {
+                    "latency_sec": 8.42,
+                    "tokens_prompt": 380,
+                    "tokens_completion": 32
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Software durability (is software engineering sustainable?)",
+            "author": "Rumley, Sébastien",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Mentions AI generating code but does not apply SE practices to AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 5.5,
+                    "tokens_prompt": 625,
+                    "tokens_completion": 34
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract mentions AI as a tool but provides no specific guidelines or patterns for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 4.3,
+                    "tokens_prompt": 629,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Abstract focuses on general software sustainability; mentions AI-generated code briefly without identifying specific AI engineering challenges or limitations.",
+                "telemetry": {
+                    "latency_sec": 4.88,
+                    "tokens_prompt": 623,
+                    "tokens_completion": 39
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "On the Reliability of Artificial Intelligence Systems",
+            "author": "Konstantopoulos, Stasinos",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "reasoning": "Abstract covers 'technical aspects of the complete life-cycle... from its design', explicitly addressing SE lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 9.56,
+                    "tokens_prompt": 325,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "reasoning": "Proposes \"concrete technical requirements\" for the \"complete life-cycle\" of AI systems, including design and monitoring.",
+                "telemetry": {
+                    "latency_sec": 3.34,
+                    "tokens_prompt": 329,
+                    "tokens_completion": 41
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "reasoning": "Outlines a \"research plan\" to \"advance the state of the art,\" identifying open problems in AI engineering.",
+                "telemetry": {
+                    "latency_sec": 10.37,
+                    "tokens_prompt": 323,
+                    "tokens_completion": 40
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Researchers’ Concerns on Artificial Intelligence Ethics: Results from a Scenario-Based Survey",
+            "author": "Jantunen, Marianna; Meyes, Richard; Kurchyna, Veronika; Meisen, Tobias; Abrahamsson, Pekka; Mohanani, Rahul",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "reasoning": "Focuses on ethical concerns via surveys; mentions 'AI software development' only as a potential area of impact.",
+                "telemetry": {
+                    "latency_sec": 6.49,
+                    "tokens_prompt": 431,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Study investigates researcher concerns via survey; it does not propose or evaluate specific development guidelines or best practices.",
+                "telemetry": {
+                    "latency_sec": 3.24,
+                    "tokens_prompt": 435,
+                    "tokens_completion": 37
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "reasoning": "Identifies 'threats posed by AI systems' and 'negative impacts,' addressing ethical challenges in AI software development.",
+                "telemetry": {
+                    "latency_sec": 4.9,
+                    "tokens_prompt": 429,
+                    "tokens_completion": 40
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "A Tutorial on Software Engineering for FMware",
+            "author": "Cogo, Filipe Roseiro; Rajbahadur, Gopi Krishnan; Lin, Dayi; Hassan, Ahmed E.",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "reasoning": "Abstract discusses 'engineering FMware' and 'techniques to build FMware', explicitly addressing development practices for AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 3.03,
+                    "tokens_prompt": 401,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "reasoning": "Tutorial 'presents the latest research and industrial practices' and 'core tools and techniques' for engineering FMware.",
+                "telemetry": {
+                    "latency_sec": 8.02,
+                    "tokens_prompt": 405,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "reasoning": "Abstract explicitly mentions 'numerous challenges' and 'introducing SE challenges' regarding FMware engineering.",
+                "telemetry": {
+                    "latency_sec": 3.34,
+                    "tokens_prompt": 399,
+                    "tokens_completion": 36
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Application Research on Artificial Intelligence-Empowered Library Service Model",
+            "author": "Li, Kaitong; Yang, Qinqin; Wang, Yichao; Xie, Jiayi; Xie, Zhizhuo; Peng, Feifei",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 4,
+                "reasoning": "Mentions 'system development practices' for an AI system, but focuses on service model innovation rather than SE lifecycle.",
+                "telemetry": {
+                    "latency_sec": 9.91,
+                    "tokens_prompt": 449,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Discusses 'innovation and optimization strategy' for library services, but lacks explicit AI development guidelines or design patterns.",
+                "telemetry": {
+                    "latency_sec": 4.81,
+                    "tokens_prompt": 453,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Identifies chatbots 'can only answer some fixed questions' but lacks focus on AI engineering or integration challenges.",
+                "telemetry": {
+                    "latency_sec": 8.5,
+                    "tokens_prompt": 447,
+                    "tokens_completion": 38
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Towards Trustworthy AI Engineering - A Case Study on integrating an AI audit catalog into MLOps processes",
+            "author": "Helmer, Lennard; Martens, Claudio; Wegener, Dennis; Akila, Maram; Becker, Daniel; Abbas, Sermad",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "reasoning": "Study integrates requirements into \"MLOps processes\" and \"pipeline engineering,\" directly addressing AI software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 3.38,
+                    "tokens_prompt": 409,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 7,
+                "reasoning": "Abstract explicitly states it \"provides clear recommendations\" and \"necessary considerations\" for Trustworthy AI engineering and operations.",
+                "telemetry": {
+                    "latency_sec": 2.86,
+                    "tokens_prompt": 413,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 7,
+                "reasoning": "The study explicitly identifies 'integration... into the pipeline engineering process is missing' as an 'open problem' and discusses 'challenges'.",
+                "telemetry": {
+                    "latency_sec": 3.42,
+                    "tokens_prompt": 407,
+                    "tokens_completion": 35
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "CarAI: Car Inspection with Artificial Intelligence",
+            "author": "Chetprayoon, Panumate; Tasanangam, Sakol; Tirumalasetty, Gayatri; Angsarawanee, Thanatwit; Virameteekul, Paveen; Lertwatanawanich, Wadeepas; Sakdejayont, Theerat",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract describes 'end-to-end solution' functionality; no explicit mention of software engineering development or maintenance practices.",
+                "telemetry": {
+                    "latency_sec": 4.4,
+                    "tokens_prompt": 386,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "The study presents a specific application but lacks explicit best practices, guidelines, or design patterns for AI development.",
+                "telemetry": {
+                    "latency_sec": 3.18,
+                    "tokens_prompt": 390,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract describes tool features but lacks discussion on AI engineering challenges or integration limitations.",
+                "telemetry": {
+                    "latency_sec": 3.0,
+                    "tokens_prompt": 384,
+                    "tokens_completion": 24
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "The application of artificial intelligence to classroom attendance",
+            "author": "Liu, Xiang; Liu, Chun",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Focuses on \"improved YOLO8 algorithm\" for detection; lacks explicit software engineering lifecycle practices or development methodologies.",
+                "telemetry": {
+                    "latency_sec": 2.97,
+                    "tokens_prompt": 396,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Proposes \"improved YOLO8 algorithm\" for attendance; lacks explicit best practices, guidelines, or design patterns for AI development.",
+                "telemetry": {
+                    "latency_sec": 4.87,
+                    "tokens_prompt": 400,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "The abstract focuses on model optimization for attendance, lacking discussion on AI engineering challenges or integration limitations.",
+                "telemetry": {
+                    "latency_sec": 3.46,
+                    "tokens_prompt": 394,
+                    "tokens_completion": 36
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Constructing the Mode of \"Four-in-One\" Software Engineering Master Training Based on Artificial Intelligence",
+            "author": "Duan, Yuanpeng; Gong, Weixin",
+            "year": 2022
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "reasoning": "Focuses on 'training mode' and curriculum; no explicit software engineering lifecycle practices for AI systems mentioned.",
+                "telemetry": {
+                    "latency_sec": 9.69,
+                    "tokens_prompt": 443,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Focuses on 'master training' and curriculum; provides no technical guidelines for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 5.16,
+                    "tokens_prompt": 447,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "reasoning": "Identifies \"outdated cultivation mode\" and \"lack of AI courses\" as challenges in software engineering education for AI.",
+                "telemetry": {
+                    "latency_sec": 10.54,
+                    "tokens_prompt": 441,
+                    "tokens_completion": 41
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Evaluation of The Generality of Multi-view Modeling Framework for ML Systems",
+            "author": "Husen, Jati H.; Runpakprakun, Jomphon; Chang, Sun; Washizaki, Hironori; Tun, Hnin Thandar; Yoshioka, Nobukazu; Fukazawa, Yoshiaki",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "reasoning": "\"Synchronize... traditional software engineering\" addresses development lifecycle practices for ML systems.",
+                "telemetry": {
+                    "latency_sec": 6.0,
+                    "tokens_prompt": 356,
+                    "tokens_completion": 26
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "reasoning": "Evaluates 'Multi-View Modeling Framework for ML Systems (M3S)' as a structured development approach through comparative case studies.",
+                "telemetry": {
+                    "latency_sec": 5.79,
+                    "tokens_prompt": 360,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "reasoning": "Abstract identifies \"limitations\" and \"further investigation\" needed for ML tasks beyond multi-class classification.",
+                "telemetry": {
+                    "latency_sec": 8.27,
+                    "tokens_prompt": 354,
+                    "tokens_completion": 30
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Why Large Language Models will (not) Kill Software Engineering Research",
+            "author": "Di Penta, Massimiliano",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "reasoning": "Mentions 'development context' and 'evaluate' models, but focuses on research trends rather than specific lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 8.44,
+                    "tokens_prompt": 465,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "The abstract discusses research trends but does not propose or evaluate specific best practices or guidelines for AI development.",
+                "telemetry": {
+                    "latency_sec": 3.31,
+                    "tokens_prompt": 469,
+                    "tokens_completion": 37
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "reasoning": "Identifies human, ethical, and legal factors as open research areas for LLM integration in development.",
+                "telemetry": {
+                    "latency_sec": 5.38,
+                    "tokens_prompt": 463,
+                    "tokens_completion": 37
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Towards LLM-augmented multiagent systems for agile software engineering",
+            "author": "Cinkusz, Konrad; Chudziak, Jaroslaw A.",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "reasoning": "Focuses on AI for software engineering, not engineering AI-based systems specifically.",
+                "telemetry": {
+                    "latency_sec": 3.49,
+                    "tokens_prompt": 389,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Abstract proposes 'CogniSim Ecosystem' for software engineering, lacking explicit guidelines or design patterns for AI system development.",
+                "telemetry": {
+                    "latency_sec": 10.63,
+                    "tokens_prompt": 393,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract describes a proposed ecosystem but does not explicitly identify challenges, open problems, or limitations.",
+                "telemetry": {
+                    "latency_sec": 3.59,
+                    "tokens_prompt": 387,
+                    "tokens_completion": 35
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Resilient AI Framework for Secure and Ethical Machine Learning Systems (RAISE) - 1st edition",
+            "author": "Breve, Bernardo; Caruccio, Loredana; Polese, Giuseppe",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract summarizes a workshop; no explicit mention of software engineering lifecycle practices like development or maintenance.",
+                "telemetry": {
+                    "latency_sec": 2.56,
+                    "tokens_prompt": 307,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract only provides a \"summary of the First Workshop,\" lacking any explicit guidelines or design patterns.",
+                "telemetry": {
+                    "latency_sec": 2.99,
+                    "tokens_prompt": 311,
+                    "tokens_completion": 28
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract only summarizes a workshop announcement; no specific challenges or limitations are explicitly identified.",
+                "telemetry": {
+                    "latency_sec": 3.46,
+                    "tokens_prompt": 305,
+                    "tokens_completion": 25
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Enhancing Accessibility in Software Engineering Projects with Large Language Models (LLMs)",
+            "author": "Aljedaani, Wajdi; Eler, Marcelo Medeiros; Parthasarathy, P D",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Study uses LLMs as tools for web development, not applying SE practices to AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 3.79,
+                    "tokens_prompt": 474,
+                    "tokens_completion": 37
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Study evaluates LLMs for teaching web accessibility, not guidelines or patterns for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 2.68,
+                    "tokens_prompt": 478,
+                    "tokens_completion": 27
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Study 'leverages' LLMs for accessibility education; identifies no challenges in AI engineering or system integration.",
+                "telemetry": {
+                    "latency_sec": 9.95,
+                    "tokens_prompt": 472,
+                    "tokens_completion": 32
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "DAI '25: Proceedings of the 2025 7th International Conference on Distributed Artificial Intelligence",
+            "author": null,
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract is missing; title mentions \"Distributed Artificial Intelligence\" without referencing software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 2.04,
+                    "tokens_prompt": 250,
+                    "tokens_completion": 27
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract missing; title identifies conference proceedings only, lacking specific AI development guidelines or design patterns.",
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 254,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract is absent; title identifies proceedings without mentioning challenges, open problems, or AI engineering limitations.",
+                "telemetry": {
+                    "latency_sec": 2.74,
+                    "tokens_prompt": 248,
+                    "tokens_completion": 36
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "icARTi '25: Proceedings of the 2025 International Conference on Artificial Intelligence and its Applications",
+            "author": null,
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Title mentions AI applications; no abstract or explicit mention of software engineering lifecycle practices provided.",
+                "telemetry": {
+                    "latency_sec": 3.16,
+                    "tokens_prompt": 251,
+                    "tokens_completion": 26
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract is missing; title identifies conference proceedings without specific AI development guidelines or patterns.",
+                "telemetry": {
+                    "latency_sec": 2.11,
+                    "tokens_prompt": 255,
+                    "tokens_completion": 25
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract is missing; title only names a conference without identifying specific challenges or AI engineering limitations.",
+                "telemetry": {
+                    "latency_sec": 2.37,
+                    "tokens_prompt": 249,
+                    "tokens_completion": 27
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Accessibility Insights from Student's Software Engineering Projects",
+            "author": "Aljedaani, Wajdi; Parthasarathy, P D; Joshi, Swaroop; Eler, Marcelo Medeiros",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "The study focuses on web accessibility in student projects; it contains no mention of AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 2.35,
+                    "tokens_prompt": 423,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "The abstract focuses on \"web content accessibility guidelines (WCAG)\" and \"web projects,\" mentioning nothing about AI systems.",
+                "telemetry": {
+                    "latency_sec": 2.2,
+                    "tokens_prompt": 427,
+                    "tokens_completion": 34
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "The abstract focuses on web accessibility and WCAG, mentioning no AI systems or AI engineering challenges.",
+                "telemetry": {
+                    "latency_sec": 2.27,
+                    "tokens_prompt": 421,
+                    "tokens_completion": 36
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Introducing Software Development Process, Software Engineering, and Artificial Intelligence in a CS0.5 Course Project",
+            "author": "Hadfield, Steven M.; Roosma, Alexander C.; de Freitas, Adrian A.; Braun, Kimberly A.; Fulton, Steven P.; Coffman, Joel; Merritt, David T.; Sample, Kenneth R.; Wilson, Justin C.; Birrer, Bobby D.",
+            "year": 2022
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 5,
+                "reasoning": "Students utilized a software system development process for a project incorporating genetic algorithms for an autopilot.",
+                "telemetry": {
+                    "latency_sec": 10.1,
+                    "tokens_prompt": 701,
+                    "tokens_completion": 26
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Focuses on general software processes (UDIT) in education, not specific AI development best practices or design patterns.",
+                "telemetry": {
+                    "latency_sec": 4.48,
+                    "tokens_prompt": 705,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract describes a course project implementation and assessment, not challenges or limitations in AI engineering.",
+                "telemetry": {
+                    "latency_sec": 2.69,
+                    "tokens_prompt": 699,
+                    "tokens_completion": 26
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "How Provenance helps Quality Assurance Activities in AI/ML Systems",
+            "author": "Nakagawa, Takao; Narita, Kenichiro; Kim, Kyoung-Sook",
+            "year": 2023
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "reasoning": "Abstract covers 'quality assurance lifecycle' and practices from 'data collection to experimentation to deployment' for AI systems.",
+                "telemetry": {
+                    "latency_sec": 2.99,
+                    "tokens_prompt": 424,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Proposes 'AIQPROV model' for provenance; lacks explicit best practices, guidelines, recommendations, or design patterns for AI development.",
+                "telemetry": {
+                    "latency_sec": 10.31,
+                    "tokens_prompt": 428,
+                    "tokens_completion": 45
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "reasoning": "Identifies 'quality evaluation methods... have not yet been established' as a challenge in AI engineering.",
+                "telemetry": {
+                    "latency_sec": 5.72,
+                    "tokens_prompt": 422,
+                    "tokens_completion": 37
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Teaching Requirements Engineering for AI: A Goal-Oriented Approach in Software Engineering Courses",
+            "author": "Batista, Beatriz Braga; Lima, Márcia Sampaio; Conte, Tayana Uchôa",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "reasoning": "Study evaluates 'Requirements Engineering for AI-based systems (RE4AI)', explicitly addressing development lifecycle practices for AI technologies.",
+                "telemetry": {
+                    "latency_sec": 8.94,
+                    "tokens_prompt": 556,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "reasoning": "Evaluates KAOS methodology for AI requirements, providing insights on its effectiveness and challenges for AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 5.53,
+                    "tokens_prompt": 560,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "reasoning": "Identifies limitations like \"less effective for detailed planning\" and challenges in \"determining goal refinement stopping criteria\" for AI.",
+                "telemetry": {
+                    "latency_sec": 5.14,
+                    "tokens_prompt": 554,
+                    "tokens_completion": 41
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "UCAI 2024: Workshop on User-Centered Artificial Intelligence",
+            "author": "Buschek, Daniel; Frommel, Julian; Hauptmann, Hanna; Heuer, Hendrik; Smits, Aletta",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "reasoning": "Mentions \"design and engineering\" but focuses on HCI goals, lacking explicit software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 9.99,
+                    "tokens_prompt": 362,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Workshop description aims to 'discuss recent developments' but provides no specific guidelines, recommendations, or patterns.",
+                "telemetry": {
+                    "latency_sec": 4.9,
+                    "tokens_prompt": 366,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "reasoning": "Identifies \"challenges for the design and engineering\" and limitations like \"black boxes\" and lack of \"transparency\".",
+                "telemetry": {
+                    "latency_sec": 4.04,
+                    "tokens_prompt": 360,
+                    "tokens_completion": 33
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Responsible AI Engineering: The Case of an Inclusive Image Annotation Team in a Global Technology Company",
+            "author": "Schenkenfelder, Bernhard; Brandstätter, Ulrich; Fischer, Lukas; Ramler, Rudolf; Laister, Dominik; Hartl, Martin; Wurm, Markus",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 5,
+                "reasoning": "Identifies 'requirements... to improve software tool support' and annotation as AI development lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 9.13,
+                    "tokens_prompt": 441,
+                    "tokens_completion": 28
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "reasoning": "Proposes a \"blueprint for creating inclusive AI annotation workplaces\" and identifies \"requirements\" for software tool support.",
+                "telemetry": {
+                    "latency_sec": 6.18,
+                    "tokens_prompt": 445,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "reasoning": "Identifies annotation challenges (\"expensive, time-consuming\") and \"requirements... to improve software tool support\" within AI engineering.",
+                "telemetry": {
+                    "latency_sec": 4.77,
+                    "tokens_prompt": 439,
+                    "tokens_completion": 42
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Regulating artificial intelligence: a technology regulator's perspective",
+            "author": "Ellul, Joshua; Pace, Gordon; McCarthy, Stephen; Sammut, Trevor; Brockdorff, Juanita; Scerri, Matthew",
+            "year": 2021
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract discusses 'regulatory framework' and 'legal' aspects, lacking explicit mention of software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 3.99,
+                    "tokens_prompt": 388,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Proposes \"technology assurance regulatory framework\"; focuses on legal/regulatory aspects rather than specific AI development guidelines or patterns.",
+                "telemetry": {
+                    "latency_sec": 5.7,
+                    "tokens_prompt": 392,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Focuses on \"regulatory framework\" and policy; lacks identification of technical AI engineering challenges or integration limitations.",
+                "telemetry": {
+                    "latency_sec": 3.21,
+                    "tokens_prompt": 386,
+                    "tokens_completion": 38
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Research on the application of artificial intelligence in software automation test case generation in aerospace field",
+            "author": "Li, Wenquan; Shao, Fangsong; Fang, Yu",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Focuses on AI for testing traditional software, not SE practices for AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 3.08,
+                    "tokens_prompt": 395,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract focuses on AI for testing, not guidelines or patterns for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 3.57,
+                    "tokens_prompt": 399,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "reasoning": "Abstract explicitly states intent to \"explore its potential advantages and challenges\" regarding AI application in software testing.",
+                "telemetry": {
+                    "latency_sec": 11.16,
+                    "tokens_prompt": 393,
+                    "tokens_completion": 31
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Integrating LLMs in Software Engineering Education: Motivators, Demotivators, and a Roadmap Towards a Framework for Finnish Higher Education Institutes",
+            "author": "Khan, Maryam; Akbar, Muhammad Azeem; Kasurinen, Jussi",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract focuses on 'LLMs in software engineering education', not SE lifecycle practices for AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 3.99,
+                    "tokens_prompt": 480,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Focuses on LLM integration in education, not AI system development; no development guidelines or patterns are provided.",
+                "telemetry": {
+                    "latency_sec": 4.3,
+                    "tokens_prompt": 484,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Identifies 'demotivators' in SE education, not challenges in AI engineering or integration into AI systems.",
+                "telemetry": {
+                    "latency_sec": 10.24,
+                    "tokens_prompt": 478,
+                    "tokens_completion": 39
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Navigating Academic Careers in Software Engineering: An Empirical Study of Faculty and Postdoctoral Roles",
+            "author": "Kassab, Mohamad",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract analyzes academic job postings; mentions AI as a skill requirement, not SE lifecycle practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 2.97,
+                    "tokens_prompt": 444,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Study analyzes academic hiring trends; mentions AI only as a job requirement, not development best practices.",
+                "telemetry": {
+                    "latency_sec": 2.97,
+                    "tokens_prompt": 448,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Focuses on academic hiring trends; mentions AI only as a required skill, not engineering challenges or system integration.",
+                "telemetry": {
+                    "latency_sec": 3.18,
+                    "tokens_prompt": 442,
+                    "tokens_completion": 39
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Scalable Multi-Facility Workflows for Artificial Intelligence Applications in Climate Research",
+            "author": "Kurihana, Takuya; Skluzacek, Tyler J.; Ferreira da Silva, Rafael; Anantharaj, Valentine",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 3,
+                "reasoning": "Mentions 'developing' a workflow, but focuses on performance and infrastructure rather than software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 3.91,
+                    "tokens_prompt": 477,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Abstract evaluates 'automated multi-facility workflow' performance, but lacks explicit best practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 9.59,
+                    "tokens_prompt": 481,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Identifies 'scale and complexity' challenges but focuses on performance results rather than systematic AI engineering limitations.",
+                "telemetry": {
+                    "latency_sec": 11.66,
+                    "tokens_prompt": 475,
+                    "tokens_completion": 31
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Teamwork Quality in Agile Capstone Courses: Insights from 790 Software Engineering Students",
+            "author": "Lund, Camilla Kielland; Stabell, Idunn; Stray, Viktoria; Lindsjørn, Yngve",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "AI tools mentioned only regarding report assessment; study does not address engineering practices for AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 3.02,
+                    "tokens_prompt": 556,
+                    "tokens_completion": 37
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Focuses on teamwork quality; AI tools are context for assessment changes, not guidelines for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 3.5,
+                    "tokens_prompt": 560,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Mentions AI tools only as context for course changes; does not address AI engineering challenges or system integration.",
+                "telemetry": {
+                    "latency_sec": 2.79,
+                    "tokens_prompt": 554,
+                    "tokens_completion": 30
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "How do Software Engineering Candidates Prepare for Technical Interviews?",
+            "author": "Bell, Brian; Thomas, Teresa; Lee, Sang Won; Brown, Chris",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Focuses on 'technical interviews' and 'preparation methods'; no mention of AI-based systems or software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 3.12,
+                    "tokens_prompt": 375,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "The study focuses on technical interview preparation, not AI system development or AI-specific guidelines.",
+                "telemetry": {
+                    "latency_sec": 2.32,
+                    "tokens_prompt": 379,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "The study focuses on technical interview preparation, not AI systems or AI engineering challenges.",
+                "telemetry": {
+                    "latency_sec": 2.2,
+                    "tokens_prompt": 373,
+                    "tokens_completion": 33
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Panel - Multimodal Food Computing: Bridging Cultural Heritage, Artificial Intelligence, and Sustainable Food Futures",
+            "author": "Jain, Ramesh; Yamakata, Yoko; Kale, Maija; Das, Partha Pratim; Mougiakakou, Stavroula Georgia",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract discusses food computing applications and AI challenges without mentioning software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 2.76,
+                    "tokens_prompt": 434,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Panel explores trends and challenges; no specific guidelines, recommendations, or design patterns are explicitly presented.",
+                "telemetry": {
+                    "latency_sec": 4.75,
+                    "tokens_prompt": 438,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "reasoning": "Abstract identifies \"heterogeneity, standardization, interoperability, scalability\" as challenges for integrating multimodal food data into AI.",
+                "telemetry": {
+                    "latency_sec": 5.66,
+                    "tokens_prompt": 432,
+                    "tokens_completion": 40
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Enhancing Learning and Mitigating AI-Assisted Misconduct: A Case of Using Video Assignments in a High-Enrollment Software Engineering Course",
+            "author": "Saltan, Andrey",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Focuses on SE education and AI misconduct, not SE lifecycle practices for AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 2.69,
+                    "tokens_prompt": 433,
+                    "tokens_completion": 28
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Focuses on educational assessment to prevent misconduct, not practices for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 2.87,
+                    "tokens_prompt": 437,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Addresses academic misconduct in education; does not identify challenges in AI engineering or system integration.",
+                "telemetry": {
+                    "latency_sec": 3.79,
+                    "tokens_prompt": 431,
+                    "tokens_completion": 34
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "AIPerf'24: 2nd International Workshop on Artificial Intelligence for Performance Modeling, Prediction, and Control",
+            "author": "Incerto, Emilio; Litoiu, Marin; Masti, Daniele",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract is a welcome message; lacks explicit mention of software engineering lifecycle practices for AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 3.18,
+                    "tokens_prompt": 284,
+                    "tokens_completion": 37
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract is a 'welcome' message; it contains no guidelines or design patterns for AI development.",
+                "telemetry": {
+                    "latency_sec": 3.58,
+                    "tokens_prompt": 288,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract is a welcome message; it lacks any identification of challenges or open problems.",
+                "telemetry": {
+                    "latency_sec": 2.26,
+                    "tokens_prompt": 282,
+                    "tokens_completion": 27
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Assessing Software Engineering Students' Analytical Skills in the Era of Generative AI",
+            "author": "Petrovska, Olga; Pearsall, Rebecca; Clift, Lee",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "The study evaluates \"code analysis skills\" using AI-generated samples, not SE lifecycle practices for AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 3.59,
+                    "tokens_prompt": 281,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Focuses on \"students’ code analysis skills,\" not best practices for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 2.75,
+                    "tokens_prompt": 285,
+                    "tokens_completion": 27
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract \"showcases an assessment\" for students, failing to identify challenges or limitations in AI system integration.",
+                "telemetry": {
+                    "latency_sec": 4.1,
+                    "tokens_prompt": 279,
+                    "tokens_completion": 30
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Component-based Approach to Software Engineering of Machine Learning-enabled Systems",
+            "author": "Indykov, Vladislav",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "reasoning": "Abstract addresses 'organizing the process of developing ML-enabled systems' and 'MLOps', explicitly covering software engineering development practices.",
+                "telemetry": {
+                    "latency_sec": 4.7,
+                    "tokens_prompt": 470,
+                    "tokens_completion": 43
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 5,
+                "reasoning": "Study 'aims to create a methodology' and 'contributes to' systematizing architectural experience for ML-enabled systems.",
+                "telemetry": {
+                    "latency_sec": 9.22,
+                    "tokens_prompt": 474,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "reasoning": "Abstract identifies 'relevant challenges' and limitations like 'probabilistic nature' and 'dependency on data' in ML-enabled systems.",
+                "telemetry": {
+                    "latency_sec": 9.53,
+                    "tokens_prompt": 468,
+                    "tokens_completion": 37
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "CompAi: A Tool for GDPR Completeness Checking of Privacy Policies using Artificial Intelligence",
+            "author": "Cejas, Orlando Amaral; Abualhaija, Sallam; Briand, Lionel C.",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "reasoning": "Focuses on 'checking the completeness of privacy policies' without explicitly addressing SE lifecycle practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 9.94,
+                    "tokens_prompt": 473,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Focuses on GDPR compliance tool; does not propose best practices or design patterns for AI system development.",
+                "telemetry": {
+                    "latency_sec": 2.69,
+                    "tokens_prompt": 477,
+                    "tokens_completion": 37
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "The abstract focuses on tool functionality and GDPR compliance, not identifying AI engineering challenges or limitations.",
+                "telemetry": {
+                    "latency_sec": 2.42,
+                    "tokens_prompt": 471,
+                    "tokens_completion": 35
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Application of Artificial Intelligence for Assessing Models Consistency in Model-Driven Engineering",
+            "author": "Ejaz, Saliha; Azam, Farooque; Anwar, Muhammad Waseem; Rehman, Marwareed",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Study applies AI to MDE; it does not address SE practices for AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 2.68,
+                    "tokens_prompt": 439,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Paper proposes an AI application for MDE, not guidelines or patterns for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 2.62,
+                    "tokens_prompt": 443,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "The study proposes a solution for model consistency without identifying challenges or limitations in AI engineering.",
+                "telemetry": {
+                    "latency_sec": 4.14,
+                    "tokens_prompt": 437,
+                    "tokens_completion": 34
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "A review of practices suitable for ethics-aware software engineering",
+            "author": "Marebane, Senyeki Milton; Mnkandla, Ernest",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "The abstract focuses on general software engineering and lacks any explicit mention of Artificial Intelligence-based systems.",
+                "telemetry": {
+                    "latency_sec": 2.33,
+                    "tokens_prompt": 416,
+                    "tokens_completion": 28
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "The abstract focuses on general software engineering and lacks any mention of AI systems or AI-specific practices.",
+                "telemetry": {
+                    "latency_sec": 2.74,
+                    "tokens_prompt": 420,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract focuses on general software engineering; no mention of AI systems, AI engineering, or related integration challenges.",
+                "telemetry": {
+                    "latency_sec": 2.59,
+                    "tokens_prompt": 414,
+                    "tokens_completion": 38
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "AIDF '25: Proceedings of the 2025 International Conference on Artificial Intelligence and Digital Finance",
+            "author": null,
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract is missing; title focuses on finance and AI without mentioning software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 2.75,
+                    "tokens_prompt": 250,
+                    "tokens_completion": 26
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Proceedings title lacks abstract; no mention of AI development best practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 3.48,
+                    "tokens_prompt": 254,
+                    "tokens_completion": 28
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "No abstract provided; title refers to conference proceedings, not specific challenges or AI engineering limitations.",
+                "telemetry": {
+                    "latency_sec": 2.86,
+                    "tokens_prompt": 248,
+                    "tokens_completion": 35
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Not Real or Too Soft? On the Challenges of Publishing Interdisciplinary Software Engineering Research",
+            "author": "Hyrynsalmi, Sonja M.; Liebel, Grischa; de Souza Santos, Ronnie; Baltes, Sebastian",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "The abstract focuses on interdisciplinary SE publishing challenges; no mention of AI-based systems or lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 2.36,
+                    "tokens_prompt": 490,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "The study focuses on publishing interdisciplinary research and does not mention AI systems or their development.",
+                "telemetry": {
+                    "latency_sec": 2.95,
+                    "tokens_prompt": 494,
+                    "tokens_completion": 27
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "The abstract focuses on interdisciplinary SE publishing challenges, never mentioning AI systems or AI engineering.",
+                "telemetry": {
+                    "latency_sec": 2.78,
+                    "tokens_prompt": 488,
+                    "tokens_completion": 29
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Software Engineering Education: Towards Ethical, Reliable, and Beautiful Software",
+            "author": "Samarah, Mohammad; Inuganti, Aikya; Goyal, Madhuri",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "AI is mentioned only as a future enhancement; the study currently focuses on general software engineering education.",
+                "telemetry": {
+                    "latency_sec": 2.77,
+                    "tokens_prompt": 504,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "AI is only mentioned as a future plan; no AI-specific practices are presented or evaluated.",
+                "telemetry": {
+                    "latency_sec": 2.56,
+                    "tokens_prompt": 508,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract mentions 'AI and software design' only as future work, identifying no specific challenges or limitations.",
+                "telemetry": {
+                    "latency_sec": 2.35,
+                    "tokens_prompt": 502,
+                    "tokens_completion": 37
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Unveiling Hurdles in Software Engineering Education: The Role of Learning Management Systems",
+            "author": "Meißner, Niklas; Koch, Nadine; Speth, Sandro; Breitenbücher, Uwe; Becker, Steffen",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "The abstract focuses on LMS in SE education; no mention of AI-based systems or their development lifecycle.",
+                "telemetry": {
+                    "latency_sec": 2.14,
+                    "tokens_prompt": 489,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract focuses on LMS in SE education; no mention of AI system development or related guidelines.",
+                "telemetry": {
+                    "latency_sec": 2.56,
+                    "tokens_prompt": 493,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract focuses on LMS in SE education, lacking any mention of AI systems or AI engineering challenges.",
+                "telemetry": {
+                    "latency_sec": 2.56,
+                    "tokens_prompt": 487,
+                    "tokens_completion": 36
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "The Road Toward Dependable AI Based Systems",
+            "author": "Tonella, Paolo",
+            "year": 2023
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 6,
+                "reasoning": "Abstract details 'revised testing process for AI based systems' including 'test oracle' and 'test input generation' practices.",
+                "telemetry": {
+                    "latency_sec": 9.01,
+                    "tokens_prompt": 435,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "reasoning": "Proposes 'revised testing process' and 'empirical framework' for AI dependability, offering recommendations for testing and runtime supervision.",
+                "telemetry": {
+                    "latency_sec": 6.35,
+                    "tokens_prompt": 439,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "reasoning": "Identifies 'test oracle and the test input generation problems' and 'future steps' for dependable AI engineering.",
+                "telemetry": {
+                    "latency_sec": 4.81,
+                    "tokens_prompt": 433,
+                    "tokens_completion": 39
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Towards a roadmap on software engineering for responsible AI",
+            "author": "Lu, Qinghua; Zhu, Liming; Xu, Xiwei; Whittle, Jon; Xing, Zhenchang",
+            "year": 2022
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "reasoning": "Abstract addresses 'setting up the development processes' and 'engineering lifecycle' for AI systems.",
+                "telemetry": {
+                    "latency_sec": 10.03,
+                    "tokens_prompt": 402,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "reasoning": "Proposes a roadmap including \"process-oriented practices\" and \"architectural style, patterns and techniques\" for AI systems.",
+                "telemetry": {
+                    "latency_sec": 3.76,
+                    "tokens_prompt": 406,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "reasoning": "Identifies 'responsible AI challenges' crosscutting the lifecycle and limitations in operationalizing high-level ethical frameworks.",
+                "telemetry": {
+                    "latency_sec": 3.17,
+                    "tokens_prompt": 400,
+                    "tokens_completion": 39
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "AITC '25: Proceedings of the 2nd International Conference on Artificial Intelligence of Things and Computing",
+            "author": null,
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "No abstract provided; title lacks explicit mention of software engineering lifecycle practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 3.01,
+                    "tokens_prompt": 249,
+                    "tokens_completion": 34
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract is missing; title only identifies conference proceedings, lacking explicit AI development guidelines or design patterns.",
+                "telemetry": {
+                    "latency_sec": 2.36,
+                    "tokens_prompt": 253,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract is missing; title only identifies conference proceedings, not specific challenges or AI engineering limitations.",
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 247,
+                    "tokens_completion": 35
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "AI-SIPM 2024: International Workshop on Artificial Intelligence for Signal, Image Processing and Multimedia",
+            "author": "Ketcham, Mahasak; Phodong, Kanyalag; Pramkeaw, Patiyuth; Yimyam, Worawut; Chumuang, Narumol; Songmuang, Pokpong; Ganokratanaa, Thittaporn",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract focuses on AI applications in signal/image processing, lacking any mention of software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 2.76,
+                    "tokens_prompt": 425,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract describes a workshop overview; it lacks explicit mention of best practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 3.28,
+                    "tokens_prompt": 429,
+                    "tokens_completion": 37
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Abstract mentions 'addressing various challenges' generally but identifies no specific AI engineering or integration limitations.",
+                "telemetry": {
+                    "latency_sec": 3.42,
+                    "tokens_prompt": 423,
+                    "tokens_completion": 36
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Using Extension Projects to Improve Software Engineering Education and Software Quality: The Experience of the “Ricardo de Almeida Falbo” Software Engineering Practices Laboratory",
+            "author": "Barcellos, Monalessa P.; Silva Souza, Vítor E.; Costa, Patrícia Dockhorn; Aguiar, Camila Zacche de",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract focuses on general software engineering education and quality; no mention of AI-based systems or related practices.",
+                "telemetry": {
+                    "latency_sec": 3.14,
+                    "tokens_prompt": 456,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "The abstract focuses on general software engineering education and quality, without mentioning AI systems or AI-specific practices.",
+                "telemetry": {
+                    "latency_sec": 3.58,
+                    "tokens_prompt": 460,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "The abstract focuses on SE education and software quality, with no mention of AI systems or AI engineering.",
+                "telemetry": {
+                    "latency_sec": 3.38,
+                    "tokens_prompt": 454,
+                    "tokens_completion": 37
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Attitudes Towards LLM Use Among Software Engineering Researchers: Results From A Two-Phase Survey Study",
+            "author": "Wivestad, Viggo Tellefsen; Barbala, Astri Moksnes",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Focuses on LLMs as research tools, not SE lifecycle practices applied to AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 2.86,
+                    "tokens_prompt": 395,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Study investigates \"researchers' attitudes toward incorporating AI tools\" in workflows, not development guidelines for AI systems.",
+                "telemetry": {
+                    "latency_sec": 2.67,
+                    "tokens_prompt": 399,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Identifies limitations like 'inappropriate for evaluating others' work' but focuses on researcher attitudes, not technical engineering.",
+                "telemetry": {
+                    "latency_sec": 11.26,
+                    "tokens_prompt": 393,
+                    "tokens_completion": 32
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Explainable AI for software engineering",
+            "author": "Tantithamthavorn, Chakkrit (Kla); Jiarpakdee, Jirayus",
+            "year": 2022
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract focuses on 'AI/ML techniques... used in software engineering', not SE practices applied to AI systems.",
+                "telemetry": {
+                    "latency_sec": 5.32,
+                    "tokens_prompt": 550,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 3,
+                "reasoning": "Tutorial demonstrates 'Explainable AI tools and techniques' but lacks explicit formal guidelines, recommendations, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 6.45,
+                    "tokens_prompt": 554,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "reasoning": "Abstract identifies challenges like \"not practical, not explainable, and not actionable\" hindering AI adoption in software engineering.",
+                "telemetry": {
+                    "latency_sec": 9.73,
+                    "tokens_prompt": 548,
+                    "tokens_completion": 40
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Human-Centered Interventions to Empower Gender Diversity in Software Engineering",
+            "author": "Cutrupi, Claudia Maria",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract focuses on gender diversity in SE; no mention of AI-based systems or their specific lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 2.07,
+                    "tokens_prompt": 414,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "The study focuses on gender diversity in software engineering generally, with no mention of AI systems.",
+                "telemetry": {
+                    "latency_sec": 3.01,
+                    "tokens_prompt": 418,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "The abstract focuses on gender diversity in SE; it never mentions AI systems or AI engineering.",
+                "telemetry": {
+                    "latency_sec": 2.41,
+                    "tokens_prompt": 412,
+                    "tokens_completion": 35
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Extending Developer Support: Quantum Artificial Intelligence for Automotive Security",
+            "author": "Caivano, Danilo; De Vincentiis, Mirko; Pal, Anibrata; Scalera, Michele",
+            "year": 2023
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "reasoning": "Abstract describes AI for automotive security, not SE lifecycle practices applied to AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 5.41,
+                    "tokens_prompt": 407,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Proposes methodology for automotive security, not guidelines or patterns for AI system development.",
+                "telemetry": {
+                    "latency_sec": 3.8,
+                    "tokens_prompt": 411,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "The paper proposes a methodology but lacks explicit identification of challenges or limitations in AI engineering integration.",
+                "telemetry": {
+                    "latency_sec": 3.99,
+                    "tokens_prompt": 405,
+                    "tokens_completion": 27
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Research on the Construction and Application of a Precision Teaching Model Based on Knowledge Graphs: A Case Study of Software Engineering Courses",
+            "author": "Zhou, Junjie; Liu, Xionghua; Tong, Wenqian",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Study focuses on SE education using AI, not SE lifecycle practices applied to AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 3.79,
+                    "tokens_prompt": 382,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Focuses on teaching models using AI, not guidelines or patterns for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 2.65,
+                    "tokens_prompt": 386,
+                    "tokens_completion": 26
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract focuses on 'academic performance' and 'learning efficiency', not identifying challenges or limitations in AI engineering.",
+                "telemetry": {
+                    "latency_sec": 7.06,
+                    "tokens_prompt": 380,
+                    "tokens_completion": 32
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Artificial Intelligence in the Public Sector – An Agenda for Responsible Innovation through Learning",
+            "author": "Knutsen, Leif Z; Hannay, Jo E; Riegler, Michael A",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "reasoning": "Focuses on policy and strategy; mentions 'implementation' and 'architecture' without detailing specific software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 6.04,
+                    "tokens_prompt": 427,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 3,
+                "reasoning": "Proposes a 'learning agenda' for policy; lacks specific technical development guidelines or design patterns for AI systems.",
+                "telemetry": {
+                    "latency_sec": 6.15,
+                    "tokens_prompt": 431,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "reasoning": "Abstract identifies \"risks, limitations, and disbenefits\" and \"technical robustness\" as challenges for AI innovation and integration.",
+                "telemetry": {
+                    "latency_sec": 4.76,
+                    "tokens_prompt": 425,
+                    "tokens_completion": 34
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "An optimization scheme for network security intelligent operation and maintenance technology based on artificial intelligence",
+            "author": "Gao, Yize; Wang, Yu",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Focuses on AI for network security maintenance, not SE lifecycle practices applied to AI systems.",
+                "telemetry": {
+                    "latency_sec": 2.98,
+                    "tokens_prompt": 358,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Proposes an AI-based security solution; lacks explicit best practices, guidelines, or design patterns for AI system development.",
+                "telemetry": {
+                    "latency_sec": 4.01,
+                    "tokens_prompt": 362,
+                    "tokens_completion": 33
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract 'proposes a... solution' but identifies no challenges, open problems, or limitations in AI engineering.",
+                "telemetry": {
+                    "latency_sec": 6.09,
+                    "tokens_prompt": 356,
+                    "tokens_completion": 39
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Sprint to Inclusion: Embedding Accessibility Sprint in a Software Engineering Course",
+            "author": "Aljedaani, Wajdi; Parthasarathy, P D; Eler, Marcelo Medeiros; Joshi, Swaroop",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "The study focuses on accessibility in software engineering education and does not mention AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 2.82,
+                    "tokens_prompt": 445,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract focuses on accessibility education; no mention of AI systems or AI-specific development practices.",
+                "telemetry": {
+                    "latency_sec": 2.23,
+                    "tokens_prompt": 449,
+                    "tokens_completion": 27
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "The abstract focuses on accessibility in software engineering education; no mention of AI systems or AI engineering challenges.",
+                "telemetry": {
+                    "latency_sec": 2.15,
+                    "tokens_prompt": 443,
+                    "tokens_completion": 37
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Is ChatGPT Capable of Crafting Gamification Strategies for Software Engineering Tasks?",
+            "author": "Fulcini, Tommaso; Torchiano, Marco",
+            "year": 2023
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "The study evaluates AI for SE tasks, not SE lifecycle practices applied to AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 3.04,
+                    "tokens_prompt": 578,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Evaluates AI for gamification design; does not propose or evaluate best practices for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 3.47,
+                    "tokens_prompt": 582,
+                    "tokens_completion": 37
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "reasoning": "Identifies limitations, stating ChatGPT 'is not capable of building a gamified environment on its own' for software tasks.",
+                "telemetry": {
+                    "latency_sec": 10.34,
+                    "tokens_prompt": 576,
+                    "tokens_completion": 41
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Curious, Critical Thinker, Empathetic, and Ethically Responsible: Essential Soft Skills for Data Scientists in Software Engineering",
+            "author": "de Morais Leça, Matheus; de Souza Santos, Ronnie",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 4,
+                "reasoning": "Mentions \"software development environments\" and \"building AI systems,\" but focuses on soft skills, not specific engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 10.78,
+                    "tokens_prompt": 551,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Identifies soft skills for practitioners; does not explicitly propose development best practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 9.39,
+                    "tokens_prompt": 555,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "reasoning": "Identifies 'challenges related to managing large volumes of data' and 'societal impacts' in AI-powered software development.",
+                "telemetry": {
+                    "latency_sec": 6.86,
+                    "tokens_prompt": 549,
+                    "tokens_completion": 42
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Nordic Cities Meet Artificial Intelligence: City Officials’ Views on Artificial Intelligence and Citizen Data in Finland",
+            "author": "Luusua, Aale; Ylipulli, Johanna",
+            "year": 2021
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Focuses on officials' 'attitudes, knowledge and relationship', not software engineering lifecycle practices like development or maintenance.",
+                "telemetry": {
+                    "latency_sec": 5.11,
+                    "tokens_prompt": 429,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract focuses on 'attitudes, knowledge and relationship' without proposing development best practices or guidelines.",
+                "telemetry": {
+                    "latency_sec": 2.59,
+                    "tokens_prompt": 433,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Identifies 'challenges' in AI 'infusion', but focuses on officials' 'attitudes' rather than technical AI engineering or system integration.",
+                "telemetry": {
+                    "latency_sec": 10.73,
+                    "tokens_prompt": 427,
+                    "tokens_completion": 38
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Explainable artificial intelligence, lawyer's perspective",
+            "author": "Górski, Łukasz; Ramakrishna, Shashishekar",
+            "year": 2021
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "reasoning": "Evaluates XAI methods and user perception; lacks explicit focus on software engineering lifecycle practices or methodologies.",
+                "telemetry": {
+                    "latency_sec": 5.22,
+                    "tokens_prompt": 428,
+                    "tokens_completion": 37
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Evaluates XAI methods and collects 'desired qualities' without explicitly proposing or evaluating best practices or development guidelines.",
+                "telemetry": {
+                    "latency_sec": 6.45,
+                    "tokens_prompt": 432,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "reasoning": "Identifies 'user experience studies... are still lagging behind' and evaluates performance limitations of specific XAI methods.",
+                "telemetry": {
+                    "latency_sec": 11.06,
+                    "tokens_prompt": 426,
+                    "tokens_completion": 39
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Integrating Human-Centric Approaches into Undergraduate Software Engineering Education: A Scoping Review and Curriculum Analysis in the Australian Context",
+            "author": "Mckenzie, Sophie; Fernando, Niroshinie; Dias, Imali; Cheng, Ben; Hoang, Thuong; Liu, Xiao",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract focuses on human-centric software engineering education; it contains no mention of AI-based systems or AI lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 3.0,
+                    "tokens_prompt": 594,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "The abstract focuses on human-centric software engineering education and curriculum, with no mention of AI systems or development.",
+                "telemetry": {
+                    "latency_sec": 2.63,
+                    "tokens_prompt": 598,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "The study focuses on HCSE education and curriculum, mentioning nothing about AI systems or AI engineering.",
+                "telemetry": {
+                    "latency_sec": 2.77,
+                    "tokens_prompt": 592,
+                    "tokens_completion": 28
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Artificial Intelligence-based Speech Signal for COVID-19 Diagnostics",
+            "author": "Alfaidi, Aseel; Alshahrani, Abdullah; Aljohani, Maha",
+            "year": 2023
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Focuses on 'medical diagnosis' and model performance; no mention of software engineering lifecycle or maintenance practices.",
+                "telemetry": {
+                    "latency_sec": 4.71,
+                    "tokens_prompt": 484,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Proposes a specific diagnostic methodology; lacks explicit best practices, guidelines, or design patterns for AI system development.",
+                "telemetry": {
+                    "latency_sec": 3.18,
+                    "tokens_prompt": 488,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract focuses on methodology and accuracy, lacking discussion on challenges, open problems, or AI engineering limitations.",
+                "telemetry": {
+                    "latency_sec": 2.61,
+                    "tokens_prompt": 482,
+                    "tokens_completion": 37
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "ICSE-SEIS '23: Proceedings of the 45th International Conference on Software Engineering: Software Engineering in Society",
+            "author": null,
+            "year": 2023
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract introduces a conference track; no mention of AI-based systems or specific lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 2.3,
+                    "tokens_prompt": 329,
+                    "tokens_completion": 27
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Text introduces a conference track; lacks any mention of AI systems or specific development guidelines.",
+                "telemetry": {
+                    "latency_sec": 2.83,
+                    "tokens_prompt": 333,
+                    "tokens_completion": 34
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract introduces a conference track; no mention of AI systems, AI engineering, or specific challenges.",
+                "telemetry": {
+                    "latency_sec": 2.49,
+                    "tokens_prompt": 327,
+                    "tokens_completion": 28
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "A Transformer-based Approach for Augmenting Software Engineering Chatbots Datasets",
+            "author": "Abdellatif, Ahmad; Badran, Khaled; Costa, Diego Elias; Shihab, Emad",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "reasoning": "Addresses 'creating a high-quality training dataset' for SE chatbots, focusing on the development phase of AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 10.24,
+                    "tokens_prompt": 498,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Proposes a technical 'automated transformer-based approach' for data augmentation, not explicit guidelines, recommendations, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 5.85,
+                    "tokens_prompt": 502,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "reasoning": "Identifies 'creating a high-quality training dataset... is expensive' as a challenge in AI engineering for chatbots.",
+                "telemetry": {
+                    "latency_sec": 9.81,
+                    "tokens_prompt": 496,
+                    "tokens_completion": 32
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Introducing Computer Science Undergraduate Students to DevOps Technologies from Software Engineering Fundamentals",
+            "author": "Sarmiento-Calisaya, Edgar; Mamani-Aliaga, Alvaro; Leite, Julio Cesar Sampaio Do Prado",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract focuses on \"DevOps-related practices\" generally; no mention of \"Artificial Intelligence-based systems\" or AI.",
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 450,
+                    "tokens_completion": 34
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract discusses 'DevOps technologies' but lacks any mention of AI systems or AI-specific development practices.",
+                "telemetry": {
+                    "latency_sec": 4.3,
+                    "tokens_prompt": 454,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "The abstract focuses on DevOps education and lacks any mention of AI systems or AI engineering.",
+                "telemetry": {
+                    "latency_sec": 2.26,
+                    "tokens_prompt": 448,
+                    "tokens_completion": 34
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Leveraging Artificial Intelligence on Binary Code Comprehension",
+            "author": "Zhang, Yifan",
+            "year": 2023
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Study proposes AI for binary comprehension, not SE lifecycle practices applied to AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 3.58,
+                    "tokens_prompt": 390,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Proposes specific AI models for binary comprehension but provides no explicit best practices or guidelines for AI development.",
+                "telemetry": {
+                    "latency_sec": 4.71,
+                    "tokens_prompt": 394,
+                    "tokens_completion": 37
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Abstract notes 'limited semantic information' as a domain challenge but ignores AI engineering or integration limitations.",
+                "telemetry": {
+                    "latency_sec": 6.25,
+                    "tokens_prompt": 388,
+                    "tokens_completion": 28
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Keynote Talk: Studying Humans in Software Engineering: Trade-offs and decisions",
+            "author": "Serebrenik, Alexander",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Focuses on human-bot collaboration in development; does not address engineering practices for AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 4.2,
+                    "tokens_prompt": 403,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract discusses human-bot collaboration and research methodology, lacking specific guidelines or patterns for AI system development.",
+                "telemetry": {
+                    "latency_sec": 4.41,
+                    "tokens_prompt": 407,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Focuses on human aspects and research methodology; mentions bots but lacks explicit AI engineering or system integration challenges.",
+                "telemetry": {
+                    "latency_sec": 5.22,
+                    "tokens_prompt": 401,
+                    "tokens_completion": 32
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Explainable Artificial Intelligence (XAI) Approach for Reinforcement Learning Systems",
+            "author": "P. Peixoto, Maria J.; Azim, Akramul",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "reasoning": "Abstract focuses on 'creating visual indicators', omitting explicit software engineering lifecycle practices like development or maintenance.",
+                "telemetry": {
+                    "latency_sec": 9.01,
+                    "tokens_prompt": 437,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Suggest[s] an interface and approach for XAI, but lacks explicit best practices or design patterns.",
+                "telemetry": {
+                    "latency_sec": 7.79,
+                    "tokens_prompt": 441,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Abstract proposes an XAI approach but fails to explicitly identify challenges, open problems, or limitations in AI engineering.",
+                "telemetry": {
+                    "latency_sec": 3.99,
+                    "tokens_prompt": 435,
+                    "tokens_completion": 39
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "ICAAI '24: Proceedings of the 2024 8th International Conference on Advances in Artificial Intelligence",
+            "author": null,
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract is missing; title only names a conference without mentioning software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 3.58,
+                    "tokens_prompt": 252,
+                    "tokens_completion": 25
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Title identifies conference proceedings; no abstract provided to confirm guidelines or design patterns for AI development.",
+                "telemetry": {
+                    "latency_sec": 2.76,
+                    "tokens_prompt": 256,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract is missing; title is generic and does not mention challenges or AI engineering.",
+                "telemetry": {
+                    "latency_sec": 2.3,
+                    "tokens_prompt": 250,
+                    "tokens_completion": 25
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "A Report on the Fifth Workshop on Emerging Software Engineering Education (WESEE 2023)",
+            "author": "Tiwari, Saurabh; Farooq, Sheikh Umar; Rathore, Santosh Singh",
+            "year": 2023
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Workshop report focuses on education; no mention of SE lifecycle practices for AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 3.85,
+                    "tokens_prompt": 427,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract describes a workshop summary on education, not specific development guidelines or patterns for AI systems.",
+                "telemetry": {
+                    "latency_sec": 2.96,
+                    "tokens_prompt": 431,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Workshop summary mentions 'discussing AI' but identifies no specific challenges or limitations regarding AI engineering integration.",
+                "telemetry": {
+                    "latency_sec": 5.05,
+                    "tokens_prompt": 425,
+                    "tokens_completion": 29
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Digital Intellectual Property Protection System Based on Artificial Intelligence Algorithm",
+            "author": "Wang, Xuan",
+            "year": 2023
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 3,
+                "reasoning": "Mentions 'development environment' and 'system architecture' but lacks explicit focus on software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 6.5,
+                    "tokens_prompt": 452,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Abstract describes a specific system architecture and experimental results, lacking explicit general best practices or AI development guidelines.",
+                "telemetry": {
+                    "latency_sec": 4.32,
+                    "tokens_prompt": 456,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Focuses on AI application for IP protection; lacks explicit discussion of AI engineering or integration challenges.",
+                "telemetry": {
+                    "latency_sec": 3.76,
+                    "tokens_prompt": 450,
+                    "tokens_completion": 28
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Problem based Learning for Training in Statistics and Artificial Intelligence to Biomedical Engineers",
+            "author": "Lopez, Beatriz; Mateu, Gloria; Leal, Yenny",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract focuses on teaching methodology (PBL) and academic outcomes, not software engineering lifecycle practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 2.56,
+                    "tokens_prompt": 343,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Focuses on 'teaching methodology' and 'academic outcomes' rather than AI system development practices or guidelines.",
+                "telemetry": {
+                    "latency_sec": 4.13,
+                    "tokens_prompt": 347,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Discusses pedagogical 'challenges' in education, not technical AI engineering or system integration limitations.",
+                "telemetry": {
+                    "latency_sec": 4.1,
+                    "tokens_prompt": 341,
+                    "tokens_completion": 29
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Artificial Intelligence in Operating System",
+            "author": "Waheed, Abdul; Sanaullah; Khan, Haider Ali Farid",
+            "year": 2020
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Mentions 'software engineering' generally but lacks specific lifecycle practices applied to AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 7.05,
+                    "tokens_prompt": 317,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract proposes OS components, not development practices or guidelines for AI systems.",
+                "telemetry": {
+                    "latency_sec": 2.77,
+                    "tokens_prompt": 321,
+                    "tokens_completion": 31
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Abstract proposes components but fails to explicitly identify challenges or limitations in AI integration.",
+                "telemetry": {
+                    "latency_sec": 2.87,
+                    "tokens_prompt": 315,
+                    "tokens_completion": 32
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "ICAICE '24: Proceedings of the 5th International Conference on Artificial Intelligence and Computer Engineering",
+            "author": null,
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract is missing; title names a conference without mentioning software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 2.55,
+                    "tokens_prompt": 248,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract is missing; title identifies a conference without mentioning specific AI development practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 3.59,
+                    "tokens_prompt": 252,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract is missing; title only identifies conference proceedings without mentioning challenges or AI engineering limitations.",
+                "telemetry": {
+                    "latency_sec": 2.25,
+                    "tokens_prompt": 246,
+                    "tokens_completion": 26
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Testing machine learning systems in industry: an empirical study",
+            "author": "Li, Shuyue; Guo, Jiaqi; Lou, Jian-Guang; Fan, Ming; Liu, Ting; Zhang, Dongmei",
+            "year": 2022
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "reasoning": "Study examines \"testing ML systems,\" detailing \"test data collection, test execution, and test result analysis\" as SE lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 3.18,
+                    "tokens_prompt": 489,
+                    "tokens_completion": 43
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 6,
+                "reasoning": "Abstract claims to uncover \"good practices\" and provide \"implications for practitioners\" for ML testing activities.",
+                "telemetry": {
+                    "latency_sec": 3.12,
+                    "tokens_prompt": 493,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 7,
+                "reasoning": "Study uncovers \"open challenges from the perspective of the industry\" and \"research opportunities\" in ML testing and engineering.",
+                "telemetry": {
+                    "latency_sec": 8.86,
+                    "tokens_prompt": 487,
+                    "tokens_completion": 41
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Isambard-AI: a leadership-class supercomputer optimised specifically for Artificial Intelligence",
+            "author": "McIntosh-Smith, Simon; Alam, Sadaf; Woods, Christopher",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 2,
+                "reasoning": "Describes supercomputer infrastructure; mentions 'MLOps' as an interface, not as a studied software engineering lifecycle practice.",
+                "telemetry": {
+                    "latency_sec": 5.96,
+                    "tokens_prompt": 571,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "The abstract describes a specific supercomputer's architecture, not generalizable best practices, guidelines, or design patterns for AI development.",
+                "telemetry": {
+                    "latency_sec": 8.09,
+                    "tokens_prompt": 575,
+                    "tokens_completion": 43
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "The text describes hardware and software specifications without identifying challenges, open problems, or limitations in AI engineering.",
+                "telemetry": {
+                    "latency_sec": 2.95,
+                    "tokens_prompt": 569,
+                    "tokens_completion": 37
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "HCAI Block Model: A competence model for Human Centred Artificial Intelligence at K-12",
+            "author": "Conway, Brian; Nolan, Keith; Quille, Keith",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Focuses on K-12 education and competence models, not software engineering lifecycle practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 2.71,
+                    "tokens_prompt": 574,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Proposes a 'competence-based model' for K-12 education, not guidelines or patterns for AI system development.",
+                "telemetry": {
+                    "latency_sec": 5.18,
+                    "tokens_prompt": 578,
+                    "tokens_completion": 43
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Focuses on K-12 education models; lacks discussion on AI system integration or AI engineering challenges.",
+                "telemetry": {
+                    "latency_sec": 4.2,
+                    "tokens_prompt": 572,
+                    "tokens_completion": 32
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Exploring Developers Discussion Forums for Quantum Software Engineering: A Fine-Grained Classification Approach Using Large Language Model (ChatGPT)",
+            "author": "Husain, Mobashir; Khan, Muhammad Sohail; Khan, Javed Ali; Khan, Nek Dil; Khan, Arif; Akbar, Muhammad Azeem",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Focuses on Quantum Software Engineering; AI is used as a tool, not the system being engineered.",
+                "telemetry": {
+                    "latency_sec": 5.12,
+                    "tokens_prompt": 659,
+                    "tokens_completion": 37
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "The study focuses on Quantum Software Engineering challenges, not best practices or guidelines for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 2.87,
+                    "tokens_prompt": 663,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Focuses on Quantum Software Engineering; does not identify challenges in AI engineering or AI system integration.",
+                "telemetry": {
+                    "latency_sec": 5.12,
+                    "tokens_prompt": 657,
+                    "tokens_completion": 36
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Research on Waterway Traffic Volume Prediction Based on Artificial Intelligence",
+            "author": "Zhang, Haoruo; Zhong, Chengyu",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Focuses on 'waterway transportation volume prediction'; lacks explicit discussion of software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 5.23,
+                    "tokens_prompt": 399,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract focuses on waterway traffic prediction, not general AI development best practices, guidelines, or design patterns.",
+                "telemetry": {
+                    "latency_sec": 2.97,
+                    "tokens_prompt": 403,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "The abstract focuses on model performance and application, mentioning no challenges, open problems, or limitations.",
+                "telemetry": {
+                    "latency_sec": 2.76,
+                    "tokens_prompt": 397,
+                    "tokens_completion": 28
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Software engineering for responsible AI: an empirical study and operationalised patterns",
+            "author": "Lu, Qinghua; Zhu, Liming; Xu, Xiwei; Whittle, Jon; Douglas, David; Sanderson, Conrad",
+            "year": 2022
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "reasoning": "Study addresses \"development step\", \"architecture and design\", and \"post deployment\" monitoring for \"developing responsible AI systems\".",
+                "telemetry": {
+                    "latency_sec": 2.77,
+                    "tokens_prompt": 460,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 7,
+                "reasoning": "Proposes \"a preliminary list of patterns to provide operationalised guidance\" for developing responsible AI systems.",
+                "telemetry": {
+                    "latency_sec": 3.58,
+                    "tokens_prompt": 464,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 7,
+                "reasoning": "Identifies challenges including \"system-level architecture and design are under-explored\" and \"limited guidance\" for AI engineering operations.",
+                "telemetry": {
+                    "latency_sec": 6.86,
+                    "tokens_prompt": 458,
+                    "tokens_completion": 37
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "The Holy Grail of Quantum Artificial Intelligence: Major Challenges in Accelerating the Machine Learning Pipeline",
+            "author": "Gabor, Thomas; Sünkel, Leo; Ritz, Fabian; Phan, Thomy; Belzner, Lenz; Roch, Christoph; Feld, Sebastian; Linnhoff-Popien, Claudia",
+            "year": 2020
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 3,
+                "reasoning": "Mentions 'combining components' and 'building tools' but lacks explicit focus on standard software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 9.74,
+                    "tokens_prompt": 354,
+                    "tokens_completion": 32
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Abstract 'deduce[s] four major challenges' for research, not explicit best practices or design patterns for AI development.",
+                "telemetry": {
+                    "latency_sec": 5.73,
+                    "tokens_prompt": 358,
+                    "tokens_completion": 42
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 7,
+                "reasoning": "Study explicitly 'deduce[s] four major challenges' for quantum AI integration and engineering, including combining quantum and classical components.",
+                "telemetry": {
+                    "latency_sec": 4.2,
+                    "tokens_prompt": 352,
+                    "tokens_completion": 35
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Bridging Academia and Industry: Leveraging Generative AI in a Software Engineering Course for Practical Industry Experiences",
+            "author": "Mejia, Daniel; Holmes, Ernest D.V.; Marroquin, Jenn; Gorson Benario, Jamie",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract focuses on 'integrating generative AI tools into software engineering practices', not engineering AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 2.97,
+                    "tokens_prompt": 406,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Focuses on educational curriculum and tool usage, not guidelines or patterns for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 3.91,
+                    "tokens_prompt": 410,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract focuses on 'positive experience' and 'enhancement,' omitting any mention of challenges, open problems, or limitations.",
+                "telemetry": {
+                    "latency_sec": 4.79,
+                    "tokens_prompt": 404,
+                    "tokens_completion": 41
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Artificial Intelligence and Data Science for Healthcare: Bridging Data-Centric AI and People-Centric Healthcare",
+            "author": "Hong, Shenda; Yin, Daoxin; Tang, Gongzheng; Fu, Tianfan; Ma, Liantao; Gao, Junyi; Feng, Mengling; Wang, Mai; Yang, Yu; Wang, Fei; Liu, Hongfang; Zhang, Luxia",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract describes a healthcare workshop; no mention of software engineering lifecycle practices or AI system maintenance.",
+                "telemetry": {
+                    "latency_sec": 2.43,
+                    "tokens_prompt": 443,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract describes a workshop summary and call for papers, lacking explicit best practices or design patterns.",
+                "telemetry": {
+                    "latency_sec": 2.56,
+                    "tokens_prompt": 447,
+                    "tokens_completion": 27
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Workshop summary mentions 'bridging existing gaps' but identifies no specific AI engineering challenges or integration limitations.",
+                "telemetry": {
+                    "latency_sec": 2.79,
+                    "tokens_prompt": 441,
+                    "tokens_completion": 37
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "ISBDAI '24: Proceedings of the 2024 4th International Symposium on Big Data and Artificial Intelligence",
+            "author": null,
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract is missing; title lacks explicit mention of software engineering lifecycle practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 3.16,
+                    "tokens_prompt": 254,
+                    "tokens_completion": 26
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "No abstract provided; title only identifies a general symposium, lacking mention of specific AI development guidelines.",
+                "telemetry": {
+                    "latency_sec": 2.56,
+                    "tokens_prompt": 258,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract is missing; title only identifies conference proceedings without mentioning challenges or AI engineering.",
+                "telemetry": {
+                    "latency_sec": 2.29,
+                    "tokens_prompt": 252,
+                    "tokens_completion": 33
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "AIMLSystems '22: Proceedings of the Second International Conference on AI-ML Systems",
+            "author": null,
+            "year": 2022
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract is missing; title provides no evidence of software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 3.56,
+                    "tokens_prompt": 246,
+                    "tokens_completion": 25
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract is \"None\"; title lacks explicit best practices, guidelines, or design patterns for AI system development.",
+                "telemetry": {
+                    "latency_sec": 4.9,
+                    "tokens_prompt": 250,
+                    "tokens_completion": 30
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract missing; title identifies proceedings only, providing no evidence of identifying challenges or limitations.",
+                "telemetry": {
+                    "latency_sec": 4.1,
+                    "tokens_prompt": 244,
+                    "tokens_completion": 34
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Reconstruction and Implementation of the Artificial Intelligence Curriculum System Based on “Project-driven” from the Perspective of New Quality Productivity",
+            "author": "Zhang, Haijun; Chen, Yinghui",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Focuses on 'artificial intelligence curriculum system' and teaching metrics, not software engineering lifecycle practices for AI systems.",
+                "telemetry": {
+                    "latency_sec": 5.23,
+                    "tokens_prompt": 647,
+                    "tokens_completion": 39
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Focuses on AI curriculum design and teaching effectiveness, not best practices for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 3.38,
+                    "tokens_prompt": 651,
+                    "tokens_completion": 27
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Focuses on AI education curriculum; does not identify technical challenges or limitations in AI engineering or system integration.",
+                "telemetry": {
+                    "latency_sec": 3.17,
+                    "tokens_prompt": 645,
+                    "tokens_completion": 38
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Project-Based Software Engineering Curriculum for Secondary Students",
+            "author": "Gransbury, Isabella; Brock, Janet; Root, Emily; Catete, Veronica; Barnes, Tiffany; Grover, Shuchi; Ledeczi, Akos",
+            "year": 2023
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "The abstract focuses on general SE curriculum and PBL without any mention of Artificial Intelligence-based systems.",
+                "telemetry": {
+                    "latency_sec": 2.36,
+                    "tokens_prompt": 475,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "The abstract focuses on general software engineering curriculum and PBL, without mentioning AI systems or development practices.",
+                "telemetry": {
+                    "latency_sec": 2.45,
+                    "tokens_prompt": 479,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "The abstract focuses on secondary SE curriculum and PBL, mentioning nothing about AI systems or AI engineering.",
+                "telemetry": {
+                    "latency_sec": 2.57,
+                    "tokens_prompt": 473,
+                    "tokens_completion": 28
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "ChatGPT application in Systematic Literature Reviews in Software Engineering: an evaluation of its accuracy to support the selection activity",
+            "author": "Felizardo, Katia Romero; Lima, Márcia Sampaio; Deizepe, Anderson; Conte, Tayana Uchôa; Steinmacher, Igor",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Study evaluates AI for SLR selection (AI4SE), not SE practices applied to AI-based systems (SE4AI).",
+                "telemetry": {
+                    "latency_sec": 2.97,
+                    "tokens_prompt": 609,
+                    "tokens_completion": 43
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "The study evaluates ChatGPT's accuracy in SLR selection, not best practices for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 2.73,
+                    "tokens_prompt": 613,
+                    "tokens_completion": 36
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 2,
+                "reasoning": "Evaluates ChatGPT accuracy for SLRs; identifies performance limitations but does not address AI engineering or system integration.",
+                "telemetry": {
+                    "latency_sec": 6.08,
+                    "tokens_prompt": 607,
+                    "tokens_completion": 30
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Keynote Talk: End-User Software Engineering for Actionable AI: The keys to legal compliance",
+            "author": "Burnett, Margaret",
+            "year": 2025
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "reasoning": "Explicitly discusses 'specifying requirements, testing systematically, and debugging' for 'AI-powered software' to meet legal compliance.",
+                "telemetry": {
+                    "latency_sec": 4.23,
+                    "tokens_prompt": 459,
+                    "tokens_completion": 35
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 2,
+                "reasoning": "Abstract 'explores how principles... may hold the keys' but provides no explicit guidelines or best practices.",
+                "telemetry": {
+                    "latency_sec": 7.14,
+                    "tokens_prompt": 463,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 5,
+                "reasoning": "Identifies 'legal compliance' and 'actionability' as challenges for AI engineering to avoid software becoming 'illegal'.",
+                "telemetry": {
+                    "latency_sec": 6.35,
+                    "tokens_prompt": 457,
+                    "tokens_completion": 35
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Experience Report: Adopting AI-Usage Policy in Software Engineering Education",
+            "author": "Rajabi, Parsa",
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Focuses on AI-usage policies in education, not SE lifecycle practices for developing or maintaining AI-based systems.",
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 430,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "The study proposes academic usage policies for students, not guidelines for developing AI systems.",
+                "telemetry": {
+                    "latency_sec": 2.97,
+                    "tokens_prompt": 434,
+                    "tokens_completion": 25
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Study addresses educational policy challenges, not technical limitations in AI engineering or system integration.",
+                "telemetry": {
+                    "latency_sec": 3.89,
+                    "tokens_prompt": 428,
+                    "tokens_completion": 33
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "Discovering repetitive code changes in ML systems",
+            "author": "Dilhara, Malinda",
+            "year": 2021
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 7,
+                "reasoning": "Abstract explicitly studies \"software evolution\" and \"code change patterns\" in \"59 ML systems\".",
+                "telemetry": {
+                    "latency_sec": 2.66,
+                    "tokens_prompt": 422,
+                    "tokens_completion": 29
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 3,
+                "reasoning": "Recommends 'actionable opportunities for tool builders' rather than explicit development best practices or guidelines for AI systems.",
+                "telemetry": {
+                    "latency_sec": 9.82,
+                    "tokens_prompt": 426,
+                    "tokens_completion": 40
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 6,
+                "reasoning": "Identifies 'lack of software evolution tools for ML code' as a critical challenge in AI engineering.",
+                "telemetry": {
+                    "latency_sec": 5.58,
+                    "tokens_prompt": 420,
+                    "tokens_completion": 31
+                }
+            }
+        ]
+    },
+    {
+        "article_metadata": {
+            "title": "AI2A '24: Proceedings of the 2024 4th International Conference on Artificial Intelligence, Automation and Algorithms",
+            "author": null,
+            "year": 2024
+        },
+        "inclusion_results": [
+            {
+                "criterion": "CI1",
+                "score": 1,
+                "reasoning": "Abstract is missing; title only names a conference without mentioning software engineering lifecycle practices.",
+                "telemetry": {
+                    "latency_sec": 3.34,
+                    "tokens_prompt": 255,
+                    "tokens_completion": 25
+                }
+            },
+            {
+                "criterion": "CI2",
+                "score": 1,
+                "reasoning": "Abstract is 'None'. Title lacks mention of best practices, guidelines, or design patterns for AI development.",
+                "telemetry": {
+                    "latency_sec": 3.69,
+                    "tokens_prompt": 259,
+                    "tokens_completion": 38
+                }
+            },
+            {
+                "criterion": "CI3",
+                "score": 1,
+                "reasoning": "Abstract is missing. Title provides no evidence of identifying challenges or AI engineering limitations.",
+                "telemetry": {
+                    "latency_sec": 3.28,
+                    "tokens_prompt": 253,
+                    "tokens_completion": 25
+                }
+            }
+        ]
+    }
+]

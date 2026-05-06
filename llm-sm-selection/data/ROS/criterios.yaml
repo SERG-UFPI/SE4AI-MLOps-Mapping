@@ -1,0 +1,7 @@
+title: Software engineering research on the Robot Operating System: A systematic mapping study"
+eligibility_criteria:
+  inclusion:
+    CI1: "Studies that focus on the Robot Operating System (ROS)"
+    CI4: "Studies that consider software engineering aspects (such as software requirements, design, development, testing, or maintenance)"
+  exclusion:
+    CE1: "Studies that use ROS only for implementation, without providing details of the software engineering aspects."

@@ -10,6 +10,7 @@ from src.llms.gemini_ternario import GeminiLLMV2
 from src.llms.chatgpt_ternario import ChatGPTLLM
 from src.llms.consensus_ternario import ConsensusLLM
 from src.llms.techne_bridge import TechneBridgeLLM
+from src.llms.gemini_numeric import GeminiNumericLLM
 
 
 def main():
@@ -46,6 +47,12 @@ def main():
             gemini_key=os.getenv("GOOGLE_API_KEY"),
             gpt_model=llm_params.get("gpt_model"),
             gemini_model=llm_params.get("gemini_model"),
+            config=llm_params
+        )
+    elif provider == "google_1-7":
+        classifier = GeminiNumericLLM(
+            api_key=os.getenv("GOOGLE_API_KEY"),
+            model_name=llm_params["model"],
             config=llm_params
         )
     else:
