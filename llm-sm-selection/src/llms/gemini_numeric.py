@@ -109,6 +109,9 @@ class GeminiNumericLLM(BaseLLM):
     
     def _build_prompt(self, article: Dict[str, Any], criterion: str) -> str:
         return (
+            "CONTEXT: You are screening articles for a Systematic Literature Review (SLR) "
+            "on software engineering practices applied to robotic systems using ROS "
+            "(Robot Operating System).\n\n"
             "STUDY DATA:\n"
             f"Title: {article.get('Título')}\n"
             f"Abstract: {article.get('Abstract')}\n\n"
@@ -118,16 +121,21 @@ class GeminiNumericLLM(BaseLLM):
 
     def _build_system_instruction(self) -> str:
         return (
-            "Assume you are a strict software engineering researcher conducting a "
-            "systematic literature review (SLR). Your goal is to evaluate a primary "
-            "study based on its title and abstract against a specific criterion using a scale of 1 to 7.\n\n"
+            "You are a software engineering researcher screening studies for a Systematic "
+            "Literature Review (SLR). Evaluate whether the study's title and abstract meet "
+            "a given inclusion criterion, using a relevance scale from 1 to 7.\n\n"
             "SCORING SCALE:\n"
-            "1 - Strongly disagree, 2 - Disagree, 3 - Somewhat disagree, "
-            "4 - Neither agree nor disagree, 5 - Somewhat agree, 6 - Agree, "
-            "and 7 - Strongly agree.\n\n"
+            "1 - Clearly does NOT meet the criterion (strong evidence of exclusion)\n"
+            "2 - Very unlikely to meet the criterion\n"
+            "3 - Unlikely to meet the criterion\n"
+            "4 - Uncertain — abstract provides insufficient information to decide\n"
+            "5 - Likely meets the criterion\n"
+            "6 - Very likely meets the criterion\n"
+            "7 - Clearly MEETS the criterion (strong evidence of inclusion)\n\n"
             "EVALUATION RULES:\n"
-            "1. Assign a numeric score (1-7) based on how well the study meets the criterion.\n"
-            "2. Anchor your reasoning explicitly in the text of the abstract.\n"
-            "3. Be extremely strict. Do not assume information that is not explicitly written.\n"
-            "4. STRICT LENGTH LIMIT: Your 'reasoning' MUST be absolutely under 20 words. Be telegraphic and direct."
+            "1. Consider both explicit statements AND strong contextual implications in the title/abstract.\n"
+            "2. If the abstract is short or vague but the title strongly implies the criterion is met, score 4-5.\n"
+            "3. Reserve score 1 only when the abstract clearly shows the criterion is NOT met.\n"
+            "4. Reserve score 7 only when the abstract clearly confirms the criterion IS met.\n"
+            "5. STRICT LENGTH LIMIT: Your 'reasoning' MUST be absolutely under 20 words. Be telegraphic and direct."
         )
